@@ -1,20 +1,22 @@
 ﻿
 $VHDXPath = "D:\User Account Data Storage\VHDXs\Marcus\"
-$AccessPath = "C:\TestPath\"
+$AccessPath = "C:\Program Files\" + "\Arduino"
 $CleanUp = 1;
 
 $Folders = Get-ChildItem -Directory | Sort-Object -Property {$_.Name -as [string]} | Where-Object {$_.Name.StartsWith(".arm")};
 
 foreach($folder in $Folders){
-
+    #Get the Folder name as the initial VHDX Filename
     $VHDXFileName = $folder.Name.Replace(".", "");
+    #Provide a General Description to the Filename of the VHDX
     $VHDXFileName = $VHDXFileName + "_UserFolder.vhdx";
-    #Write-Host $VHDXFileName;
+    Write-Debug $VHDXFileName;
+    #Create the full path for the storage of the VHDX file.
     $VHDXPath = $VHDXPath + $VHDXFileName
-    #Write-Host $VHDXPath;
+    Write-Debug $VHDXPath;
     $folderTempName = $folder.Name + "_temp";
     $folderTemp = $folder.FullName.Substring(0, $folder.FullName.LastIndexOf("\")) + "\" + $folderTempName;
-    #Write-Host $folderTemp;
+    Write-Debug $folderTemp;
 
     $AccessPath = $folder.FullName;
 
