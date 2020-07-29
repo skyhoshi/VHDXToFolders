@@ -1,0 +1,6 @@
+select vdisk file="i:\Cakewalk_32bit.vhd"
+attach vdisk
+assign mount="C:\Program Files (x86)\Cakewalk\" NOERR
+select vdisk file="i:\Cakewalk_64bit.vhd" NOERR
+attach vdisk NOERR
+assign mount="C:\Program Files\Cakewalk\" NOERR

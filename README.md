@@ -1,6 +1,9 @@
 # VHDXFolders
 
+Also Known as: Installation Displayment, Virtual Disk - Application Installation Compartmentalization
+
 ## Project Description
+
 This project starts as a functionless script (meaning you have to edit the script to get it to work with your specific parameters)
 
 The purpose of this script is to generate a VHDX File and mount the VHDX Drive in place of the selected folder and copy the contents (if any) to the new Folder Mounted Drive that can be on the main Drive or secondary drive.
@@ -9,8 +12,7 @@ Included with this project is an example of the scheduled tasks for mounting the
 
 Powershell scripts and design for using VHDX Files backing folders for moving data off a performance based HD such as an SSD. This method will allow you to download and store all files logically in the same folder structure but have the actual data residing on different hard drives. you can move the files around to different hard drives when performance considerations are required.
 
-
-# Known Issues
+## Known Issues
 
 1. Drive mounts to folder WITHOUT using the Disk Management tool in windows has not been tested and may not work as expected.
     * To avoid this issue, Always use the Disk Management tool to mount the drive to the folder FIRST (First mount should be with the disk mounting tool)

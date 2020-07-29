@@ -1,0 +1,6 @@
+diskpart
+list volume
+create vdisk file="I:\Cakewalk VHDs\CakewalkProgramFiles_x86.vhdx" maximum=102400 type=expandable
+create vdisk file="D:\Windows8.vhd" maximum=102400 type=expandable
+create vdisk file="D:\Windows8.vhd" maximum=102400 type=expandable
+create vdisk file="D:\Windows8.vhd" maximum=102400 type=expandable
