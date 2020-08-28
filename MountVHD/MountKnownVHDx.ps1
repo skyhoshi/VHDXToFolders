@@ -73,7 +73,7 @@ function Load-VhdStorageDrives {
         #Write-Host $mountMessage
         if ([System.IO.File]::Exists($DriveItem.DriveFullLocation)) {
             Write-Host $DriveItem.DriveFullLocation " ---------> " $DriveItem.MountPath;
-            #Mount-PersonalVHDXDrive $DriveItem.DriveFullLocation;    
+            Mount-PersonalVHDXDrive $DriveItem.DriveFullLocation;    
         }
     }
 }
