@@ -46,11 +46,11 @@ function Load-VhdStorageDrives {
     $Drives += $VirtualDriveToLoad5;
     $VirtualDriveToLoad6 = [VirtualDriveToLoad]::new("f922e9eb-9e15-4d00-9ed5-013cdaa283aa", "6", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\CakewalkCompoundDriveMountPoint\ProgramFilesCakewalkFolder.vhdx", "", [MountType]::FolderLocation );
     $Drives += $VirtualDriveToLoad6;
-    $VirtualDriveToLoad7 = [VirtualDriveToLoad]::new("43de780f-b8a7-4b79-a244-126febe9b957", "7", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\CakewalkCompoundDriveMountPoint\ProgramFilesCakewalkSharedSecondaryRequiresCakewalkPrimary.vhdx", "", [MountType]::FolderLocation );
+    $VirtualDriveToLoad7 = [VirtualDriveToLoad]::new("43de780f-b8a7-4b79-a244-126febe9b957", "7", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\CakewalkCompoundDriveMountPoint\ProgramFilesCakewalkSharedSecondaryRequiresCakewalkPrimary.vhdx", "C:\Program Files\Cakewalk\Shared DXi", [MountType]::FolderLocation );
     $Drives += $VirtualDriveToLoad7;
     $VirtualDriveToLoad8 = [VirtualDriveToLoad]::new("2dceb684-e0d6-44c0-981e-808ec91b6809", "8", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\CakewalkCompoundDriveMountPoint\ProgramFilesX86CakewalkFolder.vhdx", "", [MountType]::FolderLocation );
     $Drives += $VirtualDriveToLoad8;
-    $VirtualDriveToLoad9 = [VirtualDriveToLoad]::new("c07770aa-8ebd-4ac5-90e3-753f56c8dc64", "9", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\CakewalkCompoundDriveMountPoint\ProgramFilesCakewalkSharedSecondaryRequiresCakewalkPrimary.vhdx", "C:\Program Files\Cakewalk\Shared DXi", [MountType]::FolderLocation );
+    $VirtualDriveToLoad9 = [VirtualDriveToLoad]::new("c07770aa-8ebd-4ac5-90e3-753f56c8dc64", "9", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\", "", [MountType]::FolderLocation );
     $Drives += $VirtualDriveToLoad9;
     $VirtualDriveToLoad10 = [VirtualDriveToLoad]::new("d187b3e2-a3e7-42d4-a1b9-cd20b7ecb0ef", "10", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\", "C:\Program Files\Cakewalk\Shared MIDI Plugins", [MountType]::FolderLocation );
     $Drives += $VirtualDriveToLoad10;
