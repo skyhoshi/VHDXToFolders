@@ -1,83 +1,7 @@
-
-enum MountType {
-    FolderLocation
-    DriveLetter
-}
-class VirtualDriveToLoad {
-    VirtualDriveToLoad([System.Guid]$id,$loadOrder,$driveFullLocation,$mountPath,$mountType){
-
-    }
-    [System.Guid] $Id = [System.Guid]::NewGuid();
-    [long] $LoadOrder;
-    [string] $DriveFullLocation;
-    [string] $MountPath;
-    [MountType] $MountType = [MountType]::FolderLocation;
-}
-
-function Mount-PersonalVHDXDrive {
-    [CmdletBinding()]
-    param (
-        [string] $Drive
-    )
-    
-    begin {
-        if (!(Test-Path -Path  $Drive -ErrorAction SilentlyContinue )) {
-            Write-Host "File does not exist please check and try again. $Drive"
-            break;
-        }
-    }
-    
-    process {
-        Write-Host "Processing"
-        Mount-VHD -Path $Drive -ErrorAction SilentlyContinue;
-    }
-    
-    end {
-        
-    }
-}
+$moduleLocation = "Scripts\Powershell\Modules\VHDXToFolders";
+#. "C:\Users\marcus\OneDrive\Scripts\Powershell\Modules\VHDXToFolders\src\VHD Management Scripts\Mount-PersonalVHDXDrive.ps1"
+. "$env:OneDriveConsumer\$moduleLocation\src\MasterScript.ps1"
 <#
-$WindowsAppsStoreStorage = "O:\VHDX Storage\SKY-M3-WindowsAppStoreStorage.vhdx"
-Mount-PersonalVHDXDrive $WindowsAppsStoreStorage;
-$AutoDeskFusion = "D:\VHDX Storage\AppData-Drives\AutoDesk.vhdx"
-Mount-PersonalVHDXDrive $AutoDeskFusion;
-#>
-$WindowsAppStorage = "O:\VHDX Storage";
-$BaseVHDXStorage = "D:\VHDX Storage";
-$CompoundStorage = "D:\VHDX Storage\Compound Drives";
-$ProgramFilesX64 = "D:\VHDX Storage\ProgramFile-Drives";
-$ProgramFilesX86 = "D:\VHDX Storage\ProgramFileX86-Drives";
-$WorkRelated = "D:\VHDX Storage\WorkRelated";
-$SystemUserProfiles = "D:\VHDX Storage\$Env:COMPUTERNAME-Profiles";
-
-$StorgaeFolders
-#[VirtualDriveToLoad] 
-$Drives = {
-    {"00000000-1111-0000-0000-111111111111", "-2147483647", [MountCategory]::Manditory,          "O:\VHDX Storage\SKY-M3-WindowsAppStoreStorage.vhdx", "W", [MountType]::DriveLetter }
-    {"a7b60caa-51d7-4f9a-8468-512cc4c023df", "1",           [MountCategory]::ProfileApplication, "$BaseVHDXStorage\AppData-Drives\AutoDesk.vhdx", "C:\Users\marcus\AppData\Local\AutoDesk", [MountType]::FolderLocation} 
-    #
-    <#
-    {"acbf419a-26fa-4ede-bc7f-4dccfa00de05", "2", [MountCategory]::ProgramFilesApplication, "$CompoundStorage\Cakewalk\Cakewalk-PrimaryStorage.vhdx",                                                                   "$CompoundStorage\Cakewalk\CakewalkCompoundDriveMountPoint",   [MountType]::FolderLocation }
-    {"d0f5b3fd-dd42-49ae-97e5-1462ed1751d8", "3", [MountCategory]::ProgramFilesApplication, "$CompoundStorage\Cakewalk\bandLabCakewalkPrimary.vhdx",                                                                    "$CompoundStorage\Cakewalk\BandlabCakewalkCompoundMountPoint", [MountType]::FolderLocation }
-    {"64d566c5-ad0f-480e-8039-3ca2d1cc3680", "4", [MountCategory]::SecondaryMountableDrive, "$CompoundStorage\Cakewalk\BandlabCakewalkCompoundMountPoint\BandLabProgramFilesCakewalkCakewalkCore.vhdx",                 "",                                                            [MountType]::FolderLocation }
-    {"7fa06b6c-bc8a-4a3e-a434-45c4d6545a22", "5", [MountCategory]::SecondaryMountableDrive, "$CompoundStorage\Cakewalk\CakewalkCompoundDriveMountPoint\CakewalkContentPath.vhdx",                                       "",                                                            [MountType]::FolderLocation }
-    {"f922e9eb-9e15-4d00-9ed5-013cdaa283aa", "6", [MountCategory]::SecondaryMountableDrive, "$CompoundStorage\Cakewalk\CakewalkCompoundDriveMountPoint\ProgramFilesCakewalkFolder.vhdx",                                "",                                                            [MountType]::FolderLocation }
-    {"43de780f-b8a7-4b79-a244-126febe9b957", "7", [MountCategory]::SecondaryMountableDrive, "$CompoundStorage\Cakewalk\CakewalkCompoundDriveMountPoint\ProgramFilesCakewalkSharedSecondaryRequiresCakewalkPrimary.vhdx","",                                                            [MountType]::FolderLocation }
-    {"2dceb684-e0d6-44c0-981e-808ec91b6809", "8", [MountCategory]::SecondaryMountableDrive, "$CompoundStorage\Cakewalk\CakewalkCompoundDriveMountPoint\ProgramFilesX86CakewalkFolder.vhdx",                             "",                                                            [MountType]::FolderLocation }
-    #
-    {"c07770aa-8ebd-4ac5-90e3-753f56c8dc64", "", "", "C:\Program Files\Cakewalk\Shared DXi",          [MountType]::FolderLocation }
-    {"d187b3e2-a3e7-42d4-a1b9-cd20b7ecb0ef", "", "", "C:\Program Files\Cakewalk\Shared MIDI Plugins", [MountType]::FolderLocation }
-    {"969dce46-0db7-4313-8bd9-04d18e0896f8", "", "", "C:\Program Files\Cakewalk\Shared Plugins",      [MountType]::FolderLocation }
-    {"fbf1cdb2-7d54-4b9b-a8d3-a15fb6b657b8", "", "", "C:\Program Files\Cakewalk\Shared Surfaces",     [MountType]::FolderLocation }
-    {"90e04ebf-3331-4267-a826-b8df2f057416", "", "", "C:\Program Files\Cakewalk\Shared Utilities",    [MountType]::FolderLocation }
-    {"796f4f9e-c1c4-4635-a804-1ea8ae83d7e9", "", "", "C:\Program Files\Cakewalk\SONAR Platinum",      [MountType]::FolderLocation }
-    {"151c64dc-ddd3-494c-9960-3c0c43f96e3c", "", "", "C:\Program Files\Cakewalk\Studio Instruments",  [MountType]::FolderLocation }
-    {"b1ac7052-bbcd-44bb-ae15-ad1715e84781", "", "", "C:\Program Files\Cakewalk\z3ta+",               [MountType]::FolderLocation }
-#>
-};
-
-<#
-fdb24800-2189-4947-b14d-a668ce56cc3f
 d825ac9f-78af-433f-9e40-3f0eb5e47960
 0dfc760a-4444-43fe-bf6b-6c00a267c9dc
 16840241-51dc-4e45-984c-910f4ebfdd52
@@ -92,7 +16,56 @@ c746baf4-540a-4fe4-881d-599d87f08910
 4b9ab45e-504b-4fc3-884e-13ffdde13698
 959e474f-cc6d-430b-a3f4-4bc0261a6d5b
 #>
-#<#
+$WindowsAppStorage = "O:\VHDX Storage";
+$BaseVHDXStorage = "D:\VHDX Storage";
+$CompoundVHDXStorage = "D:\VHDX Storage\Compound Drives";
+$ProgramFilesX64 = "D:\VHDX Storage\ProgramFile-Drives";
+$ProgramFilesX86 = "D:\VHDX Storage\ProgramFileX86-Drives";
+$WorkRelated = "D:\VHDX Storage\WorkRelated";
+$SystemUserProfiles = "D:\VHDX Storage\$Env:COMPUTERNAME-Profiles";
+
+# $StorgaeFolders
+
+[array]$Drives = $();
+
+$VirtualDriveToLoad00 = [VirtualDriveToLoad]::new( "fdb24800-2189-4947-b14d-a668ce56cc3f", "-2147483645", [MountCategory]::Manditory, "$WorkRelated\Caseys General Store\Caseys General Store - Work.vhdx", "Q", [MountType]::DriveLetter);
+$Drives += $VirtualDriveToLoad00;
+$VirtualDriveToLoad0 = [VirtualDriveToLoad]::new( "00000000-1111-0000-0000-111111111111", "-2147483647", [MountCategory]::Manditory, "$WindowsAppStorage\SKY-M3-WindowsAppStoreStorage.vhdx", "W", [MountType]::DriveLetter);
+$Drives += $VirtualDriveToLoad0;
+$VirtualDriveToLoad1 = [VirtualDriveToLoad]::new( "a7b60caa-51d7-4f9a-8468-512cc4c023df", "1", [MountCategory]::ProfileApplication, "$BaseVHDXStorage\AppData-Drives\AutoDesk.vhdx", "$env:LOCALAPPDATA\AutoDesk", [MountType]::FolderLocation); 
+$Drives += $VirtualDriveToLoad1;
+$VirtualDriveToLoad2 = [VirtualDriveToLoad]::new("acbf419a-26fa-4ede-bc7f-4dccfa00de05", "2", [MountCategory]::ProgramFilesApplication, "$CompoundVHDXStorage\Cakewalk\Cakewalk-PrimaryStorage.vhdx", "$CompoundVHDXStorage\Cakewalk\CakewalkCompoundDriveMountPoint", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad2;
+$VirtualDriveToLoad3 = [VirtualDriveToLoad]::new("d0f5b3fd-dd42-49ae-97e5-1462ed1751d8", "3", [MountCategory]::ProgramFilesApplication, "$CompoundVHDXStorage\Cakewalk\bandLabCakewalkPrimary.vhdx", "$CompoundVHDXStorage\Cakewalk\BandlabCakewalkCompoundMountPoint", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad3;
+$VirtualDriveToLoad4 = [VirtualDriveToLoad]::new("64d566c5-ad0f-480e-8039-3ca2d1cc3680", "4", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\BandlabCakewalkCompoundMountPoint\BandLabProgramFilesCakewalkCakewalkCore.vhdx", "", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad4;
+$VirtualDriveToLoad5 = [VirtualDriveToLoad]::new("7fa06b6c-bc8a-4a3e-a434-45c4d6545a22", "5", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\CakewalkCompoundDriveMountPoint\CakewalkContentPath.vhdx", "", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad5;
+$VirtualDriveToLoad6 = [VirtualDriveToLoad]::new("f922e9eb-9e15-4d00-9ed5-013cdaa283aa", "6", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\CakewalkCompoundDriveMountPoint\ProgramFilesCakewalkFolder.vhdx", "", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad6;
+$VirtualDriveToLoad7 = [VirtualDriveToLoad]::new("43de780f-b8a7-4b79-a244-126febe9b957", "7", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\CakewalkCompoundDriveMountPoint\ProgramFilesCakewalkSharedSecondaryRequiresCakewalkPrimary.vhdx", "", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad7;
+$VirtualDriveToLoad8 = [VirtualDriveToLoad]::new("2dceb684-e0d6-44c0-981e-808ec91b6809", "8", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\CakewalkCompoundDriveMountPoint\ProgramFilesX86CakewalkFolder.vhdx", "", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad8;
+$VirtualDriveToLoad9 = [VirtualDriveToLoad]::new("c07770aa-8ebd-4ac5-90e3-753f56c8dc64", "9", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\CakewalkCompoundDriveMountPoint\ProgramFilesCakewalkSharedSecondaryRequiresCakewalkPrimary.vhdx", "C:\Program Files\Cakewalk\Shared DXi", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad9;
+$VirtualDriveToLoad10 = [VirtualDriveToLoad]::new("d187b3e2-a3e7-42d4-a1b9-cd20b7ecb0ef", "10", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\", "C:\Program Files\Cakewalk\Shared MIDI Plugins", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad10;
+$VirtualDriveToLoad11 = [VirtualDriveToLoad]::new("969dce46-0db7-4313-8bd9-04d18e0896f8", "11", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\", "C:\Program Files\Cakewalk\Shared Plugins", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad11;
+$VirtualDriveToLoad12 = [VirtualDriveToLoad]::new("fbf1cdb2-7d54-4b9b-a8d3-a15fb6b657b8", "12", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\", "C:\Program Files\Cakewalk\Shared Surfaces", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad12;
+$VirtualDriveToLoad13 = [VirtualDriveToLoad]::new("90e04ebf-3331-4267-a826-b8df2f057416", "13", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\", "C:\Program Files\Cakewalk\Shared Utilities", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad13;
+$VirtualDriveToLoad14 = [VirtualDriveToLoad]::new("796f4f9e-c1c4-4635-a804-1ea8ae83d7e9", "14", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\", "C:\Program Files\Cakewalk\SONAR Platinum", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad14;
+$VirtualDriveToLoad15 = [VirtualDriveToLoad]::new("151c64dc-ddd3-494c-9960-3c0c43f96e3c", "15", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\", "C:\Program Files\Cakewalk\Studio Instruments", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad15;
+$VirtualDriveToLoad16 = [VirtualDriveToLoad]::new("b1ac7052-bbcd-44bb-ae15-ad1715e84781", "16", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\", "C:\Program Files\Cakewalk\z3ta+", [MountType]::FolderLocation );
+$Drives += $VirtualDriveToLoad16;
+function New-VHDXForApplication {
+    <#
 $SharedVhdxFileNames = New-Object -TypeName System.Collections.ArrayList;
 $SharedVhdxFileNames += "ProgramFilesCakewalkSharedDXi.Test";
 
@@ -104,13 +77,13 @@ $SharedVhdxFileNames += "ProgramFilesCakewalkSharedUtilities";
 $SharedVhdxFileNames += "ProgramFilesCakewalkSONARPlatinum";
 $SharedVhdxFileNames += "ProgramFilesCakewalkStudioInstruments";
 $SharedVhdxFileNames += "ProgramFilesCakewalkz3ta+";
-#>
+
 foreach ($filename in $SharedVhdxFileNames) {
-    $FullVhdxPath = "$CompoundStorage\Cakewalk\CakewalkCompoundDriveMountPoint\Program Files\$filename.vhdx"
-    if (!(Test-Path -Path $FullVhdxPath)) {
+    $FullVhdxPath = "$CompoundVHDXStorage\Cakewalk\CakewalkCompoundDriveMountPoint\Program Files\$filename.vhdx"
+    if (!(Test-Path -Path $FullVhdxPath) {
         $VHDX = New-VHD -Path ($FullVhdxPath) -SizeBytes 2TB -Dynamic
     }
-    else{
+    else {
         $VHDX = Get-VHD -Path $FullVhdxPath
     }
     #Mount-VHD -Path $VHDX
@@ -119,6 +92,10 @@ foreach ($filename in $SharedVhdxFileNames) {
 }
 
 $Shared = New-Object -TypeName System.Collections.ArrayList;
+#> 
+    
+}
+
 
 
 #>
@@ -143,18 +120,18 @@ mkdir "C:\Program Files\Cakewalk\z3ta+"
 #>
 <# 
 # retrieved Using:  Get-Partition | Get-Volume | Where {$_.DriveLetter -eq $null} | Select-Object -Property AccessPaths -Unique |  Format-list
-
-AccessPaths : {C:\Program Files\Cakewalk\Cakewalk Core\, \\?\Volume{6922d3e3-a546-4076-8c9b-ab48d51826e6}\}
-AccessPaths : {C:\Program Files\Cakewalk\, \\?\Volume{544f8827-e5be-4873-b059-bf8d4b2c97e4}\}
-AccessPaths : {C:\Program Files\Cakewalk\Shared DXi\, \\?\Volume{634210c5-15b7-4e8e-8636-35e88934f07c}\}
 Get-Disk | Where-Object {$_.BusType -eq "File Backed Virtual"}
-
 Get-Disk | Where-Object {$_.BusType -eq "File Backed Virtual"} | Get-Partition | Where-Object {$_.AccessPaths -ne $null} | Format-List
-
 #>
+[System.Collections.SortedList]
 $OrderedDrives = $Drives | Sort-Object -Property LoadOrder;
 foreach ($DriveItem in $OrderedDrives) {
-    Mount-PersonalVHDXDrive $DriveItem;
+    #[string] $mountMessage = "$DriveItem"
+    #Write-Host $mountMessage
+    if ([System.IO.File]::Exists($DriveItem.DriveFullLocation)) {
+        Write-Host $DriveItem.DriveFullLocation " ---------> " $DriveItem.MountPath;
+        #Mount-PersonalVHDXDrive $DriveItem.DriveFullLocation;    
+    }
 }
 
 <#
