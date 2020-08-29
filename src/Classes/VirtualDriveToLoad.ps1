@@ -1,6 +1,8 @@
 
-#using module "C:\Users\marcus\OneDrive\Scripts\Powershell\Modules\VHDXToFolders\src\Classes\MountType.ps1";
-#using module "C:\Users\marcus\OneDrive\Scripts\Powershell\Modules\VHDXToFolders\src\Classes\MountCategory.ps1";
+<#
+using module "C:\Users\marcus\OneDrive\Scripts\Powershell\Modules\VHDXToFolders\src\Classes\MountType.ps1";
+using module "C:\Users\marcus\OneDrive\Scripts\Powershell\Modules\VHDXToFolders\src\Classes\MountCategory.ps1";
+#>
 enum MountType {
     FolderLocation
     DriveLetter

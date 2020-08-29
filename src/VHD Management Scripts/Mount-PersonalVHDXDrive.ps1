@@ -14,9 +14,12 @@ function Mount-PersonalVHDXDrive {
     }
     
     process {
-        Write-Host "Processing $Drive"
+        
         $VHD = Get-VHD -Path $Drive;
-        Mount-VHD -Path $Drive -ErrorAction SilentlyContinue;
+        if (!$VHD.Attached) {
+            Write-Host "Attaching $Drive"
+            Mount-VHD -Path $Drive -ErrorAction SilentlyContinue;
+        }
     }
     
     end {

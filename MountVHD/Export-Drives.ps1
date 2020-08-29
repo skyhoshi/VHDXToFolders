@@ -44,10 +44,37 @@ $VirtualDriveToLoad15 = [VirtualDriveToLoad]::new("151c64dc-ddd3-494c-9960-3c0c4
 $Drives += $VirtualDriveToLoad15;
 $VirtualDriveToLoad16 = [VirtualDriveToLoad]::new("b1ac7052-bbcd-44bb-ae15-ad1715e84781", "16", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\", "C:\Program Files\Cakewalk\z3ta+", [MountType]::FolderLocation );
 $Drives += $VirtualDriveToLoad16;
+$VirtualDriveToLoad17 = [VirtualDriveToLoad]::new("b1ac7052-bbcd-44bb-ae15-ad1715e84781", "16", [MountCategory]::ProfileApplication, "D:\VHDX Storage\AppData-Drives\Test.vhdx", "$env:LOCALAPPDATA\Test", [MountType]::FolderLocation);
+$Drives += $VirtualDriveToLoad17;
 
 $DrivesFileStorageLocation = "~/.config/Drives/";
 if (!(Test-Path $DrivesFileStorageLocation)) {
-    md $DrivesFileStorageLocation;
+    mkdir $DrivesFileStorageLocation;
 }
 Export-Clixml -Path $DrivesFileStorageLocation"VirtualDriveToLoad.xml" -InputObject $Drives;
-Export-Csv -Path $DrivesFileStorageLocation"VirtualDriveToLoad.csv" -InputObject $Drives -NoClobber;
+Export-Csv -Path $DrivesFileStorageLocation"VirtualDriveToLoad.csv" -InputObject $Drives;
+$GitCloneFor = "https://gist.github.com/aa7a0bd55cf0672c9cc3bc8a04176747.git"
+
+#Create new temp folder in $env:TEMP and use that to upload. but delete the folder when completed.
+$TempGitRepoLocation = "$env:TEMP\DriveGit\"
+if (!(Test-Path -Path $TempGitRepoLocation)) {
+    "Making New Directory";
+    New-Item -ItemType Directory -Path $TempGitRepoLocation | Out-Null;
+}
+# $PreScriptDirectory =Get-Location ;
+Set-Location $TempGitRepoLocation;
+if (!(Test-Path -Path "$TempGitRepoLocation\.git")) {
+    git clone $GitCloneFor $TempGitRepoLocation;
+}
+else{
+    git pull --all;
+}
+
+Copy-Item -Path $DrivesFileStorageLocation"VirtualDriveToLoad.xml" -Destination "$TempGitRepoLocation\VirtualHardDriveList.xml";
+
+git status;
+git commit -a --message "Automated Export-Drives Update";
+git push --all -f;
+Set-Location .. ;
+Remove-item -Path $TempGitRepoLocation -Recurse -Force;
+#Set-Location $PreScriptDirectory;
