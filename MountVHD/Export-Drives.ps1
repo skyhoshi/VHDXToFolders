@@ -44,8 +44,19 @@ $VirtualDriveToLoad15 = [VirtualDriveToLoad]::new("151c64dc-ddd3-494c-9960-3c0c4
 $Drives += $VirtualDriveToLoad15;
 $VirtualDriveToLoad16 = [VirtualDriveToLoad]::new("b1ac7052-bbcd-44bb-ae15-ad1715e84781", "16", [MountCategory]::SecondaryMountableDrive, "$CompoundVHDXStorage\Cakewalk\", "C:\Program Files\Cakewalk\z3ta+", [MountType]::FolderLocation );
 $Drives += $VirtualDriveToLoad16;
-$VirtualDriveToLoad17 = [VirtualDriveToLoad]::new("b1ac7052-bbcd-44bb-ae15-ad1715e84781", "16", [MountCategory]::ProfileApplication, "D:\VHDX Storage\AppData-Drives\Test.vhdx", "$env:LOCALAPPDATA\Test", [MountType]::FolderLocation);
+$VirtualDriveToLoad17 = [VirtualDriveToLoad]::new("b1ac7052-bbcd-44bb-ae15-ad1715e84781", "17", [MountCategory]::ProfileApplication, "D:\VHDX Storage\AppData-Drives\Test.vhdx", "$env:LOCALAPPDATA\Test", [MountType]::FolderLocation);
 $Drives += $VirtualDriveToLoad17;
+
+$VirtualDriveToLoad18 = [VirtualDriveToLoad]::new("2d42ed7d-6789-4989-8d35-113007eea23d", "18", [MountCategory]::SecondaryMountableDrive, "D:\VHDX Storage\Compound Drives\Unity\Unity-CompoundDrive.vhdx", "D:\VHDX Storage\Compound Drives\Unity\CompoundMountFolder", [MountType]::FolderLocation);
+$Drives += $VirtualDriveToLoad18;
+$VirtualDriveToLoad19 = [VirtualDriveToLoad]::new("3e967373-4487-4cdf-bb6e-a2b59377c56a", "19", [MountCategory]::SecondaryMountableDrive, "D:\VHDX Storage\Compound Drives\Unity\CompoundMountFolder\Unity Edtior Storage.vhdx", "C:\Program Files\Unity", [MountType]::FolderLocation);
+$Drives += $VirtualDriveToLoad19;
+$VirtualDriveToLoad20 = [VirtualDriveToLoad]::new("0d4d3472-8a02-42ae-bea1-773961b277f3", "20", [MountCategory]::SecondaryMountableDrive, "D:\VHDX Storage\AppData-Drives\Jetbrains.Toolbox.vhdx", "C:\Users\marcus\AppData\Local\JetBrains", [MountType]::FolderLocation);
+$Drives += $VirtualDriveToLoad20;
+$VirtualDriveToLoad21 = [VirtualDriveToLoad]::new("6320f90c-fdd8-4a48-80b9-07ab5289b699", "21", [MountCategory]::SecondaryMountableDrive, "D:\VHDX Storage\AppData-Drives\Microsoft.OutlookStorage.vhdx", "C:\Users\marcus\AppData\Local\Microsoft\Outlook", [MountType]::FolderLocation);
+$Drives += $VirtualDriveToLoad21;
+$VirtualDriveToLoad22 = [VirtualDriveToLoad]::new("a543ef4f-175d-4786-a131-f6d7404d5319", "22", [MountCategory]::SecondaryMountableDrive, "D:\VHDX Storage\ProgramFileX86-Drives\ProgramFilesx86Android.vhdx", "C:\Program Files (x86)\Android", [MountType]::FolderLocation);
+$Drives += $VirtualDriveToLoad22;
 
 $DrivesFileStorageLocation = "~/.config/Drives/";
 if (!(Test-Path $DrivesFileStorageLocation)) {

@@ -25,7 +25,7 @@ function Create-PersonalVHD {
         #[Parameter(Mandatory = $false,ParameterSetName = "DriveCreation",ValueFromPipeline = $false,ValueFromPipelineByPropertyName = $false,HelpMessage = "Path to Store the VHDX file.")]
         #[Alias("PSStoragePath")]
         #[ValidateNotNullOrEmpty()]
-        [string] $VHDXStorageLocation = "C:\TestDrive.vhdx"
+        [string] $VHDXStorageLocation = "D:\VHDX TestDrive.vhdx"
     )
     
     begin {
@@ -70,4 +70,36 @@ $AssignPath = "";
 $VolumeTitle = "";
 $VHDStorageFile = "";
 Create-PersonalVHD -VolumnName $VolumeTitle -VHDXStorageLocation $VHDStorageFile -AssignVHDXToPath $AssignPath
+#>
+<#
+Root: C:\Program Files\
+
+Adobe
+Android
+dotnet
+Microsoft Office
+Microsoft Office 15
+Microsoft SDKs
+Microsoft SQL Server
+Microsoft Update Health Tools
+Microsoft VS Code
+MSBuild
+Reference Assemblies
+UNP
+VS2010Schemas
+VS2012Schemas
+Walabot
+
+#>
+
+<#
+Root: C:\Program Files (x86)\
+dotnet
+Microsoft IoT
+Microsoft SDKs
+Microsoft Visual Studio
+Microsoft Visual Studio Tools for Unity
+Microsoft Web Tools
+Microsoft.NET
+Windows Kits
 #>
