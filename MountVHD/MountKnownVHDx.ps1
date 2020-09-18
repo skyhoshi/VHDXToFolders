@@ -1,6 +1,8 @@
 $moduleLocation = "Scripts\Powershell\Modules\VHDXToFolders";
+
 #. "C:\Users\marcus\OneDrive\Scripts\Powershell\Modules\VHDXToFolders\src\VHD Management Scripts\Mount-PersonalVHDXDrive.ps1"
 . "$env:OneDriveConsumer\$moduleLocation\src\MasterScript.ps1"
+
 <#
 d825ac9f-78af-433f-9e40-3f0eb5e47960
 0dfc760a-4444-43fe-bf6b-6c00a267c9dc
@@ -30,7 +32,9 @@ function Load-VhdStorageDrives {
         #Write-Host $mountMessage
         if ([System.IO.File]::Exists($DriveItem.DriveFullLocation)) {
             # Write-Host $DriveItem.DriveFullLocation " ---------> " $DriveItem.MountPath;
-            Mount-PersonalVHDXDrive $DriveItem.DriveFullLocation;    
+            if ((([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator))) {
+                Mount-PersonalVHDXDrive $DriveItem.DriveFullLocation;    
+            }
         }
     }
 }
