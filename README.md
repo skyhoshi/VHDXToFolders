@@ -18,3 +18,6 @@ Powershell scripts and design for using VHDX Files backing folders for moving da
     * To avoid this issue, Always use the Disk Management tool to mount the drive to the folder FIRST (First mount should be with the disk mounting tool)
 1. Drive Sizes can exceed physical storage of storage disk's, it has not been tested using Fixed Size or Physical Disks in place of the VHDX. Though theory suggests (Virtual Disks, not including physical disks) if you can reference the drive within the disk management tool for mounting, you can do the same when mounting via the script.
 1. This scirpt does not have a fall back failure point. meaning if it runs and fails you will need to manually undo the things it did up until the faiure.
+
+## Project Outline : Defined in a Gist
+[Project Definition - Gist](https://gist.github.com/skyhoshi/dab7d6d3812428dbf5bb652c6c00b965)
