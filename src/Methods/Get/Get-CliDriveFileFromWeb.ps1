@@ -1,4 +1,4 @@
-Write-Host "Loading: Get-CliDriveFileFromWeb" -ForegroundColor Yellow;
+Write-Host "Loading: Get-CliDriveFileFromWeb" -ForegroundColor DarkMagenta;
 function Get-VirtaulHardDriveListFromGist {
 <#     [CmdletBinding()]
     param (
@@ -15,6 +15,7 @@ function Get-VirtaulHardDriveListFromGist {
     process {
         $urlEndpoint = "gists/$gistId"
         $GistInfo = ConvertFrom-Json (hub api $urlEndpoint);
+        
     }
     
     end {
@@ -75,8 +76,9 @@ function Get-CliDriveFileFromWeb {
         # $VHDDrivesForImport = Import-Clixml -Path $DriveWebFile;
         # Write-Host "Removing File: $DriveWebFile" -ForegroundColor green;
         # Remove-item $DriveWebFile -Force;        
-
-        $VHDDrivesForImport = Import-Clixml -Path Get-VirtaulHardDriveListFromGist;
+        $importableXML = Get-VirtaulHardDriveListFromGist;
+        if ($importableXML -eq ""){ return;}
+        $VHDDrivesForImport = Import-Clixml -Path $importableXML;
         $NumberOfDrives = ([System.Collections.ArrayList] $VHDDrivesForImport).Count;
         Write-Host "Drives Loaded: $NumberOfDrives" -ForegroundColor green;
     }
@@ -87,7 +89,7 @@ function Get-CliDriveFileFromWeb {
 }
 # Get-CliDriveFileFromWeb;
 
-Get-CliDriveFileFromWeb
+# Get-CliDriveFileFromWeb
 
 <#
 $DriveByCategory = $VHDDrivesForImport | Where-Object -Property MountCategory -In -Value "Manditory", [MountCategory]::Manditory; #-EQ -Value [MountCategory]::Manditory;
