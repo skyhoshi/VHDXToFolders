@@ -3,7 +3,7 @@ if (!(Test-Path -Path Variable:\MountTypeIsLoaded)) {
     if ($RunAsValue) {
         $moduleLocation = "Scripts\Powershell\Modules";
         $moduleName = "VHDXToFolders";
-        $srcParent = "$env:OneDriveConsumer\$moduleLocation\$moduleName";
+        $srcParent = "$env:POWERSHELLSCRIPTSTORE\$moduleLocation\$moduleName";
         Write-Host "Loading Master Script: $moduleName from $srcParent" -ForegroundColor DarkMagenta;
         # . "$srcParent\src\VHD Management Scripts\Mount-PersonalVHDXDrive.ps1"
         Write-Host "Class Section" -ForegroundColor Blue;

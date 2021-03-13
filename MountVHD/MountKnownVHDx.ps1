@@ -1,7 +1,7 @@
 $moduleLocation = "Scripts\Powershell\Modules\VHDXToFolders";
 
 #. "C:\Users\marcus\OneDrive\Scripts\Powershell\Modules\VHDXToFolders\src\VHD Management Scripts\Mount-PersonalVHDXDrive.ps1"
-. "$env:OneDriveConsumer\$moduleLocation\src\MasterScript.ps1"
+. "$env:POWERSHELLSCRIPTSTORE\$moduleLocation\src\MasterScript.ps1"
 
 <#
 d825ac9f-78af-433f-9e40-3f0eb5e47960
