@@ -1,0 +1,18 @@
+{
+    "Okta": {
+        "CustomerInfoVault": {
+            "V9": {
+                "Authority": "https://testlogin.fcsamerica.com/oauth2/ausqsfv9hlPt2OMAT0h7",
+                "Audience": "api.fcsamerica.com",
+                "ClientId": "0oa2onlad9utmf8170h8"
+            }
+        }
+    },
+    "ServiceIntegrations": {
+        "EnterpriseConfigurationStoreApi": {
+            "EnterpriseConfigurationStoreApiUrl": "https://testfcsa.fcsamerica.com/EnterpriseConfigurationStore/v1/RESTServices/api/ConfigItems",
+            "EnterpriseConfigurationStoreApplicationName": "MCGRUFF", 
+            "EnterpriseConfigurationStorePartnerName": "FCSA"
+        }
+    }
+}

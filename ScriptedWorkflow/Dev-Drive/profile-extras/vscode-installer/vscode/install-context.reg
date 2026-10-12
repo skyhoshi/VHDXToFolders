@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with &Code]
+@="Open with &Code"
+"Icon"="C:\\Users\\kernm\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with &Code\command]
+@="\"C:\\Users\\kernm\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Open with &Code]
+@="Open with &Code"
+"Icon"="C:\\Users\\kernm\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Open with &Code\command]
+@="\"C:\\Users\\kernm\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%V\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open with &Code]
+@="Open with &Code"
+"Icon"="C:\\Users\\kernm\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open with &Code\command]
+@="\"C:\\Users\\kernm\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%V\""

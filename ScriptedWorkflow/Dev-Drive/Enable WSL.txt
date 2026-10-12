@@ -1,0 +1,119 @@
+# Enable WSL
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -All -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -All -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -All -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -All -NoRestart
+
+# winget available applications: 
+winget install --id Microsoft.VisualStudioCode -e --source winget
+winget install --id Microsoft.PowerShell -e --source winget
+
+winget install --id Microsoft.SQLServerManagementStudio.22 -e --source winget
+winget install --id Microsoft.SQLServer.2022.Developer -e --source winget
+winget install --id Microsoft.AzureCLI -e --source winget
+winget install --id Microsoft.VisualStudio.2022.Enterprise -e --source winget
+winget install --id Microsoft.VisualStudio.Enterprise -e --source winget
+winget install --id Docker.DockerDesktop -e --source winget 
+winget install --id Postman.Postman -e --source winget
+winget install --id Axosoft.GitKraken -e --source winget
+winget install --id CoreyButler.NVMforWindows -e --source winget
+
+# Not Required for Everyone 
+winget install --id JetBrains.Toolbox -e --source winget
+winget install --id Microsoft.PowerToys -e --source winget
+winget install --id LINQPad.LINQPad.8 -e --source winget
+
+
+
+PowerShell 7.5.4
+Loading Current User All Host Profile.
+Running Test-DriveLetter from: C:\Users\kernm\OneDrive - Farm Credit Services of America\Documents\PowerShell\profile.ps1
+Drive Letter D: is already mounted.
+
+Microsoft (R) SQL Server Installer
+Copyright (c) 2022 Microsoft.  All rights reserved.
+
+Operation finished with result: Success
+
+Installation has completed successfully!
+  INSTANCE NAME
+      MSSQLSERVER
+
+  SQL ADMINISTRATORS
+      FCSAMERICA\kernm
+
+  FEATURES INSTALLED
+      SQLENGINE
+
+  VERSION
+      16.0.1000.6, RTM
+
+  CONNECTION STRING
+      Server=localhost;Database=master;Trusted_Connection=True;
+
+  SQL SERVER INSTALL LOG FOLDER
+      C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\Log\20260129_154149
+
+  INSTALLATION MEDIA FOLDER
+      C:\SQL2022\Developer_ENU
+
+  INSTALLATION RESOURCES FOLDER
+      C:\Program Files\Microsoft SQL Server\160\SSEI\Resources
+
+Successfully installed
+PS C:\Users\kernm> winget install --id Microsoft.AzureCLI -e --source winget
+Found Microsoft Azure CLI [Microsoft.AzureCLI] Version 2.80.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://azcliprod.blob.core.windows.net/msi/azure-cli-2.80.0-x64.msi
+  ██████████████████████████████  65.6 MB / 65.6 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+Notes: Winget installs the 64-bit CLI on 64-bit OS by default now. If you have used the 32-bit CLI before, please follow this guide to migrate to 64-bit version: https://learn.microsoft.com/cli/azure/install-azure-cli-windows#migrate-to-64-bit-azure-cli
+
+PS C:\Users\kernm> winget install --id Microsoft.VisualStudio.2022.Enterprise -e --source winget
+Found Visual Studio Enterprise 2022 [Microsoft.VisualStudio.2022.Enterprise] Version 17.14.25
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://download.visualstudio.microsoft.com/download/pr/64dbe648-9527-4b8e-9b08-04d2228e1191/b028db0060f3c589aa4d70481c1b37876476f25d4cd0695f43934048a68015d8/vs_Enterprise.exe
+  ██████████████████████████████  4.25 MB / 4.25 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+PS C:\Users\kernm> winget install --id Docker.DockerDesktop -e --source winget
+Found Docker Desktop [Docker.DockerDesktop] Version 4.58.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://desktop.docker.com/win/main/amd64/216728/Docker%20Desktop%20Installer.exe
+  ██████████████████████████████   589 MB /  589 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+PS C:\Users\kernm> winget install --id Postman.Postman -e --source winget
+Found Postman [Postman.Postman] Version 11.82.1
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://dl.pstmn.io/download/version/11.82.1/windows_64
+  ██████████████████████████████   140 MB /  140 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+PS C:\Users\kernm> winget install --id Axosoft.GitKraken -e --source winget
+Found GitKraken [Axosoft.GitKraken] Version 11.8.0
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://api.gitkraken.dev/releases/production/windows/x64/11.8.0/GitKrakenSetup.exe
+  ██████████████████████████████   369 MB /  369 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed
+PS C:\Users\kernm> winget install --id CoreyButler.NVMforWindows -e --source winget
+Found NVM for Windows [CoreyButler.NVMforWindows] Version 1.2.2
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-setup.exe
+  ██████████████████████████████  5.35 MB / 5.35 MB
+Successfully verified installer hash
+Starting package install...
+Successfully installed

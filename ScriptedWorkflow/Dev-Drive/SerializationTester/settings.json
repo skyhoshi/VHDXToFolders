@@ -1,0 +1,18 @@
+{
+    "Okta": {
+        "CustomerInfoVault": {
+            "V9": {
+                "Authority": "#{CIV_OKTA_Authority}",
+                "Audience": "#{CIV_OKTA_Audience}",
+                "ClientId": "#{CIV_OKTA_ClientId}"
+            }
+        }
+    },
+    "ServiceIntegrations": {
+        "EnterpriseConfigurationStoreApi": {
+            "EnterpriseConfigurationStoreApiUrl": "https://#{WebEnv}#{K8s.Partner}.fcsamerica.com/EnterpriseConfigurationStore/v1/RESTServices/api/ConfigItems",
+            "EnterpriseConfigurationStoreApplicationName": "MCGRUFF", // This is purely for the token generator
+            "EnterpriseConfigurationStorePartnerName": "#{K8s.Partner | ToUpper}"
+        }
+    }
+}

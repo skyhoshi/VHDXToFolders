@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\*\shell\Open with &Code]
+[-HKEY_LOCAL_MACHINE\Software\Classes\*\shell\Open with &Code\command]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Directory\shell\Open with &Code]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Directory\shell\Open with &Code\command]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Directory\Background\shell\Open with &Code]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Directory\Background\shell\Open with &Code\command]

@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "06d64ec8-edeb-48c0-8290-6a8ed75464f7",
+		"name": "McGruff Tokens",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32817158",
+		"_collection_link": "https://fcsamerica.postman.co/workspace/Lightning-Proxy%25E2%259A%25A1~625e4c32-629f-4b4e-ba5f-91e153098031/collection/32817163-06d64ec8-edeb-48c0-8290-6a8ed75464f7?action=share&source=collection_link&creator=32817158"
+	},
+	"item": [
+		{
+			"name": "Get Auth Token",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () =>\r",
+							"{\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Auth Token Received\", () => {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    \r",
+							"    pm.expect(jsonData.token.length).greaterThan(0);\r",
+							"\r",
+							"    pm.globals.set(\"McGruffAuth\", jsonData.token);    \r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{WebEnv}}internal.fcsamerica.net/mcgruff/reference/rest/api/token/testerl",
+					"protocol": "https",
+					"host": [
+						"{{WebEnv}}internal",
+						"fcsamerica",
+						"net"
+					],
+					"path": [
+						"mcgruff",
+						"reference",
+						"rest",
+						"api",
+						"token",
+						"testerl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Partner Audit Info",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () =>\r",
+							"{\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Audit token Received\", () => {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    \r",
+							"    pm.expect(jsonData.length).greaterThan(0);\r",
+							"\r",
+							"    pm.globals.set(\"McGruffAudit\",jsonData);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{WebEnv}}{{McGruff-Host}}/mcgruff/v2/rest/api/auditinfo/{{partner}}",
+					"protocol": "https",
+					"host": [
+						"{{WebEnv}}{{McGruff-Host}}"
+					],
+					"path": [
+						"mcgruff",
+						"v2",
+						"rest",
+						"api",
+						"auditinfo",
+						"{{partner}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get FCMA Partner Audit Info",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () =>\r",
+							"{\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Audit token Received\", () => {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    \r",
+							"    pm.expect(jsonData.length).greaterThan(0);\r",
+							"\r",
+							"    pm.globals.set(\"McGruffAudit\",jsonData);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{WebEnv}}{{McGruff-Host}}/mcgruff/v2/rest/api/auditinfo/FCMA",
+					"protocol": "https",
+					"host": [
+						"{{WebEnv}}{{McGruff-Host}}"
+					],
+					"path": [
+						"mcgruff",
+						"v2",
+						"rest",
+						"api",
+						"auditinfo",
+						"FCMA"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get NWFCS Partner Audit Info",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () =>\r",
+							"{\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Audit token Received\", () => {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    \r",
+							"    pm.expect(jsonData.length).greaterThan(0);\r",
+							"\r",
+							"    pm.globals.set(\"McGruffAudit\",jsonData);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{WebEnv}}{{McGruff-Host}}/mcgruff/v2/rest/api/auditinfo/NWFCS",
+					"protocol": "https",
+					"host": [
+						"{{WebEnv}}{{McGruff-Host}}"
+					],
+					"path": [
+						"mcgruff",
+						"v2",
+						"rest",
+						"api",
+						"auditinfo",
+						"NWFCS"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Token with Uname and Pword",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () =>\r",
+							"{\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Auth Token Received\", () => {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    \r",
+							"    pm.expect(jsonData.token.length).greaterThan(0);\r",
+							"\r",
+							"    pm.globals.set(\"McGruffAuth\",jsonData.token);    \r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"Username\": \"{{TestUserName}}\", \"Password\": \"{{TestUserPassword}}\" }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{WebEnv}}{{McGruff-Host}}/mcgruff/reference/rest/api/token",
+					"protocol": "https",
+					"host": [
+						"{{WebEnv}}{{McGruff-Host}}"
+					],
+					"path": [
+						"mcgruff",
+						"reference",
+						"rest",
+						"api",
+						"token"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{McGruffAuth}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "Authorization",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

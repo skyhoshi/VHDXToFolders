@@ -1,0 +1,2029 @@
+
+HelpUri             : 
+ScriptBlock         : 
+                          Import-Module WebAdministration
+                          Import-Module IISAdministration
+                          . "C:\Users\kernm\OneDrive - Farm Credit Services of America\PowerShell\Scripts\IISManagement\IISManagement.ps1"
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          Import-Module WebAdministration
+                          Import-Module IISAdministration
+                          . "C:\Users\kernm\OneDrive - Farm Credit Services of America\PowerShell\Scripts\IISManagement\IISManagement.ps1"
+                      
+Options             : None
+Description         : 
+Verb                : Add
+Noun                : WebManagementTools
+HelpFile            : 
+OutputType          : {}
+Name                : Add-WebManagementTools
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          $objFolders = get-childitem -path **\obj -Recurse -Attributes D 
+                          $binFolders = get-childitem -path **\bin -Recurse -Attributes D 
+                      
+                          $binFolders | Remove-Item -Force
+                          $objFolders | Remove-Item -Force
+                          #get-childitem -path **\obj -Recurse -Directory -Depth 2 |Remove-Item -Force
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          $objFolders = get-childitem -path **\obj -Recurse -Attributes D 
+                          $binFolders = get-childitem -path **\bin -Recurse -Attributes D 
+                      
+                          $binFolders | Remove-Item -Force
+                          $objFolders | Remove-Item -Force
+                          #get-childitem -path **\obj -Recurse -Directory -Depth 2 |Remove-Item -Force
+                      
+Options             : None
+Description         : 
+Verb                : Clean
+Noun                : ProjectBuild
+HelpFile            : 
+OutputType          : {}
+Name                : Clean-ProjectBuild
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                         docker compose down
+                         docker compose build
+                         docker compose up
+                      
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                         docker compose down
+                         docker compose build
+                         docker compose up
+                      
+                      
+Options             : None
+Description         : 
+Verb                : Compose
+Noun                : Cycle
+HelpFile            : 
+OutputType          : {}
+Name                : Compose-Cycle
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          [CmdletBinding()]
+                          param (
+                              [Parameter()]
+                              [string]
+                              $profile = "all"
+                          )
+                          #docker compose --progress plain --profile console build --no-cache
+                          docker compose --profile $profile build
+                      
+CmdletBinding       : True
+DefaultParameterSet : 
+Definition          : 
+                          [CmdletBinding()]
+                          param (
+                              [Parameter()]
+                              [string]
+                              $profile = "all"
+                          )
+                          #docker compose --progress plain --profile console build --no-cache
+                          docker compose --profile $profile build
+                      
+Options             : None
+Description         : 
+Verb                : Compose
+Noun                : SpecificProfileBuild
+HelpFile            : 
+OutputType          : {}
+Name                : Compose-SpecificProfileBuild
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {[profile, System.Management.Automation.ParameterMetadata], [Verbose, System.Management.Automation.ParameterMetadata], [Debug, System.Management.Automation.ParameterMetadata], [ErrorAction, System.Management.Automation.ParameterMetadata]…}
+ParameterSets       : {[[-profile] <string>] [<CommonParameters>]}
+
+HelpUri             : 
+ScriptBlock         : 
+                         [CmdletBinding()]
+                         param (
+                             [Parameter()]
+                             [string]
+                             $profile = "all"
+                         )
+                         docker compose --profile $profile up
+                      
+CmdletBinding       : True
+DefaultParameterSet : 
+Definition          : 
+                         [CmdletBinding()]
+                         param (
+                             [Parameter()]
+                             [string]
+                             $profile = "all"
+                         )
+                         docker compose --profile $profile up
+                      
+Options             : None
+Description         : 
+Verb                : Compose
+Noun                : SpecificProfileUp
+HelpFile            : 
+OutputType          : {}
+Name                : Compose-SpecificProfileUp
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {[profile, System.Management.Automation.ParameterMetadata], [Verbose, System.Management.Automation.ParameterMetadata], [Debug, System.Management.Automation.ParameterMetadata], [ErrorAction, System.Management.Automation.ParameterMetadata]…}
+ParameterSets       : {[[-profile] <string>] [<CommonParameters>]}
+
+HelpUri             : 
+ScriptBlock         : 
+                         docker compose down
+                         docker compose up
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                         docker compose down
+                         docker compose up
+                      
+Options             : None
+Description         : 
+Verb                : compose
+Noun                : update
+HelpFile            : 
+OutputType          : {}
+Name                : compose-update
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          [CmdletBinding()]
+                          param(
+                              [Parameter(Mandatory = $false, HelpMessage = "The Azure DevOps Build Definition ID")]
+                              [int]$BuildDefinitionId = 3037,
+                      
+                              [Parameter(Mandatory = $true, HelpMessage = "The YAML file descriptor for the build")]
+                              [string]$YamlFileDescriptor,
+                      
+                              [Parameter(Mandatory = $false, HelpMessage = "The Octopus Deploy project name")]
+                              [string]$OctopusDeployProjectName = "IdentityAccessManagement - Configure Okta Component - FCSA Tenant",
+                      
+                              [Parameter(Mandatory = $false, HelpMessage = "The notification email address")]
+                              [string]$NotificationEmail = " ",
+                      
+                              [Parameter(Mandatory = $false, HelpMessage = "Azure DevOps Organization name")]
+                              [string]$Organization = $env:AZURE_DEVOPS_ORGANIZATION,
+                      
+                              [Parameter(Mandatory = $false, HelpMessage = "Azure DevOps Project name")]
+                              [string]$Project = $env:AZURE_DEVOPS_PROJECT,
+                      
+                              [Parameter(Mandatory = $false, HelpMessage = "Azure DevOps Personal Access Token")]
+                              [string]$PersonalAccessToken = $env:AZURE_DEVOP_EXECUTION_PAT,
+                      
+                              [Parameter(Mandatory = $false, HelpMessage = "Source branch for the build")]
+                              [string]$SourceBranch = "main",
+                      
+                              [Parameter(Mandatory = $false, HelpMessage = "If set, prevents the REST API call from executing")]
+                              [switch]$WhatIf
+                          )
+                          begin {
+                              $ErrorActionPreference = "Stop"
+                      
+                              # Validate required parameters
+                              if (-not $Organization) {
+                                  throw "Organization must be provided as parameter or set in AZURE_DEVOPS_ORGANIZATION environment variable."
+                              }
+                      
+                              if (-not $Project) {
+                                  #throw "Project must be provided as parameter or set in AZURE_DEVOPS_PROJECT environment variable."
+                                  $Project = "SolutionsEnablement"
+                              }
+                      
+                              if (-not $PersonalAccessToken) {
+                                  throw "PersonalAccessToken must be provided as parameter or set in AZURE_DEVOP_EXECUTION_PAT environment variable."
+                              }
+                          }
+                          
+                          process {
+                              # Create base64 encoded authentication header
+                              $auth = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(":$PersonalAccessToken"))
+                      
+                              # Build the Azure DevOps API URL
+                              $apiUrl = "https://dev.azure.com/$Organization/$Project/_apis/build/builds?api-version=7.0"
+                              # Write-Debug "API URL: $apiUrl"
+                              # Create the request body with custom template parameters
+                              $requestBody = @{
+                                  definition           = @{
+                                      id = $BuildDefinitionId
+                                  }
+                                  sourceBranch         = $SourceBranch
+                                  templateParameters   = @{
+                                      "YamlFileDescriptor"       = $YamlFileDescriptor
+                                      "OctopusDeployProjectName" = $OctopusDeployProjectName
+                                      "NotificationEmail"        = $NotificationEmail
+                                  }
+                              } | ConvertTo-Json -Depth 10
+                      
+                              Write-Verbose "Request body: $requestBody"
+                      
+                              try {
+                                  Write-Host "Queuing build definition $BuildDefinitionId in project $Project..." -ForegroundColor Cyan
+                          
+                                  if (-not $WhatIf) {
+                                      $response = Invoke-RestMethod -Uri $apiUrl -Method Post -Headers @{ Authorization  = "Basic $auth"; "Content-Type" = "application/json" } -Body $requestBody 
+                      
+                                      Write-Host "Build queued successfully!" -ForegroundColor Green
+                                      Write-Host ""
+                                      Write-Host "Build Details:" -ForegroundColor Cyan
+                                      Write-Host "  Build ID: $($response.id)"
+                                      Write-Host "  Build Number: $($response.buildNumber)"
+                                      Write-Host "  Status: $($response.status)"
+                                      Write-Host "  URL: $($response.url)"
+                                      Write-Host ""
+                                      Write-Host "Parameters passed:" -ForegroundColor Cyan
+                                      Write-Host "  YamlFileDescriptor: $YamlFileDescriptor"
+                                      Write-Host "  OctopusDeployProjectName: $OctopusDeployProjectName"
+                                      Write-Host "  NotificationEmail: $NotificationEmail"
+                              
+                                      return $response
+                                  }
+                                  else {
+                                      Write-Host "WhatIf mode enabled. Skipping API call." -ForegroundColor Yellow
+                                      Write-Host ""
+                                      Write-Debug "Invoke-RestMethod -Uri $apiUrl -Method Post -Body $requestBody"
+                                      Write-Debug ""
+                                      Write-Host "Would queue with parameters:" -ForegroundColor Cyan
+                                      Write-Host "  YamlFileDescriptor: $YamlFileDescriptor"
+                                      Write-Host "  OctopusDeployProjectName: $OctopusDeployProjectName"
+                                      Write-Host "  NotificationEmail: $NotificationEmail"
+                                  }
+                              }
+                              catch {
+                                  Write-Host "Error queuing build: $($_.Exception.Message)" -ForegroundColor Red
+                          
+                                  if ($_.Exception.Response) {
+                                      $errorContent = $_.Exception.Response.Content.ReadAsStreamAsync().Result
+                                      $reader = New-Object System.IO.StreamReader($errorContent)
+                                      $errorBody = $reader.ReadToEnd()
+                                      Write-Host "Response: $errorBody" -ForegroundColor Yellow
+                                  }
+                          
+                                  throw
+                              }
+                          }
+                          
+                          end {
+                              
+                          }
+                      
+CmdletBinding       : True
+DefaultParameterSet : 
+Definition          : 
+                          [CmdletBinding()]
+                          param(
+                              [Parameter(Mandatory = $false, HelpMessage = "The Azure DevOps Build Definition ID")]
+                              [int]$BuildDefinitionId = 3037,
+                      
+                              [Parameter(Mandatory = $true, HelpMessage = "The YAML file descriptor for the build")]
+                              [string]$YamlFileDescriptor,
+                      
+                              [Parameter(Mandatory = $false, HelpMessage = "The Octopus Deploy project name")]
+                              [string]$OctopusDeployProjectName = "IdentityAccessManagement - Configure Okta Component - FCSA Tenant",
+                      
+                              [Parameter(Mandatory = $false, HelpMessage = "The notification email address")]
+                              [string]$NotificationEmail = " ",
+                      
+                              [Parameter(Mandatory = $false, HelpMessage = "Azure DevOps Organization name")]
+                              [string]$Organization = $env:AZURE_DEVOPS_ORGANIZATION,
+                      
+                              [Parameter(Mandatory = $false, HelpMessage = "Azure DevOps Project name")]
+                              [string]$Project = $env:AZURE_DEVOPS_PROJECT,
+                      
+                              [Parameter(Mandatory = $false, HelpMessage = "Azure DevOps Personal Access Token")]
+                              [string]$PersonalAccessToken = $env:AZURE_DEVOP_EXECUTION_PAT,
+                      
+                              [Parameter(Mandatory = $false, HelpMessage = "Source branch for the build")]
+                              [string]$SourceBranch = "main",
+                      
+                              [Parameter(Mandatory = $false, HelpMessage = "If set, prevents the REST API call from executing")]
+                              [switch]$WhatIf
+                          )
+                          begin {
+                              $ErrorActionPreference = "Stop"
+                      
+                              # Validate required parameters
+                              if (-not $Organization) {
+                                  throw "Organization must be provided as parameter or set in AZURE_DEVOPS_ORGANIZATION environment variable."
+                              }
+                      
+                              if (-not $Project) {
+                                  #throw "Project must be provided as parameter or set in AZURE_DEVOPS_PROJECT environment variable."
+                                  $Project = "SolutionsEnablement"
+                              }
+                      
+                              if (-not $PersonalAccessToken) {
+                                  throw "PersonalAccessToken must be provided as parameter or set in AZURE_DEVOP_EXECUTION_PAT environment variable."
+                              }
+                          }
+                          
+                          process {
+                              # Create base64 encoded authentication header
+                              $auth = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(":$PersonalAccessToken"))
+                      
+                              # Build the Azure DevOps API URL
+                              $apiUrl = "https://dev.azure.com/$Organization/$Project/_apis/build/builds?api-version=7.0"
+                              # Write-Debug "API URL: $apiUrl"
+                              # Create the request body with custom template parameters
+                              $requestBody = @{
+                                  definition           = @{
+                                      id = $BuildDefinitionId
+                                  }
+                                  sourceBranch         = $SourceBranch
+                                  templateParameters   = @{
+                                      "YamlFileDescriptor"       = $YamlFileDescriptor
+                                      "OctopusDeployProjectName" = $OctopusDeployProjectName
+                                      "NotificationEmail"        = $NotificationEmail
+                                  }
+                              } | ConvertTo-Json -Depth 10
+                      
+                              Write-Verbose "Request body: $requestBody"
+                      
+                              try {
+                                  Write-Host "Queuing build definition $BuildDefinitionId in project $Project..." -ForegroundColor Cyan
+                          
+                                  if (-not $WhatIf) {
+                                      $response = Invoke-RestMethod -Uri $apiUrl -Method Post -Headers @{ Authorization  = "Basic $auth"; "Content-Type" = "application/json" } -Body $requestBody 
+                      
+                                      Write-Host "Build queued successfully!" -ForegroundColor Green
+                                      Write-Host ""
+                                      Write-Host "Build Details:" -ForegroundColor Cyan
+                                      Write-Host "  Build ID: $($response.id)"
+                                      Write-Host "  Build Number: $($response.buildNumber)"
+                                      Write-Host "  Status: $($response.status)"
+                                      Write-Host "  URL: $($response.url)"
+                                      Write-Host ""
+                                      Write-Host "Parameters passed:" -ForegroundColor Cyan
+                                      Write-Host "  YamlFileDescriptor: $YamlFileDescriptor"
+                                      Write-Host "  OctopusDeployProjectName: $OctopusDeployProjectName"
+                                      Write-Host "  NotificationEmail: $NotificationEmail"
+                              
+                                      return $response
+                                  }
+                                  else {
+                                      Write-Host "WhatIf mode enabled. Skipping API call." -ForegroundColor Yellow
+                                      Write-Host ""
+                                      Write-Debug "Invoke-RestMethod -Uri $apiUrl -Method Post -Body $requestBody"
+                                      Write-Debug ""
+                                      Write-Host "Would queue with parameters:" -ForegroundColor Cyan
+                                      Write-Host "  YamlFileDescriptor: $YamlFileDescriptor"
+                                      Write-Host "  OctopusDeployProjectName: $OctopusDeployProjectName"
+                                      Write-Host "  NotificationEmail: $NotificationEmail"
+                                  }
+                              }
+                              catch {
+                                  Write-Host "Error queuing build: $($_.Exception.Message)" -ForegroundColor Red
+                          
+                                  if ($_.Exception.Response) {
+                                      $errorContent = $_.Exception.Response.Content.ReadAsStreamAsync().Result
+                                      $reader = New-Object System.IO.StreamReader($errorContent)
+                                      $errorBody = $reader.ReadToEnd()
+                                      Write-Host "Response: $errorBody" -ForegroundColor Yellow
+                                  }
+                          
+                                  throw
+                              }
+                          }
+                          
+                          end {
+                              
+                          }
+                      
+Options             : None
+Description         : 
+Verb                : Create
+Noun                : OktaAzureDevOpsBuildById
+HelpFile            : 
+OutputType          : {}
+Name                : Create-OktaAzureDevOpsBuildById
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {[BuildDefinitionId, System.Management.Automation.ParameterMetadata], [YamlFileDescriptor, System.Management.Automation.ParameterMetadata], [OctopusDeployProjectName, System.Management.Automation.ParameterMetadata], [NotificationEmail, System.Management.Automation.ParameterMetadata]…}
+ParameterSets       : {[[-BuildDefinitionId] <int>] [-YamlFileDescriptor] <string> [[-OctopusDeployProjectName] <string>] [[-NotificationEmail] <string>] [[-Organization] <string>] [[-Project] <string>] [[-PersonalAccessToken] <string>] [[-SourceBranch] <string>] [-WhatIf] [<CommonParameters>]}
+
+HelpUri             : 
+ScriptBlock         : 
+                          
+                          #Set-Location "C:\source\Fcsamerica\Organization\"
+                          #Set-Location "C:\Source\FCSAmerica\Patronage\";
+                          #Set-Location "C:\Source\FCSAmerica\MarketingAndSales\Polar"
+                          #$currentProjectLocation ="S:\Fcsamerica\SolutionsEnablement\LightningProxy";
+                          Mount-CurrentProject; 
+                          $currentProjectLocation = "K:\";
+                          Set-Location $currentProjectLocation;
+                          $valueCNPAlias = (Get-Alias -Name "cnp" -ErrorAction Ignore)
+                          if ($null -eq $valueCNPAlias) {
+                              Write-Host "Creating New Alias cnp -> Current-Project"
+                              New-Alias -Name cnp -Value Current-Project -Description "Takes you to your current project" -Scope Global;
+                          }
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          
+                          #Set-Location "C:\source\Fcsamerica\Organization\"
+                          #Set-Location "C:\Source\FCSAmerica\Patronage\";
+                          #Set-Location "C:\Source\FCSAmerica\MarketingAndSales\Polar"
+                          #$currentProjectLocation ="S:\Fcsamerica\SolutionsEnablement\LightningProxy";
+                          Mount-CurrentProject; 
+                          $currentProjectLocation = "K:\";
+                          Set-Location $currentProjectLocation;
+                          $valueCNPAlias = (Get-Alias -Name "cnp" -ErrorAction Ignore)
+                          if ($null -eq $valueCNPAlias) {
+                              Write-Host "Creating New Alias cnp -> Current-Project"
+                              New-Alias -Name cnp -Value Current-Project -Description "Takes you to your current project" -Scope Global;
+                          }
+                      
+Options             : None
+Description         : 
+Verb                : Current
+Noun                : Project
+HelpFile            : 
+OutputType          : {}
+Name                : Current-Project
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          
+                          Set-Location "C:\Users\kernm\OneDrive - Farm Credit Services of America\PowerShell\"
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          
+                          Set-Location "C:\Users\kernm\OneDrive - Farm Credit Services of America\PowerShell\"
+                      
+Options             : None
+Description         : 
+Verb                : Current
+Noun                : Scripts
+HelpFile            : 
+OutputType          : {}
+Name                : Current-Scripts
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          [CmdletBinding()]
+                          param (
+                              
+                          )    
+                          begin {
+                              if (!(Test-Path -Path "./.git/")){            
+                                  Write-Error -Message "Invalid Run Location: You Docker Compose File is expected to be at the top level in your git repository. if it must be located elsewhere you cannot use this tool." -Category InvalidOperation
+                                  return
+                              }
+                              if (!(Test-Path -Path ".env")){
+                                  Write-Error -Message "Environment File for Docker does not exist. Please copy the '.env_TEMPLATE' and fill it out manually" -Category ReadError
+                                  return
+                              }
+                          }
+                          process {        
+                              docker-compose --profile all-local up
+                          }
+                          
+                          end {
+                              
+                          }
+                      
+                      
+CmdletBinding       : True
+DefaultParameterSet : 
+Definition          : 
+                          [CmdletBinding()]
+                          param (
+                              
+                          )    
+                          begin {
+                              if (!(Test-Path -Path "./.git/")){            
+                                  Write-Error -Message "Invalid Run Location: You Docker Compose File is expected to be at the top level in your git repository. if it must be located elsewhere you cannot use this tool." -Category InvalidOperation
+                                  return
+                              }
+                              if (!(Test-Path -Path ".env")){
+                                  Write-Error -Message "Environment File for Docker does not exist. Please copy the '.env_TEMPLATE' and fill it out manually" -Category ReadError
+                                  return
+                              }
+                          }
+                          process {        
+                              docker-compose --profile all-local up
+                          }
+                          
+                          end {
+                              
+                          }
+                      
+                      
+Options             : None
+Description         : 
+Verb                : docker
+Noun                : composeUpBuildAll
+HelpFile            : 
+OutputType          : {}
+Name                : docker-composeUpBuildAll
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {[Verbose, System.Management.Automation.ParameterMetadata], [Debug, System.Management.Automation.ParameterMetadata], [ErrorAction, System.Management.Automation.ParameterMetadata], [WarningAction, System.Management.Automation.ParameterMetadata]…}
+ParameterSets       : {[<CommonParameters>]}
+
+HelpUri             : 
+ScriptBlock         : 
+                          # Used PowerShell Core 7.2.*
+                          #      Azure CLI 2.38.*
+                          # Snippet from build.ps1 in Example.Apps
+                          #az login --tenant fcsamericaonline.onmicrosoft.com
+                          #az account set --subscription 8dd86e70-a434-461b-b044-35ab2882cdf1
+                          #az acr login --name hubpcontainersacr
+                          $DOCKER_TOKEN = (az acr login --name hubpcontainersacr --expose-token --output tsv --query accessToken)
+                          if ($null -eq $DOCKER_TOKEN){
+                              $tenants = (az login --scope https://management.core.windows.net//.default)
+                              $DOCKER_TOKEN = (az acr login --name hubpcontainersacr --expose-token --output tsv --query accessToken)
+                          }
+                          docker login hubpcontainersacr.azurecr.io --username 00000000-0000-0000-0000-000000000000 --password $DOCKER_TOKEN
+                          # if on error run :  az login --scope https://management.core.windows.net//.default
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          # Used PowerShell Core 7.2.*
+                          #      Azure CLI 2.38.*
+                          # Snippet from build.ps1 in Example.Apps
+                          #az login --tenant fcsamericaonline.onmicrosoft.com
+                          #az account set --subscription 8dd86e70-a434-461b-b044-35ab2882cdf1
+                          #az acr login --name hubpcontainersacr
+                          $DOCKER_TOKEN = (az acr login --name hubpcontainersacr --expose-token --output tsv --query accessToken)
+                          if ($null -eq $DOCKER_TOKEN){
+                              $tenants = (az login --scope https://management.core.windows.net//.default)
+                              $DOCKER_TOKEN = (az acr login --name hubpcontainersacr --expose-token --output tsv --query accessToken)
+                          }
+                          docker login hubpcontainersacr.azurecr.io --username 00000000-0000-0000-0000-000000000000 --password $DOCKER_TOKEN
+                          # if on error run :  az login --scope https://management.core.windows.net//.default
+                      
+Options             : None
+Description         : 
+Verb                : Docker
+Noun                : Login
+HelpFile            : 
+OutputType          : {}
+Name                : Docker-Login
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          [CmdletBinding()]
+                          param (
+                              [Parameter()][string]$imageTag = "example/webapi:latest",
+                              [Parameter()][string]$dockerFilePath = "$PSScriptRoot\src\ExampleWebApi\Dockerfile"
+                          )
+                          
+                          begin {
+                              # PowerShell
+                              # Snippet from build.ps1 in Example.Apps
+                              $PAT = $env:AzurePAT;
+                              #$imageTag = "example/webapi:latest"
+                              $buildContext = $PSScriptRoot;
+                              SET-Location $CurrentSource;
+                      
+                          }
+                          
+                          process {
+                              docker build --progress=plain --build-arg PAT=$PAT --tag $imageTag --pull --file $dockerFilePath .
+                          }
+                          
+                          end {
+                              
+                          }
+                      
+                      
+CmdletBinding       : True
+DefaultParameterSet : 
+Definition          : 
+                          [CmdletBinding()]
+                          param (
+                              [Parameter()][string]$imageTag = "example/webapi:latest",
+                              [Parameter()][string]$dockerFilePath = "$PSScriptRoot\src\ExampleWebApi\Dockerfile"
+                          )
+                          
+                          begin {
+                              # PowerShell
+                              # Snippet from build.ps1 in Example.Apps
+                              $PAT = $env:AzurePAT;
+                              #$imageTag = "example/webapi:latest"
+                              $buildContext = $PSScriptRoot;
+                              SET-Location $CurrentSource;
+                      
+                          }
+                          
+                          process {
+                              docker build --progress=plain --build-arg PAT=$PAT --tag $imageTag --pull --file $dockerFilePath .
+                          }
+                          
+                          end {
+                              
+                          }
+                      
+                      
+Options             : None
+Description         : 
+Verb                : Docker
+Noun                : SetupBuild
+HelpFile            : 
+OutputType          : {}
+Name                : Docker-SetupBuild
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {[imageTag, System.Management.Automation.ParameterMetadata], [dockerFilePath, System.Management.Automation.ParameterMetadata], [Verbose, System.Management.Automation.ParameterMetadata], [Debug, System.Management.Automation.ParameterMetadata]…}
+ParameterSets       : {[[-imageTag] <string>] [[-dockerFilePath] <string>] [<CommonParameters>]}
+
+HelpUri             : 
+ScriptBlock         : 
+                          Get-ChildItem -Recurse * | sort -Descending LastWriteTime  | Select -First 5
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          Get-ChildItem -Recurse * | sort -Descending LastWriteTime  | Select -First 5
+                      
+Options             : None
+Description         : 
+Verb                : Find
+Noun                : LastWritten
+HelpFile            : 
+OutputType          : {}
+Name                : Find-LastWritten
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          [CmdletBinding()]
+                          param (
+                              
+                          )
+                          
+                          begin {
+                              [System.Collections.ArrayList]$projects = @()
+                              
+                          }
+                          
+                          process {
+                              
+                              
+                      
+                          }
+                          
+                          end {
+                           return $projects;   
+                          }
+                      
+CmdletBinding       : True
+DefaultParameterSet : 
+Definition          : 
+                          [CmdletBinding()]
+                          param (
+                              
+                          )
+                          
+                          begin {
+                              [System.Collections.ArrayList]$projects = @()
+                              
+                          }
+                          
+                          process {
+                              
+                              
+                      
+                          }
+                          
+                          end {
+                           return $projects;   
+                          }
+                      
+Options             : None
+Description         : 
+Verb                : Get
+Noun                : DockerProjects
+HelpFile            : 
+OutputType          : {}
+Name                : Get-DockerProjects
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {[Verbose, System.Management.Automation.ParameterMetadata], [Debug, System.Management.Automation.ParameterMetadata], [ErrorAction, System.Management.Automation.ParameterMetadata], [WarningAction, System.Management.Automation.ParameterMetadata]…}
+ParameterSets       : {[<CommonParameters>]}
+
+HelpUri             : 
+ScriptBlock         : 
+                          $project = [DockerProject]::new();
+                          $project.$Index = 0;
+                          $project.Title = "Enterprise Status";
+                          $project.SourceLocation = "";
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          $project = [DockerProject]::new();
+                          $project.$Index = 0;
+                          $project.Title = "Enterprise Status";
+                          $project.SourceLocation = "";
+                      
+Options             : None
+Description         : 
+Verb                : Get
+Noun                : EnterpriseStatusProject
+HelpFile            : 
+OutputType          : {}
+Name                : Get-EnterpriseStatusProject
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          Set-Location "C:\Users\kernm\OneDrive - Farm Credit Services of America\PowerShell\Scripts\Unsorted Single Scripts"
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          Set-Location "C:\Users\kernm\OneDrive - Farm Credit Services of America\PowerShell\Scripts\Unsorted Single Scripts"
+                      
+Options             : None
+Description         : 
+Verb                : Goto
+Noun                : PSJunkScripts
+HelpFile            : 
+OutputType          : {}
+Name                : Goto-PSJunkScripts
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          # C:\Projects\Sandbox\Sandbox.vhdx
+                          $SandboxLocation = "C:\Projects\Sandbox\Sandbox.vhdx"
+                          Mount-VHD $SandboxLocation -ErrorAction SilentlyContinue;
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          # C:\Projects\Sandbox\Sandbox.vhdx
+                          $SandboxLocation = "C:\Projects\Sandbox\Sandbox.vhdx"
+                          Mount-VHD $SandboxLocation -ErrorAction SilentlyContinue;
+                      
+Options             : None
+Description         : 
+Verb                : Mount
+Noun                : CurrentProject
+HelpFile            : 
+OutputType          : {}
+Name                : Mount-CurrentProject
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          $netscopeCertStore = "~/.fcsamerica/k8s/certificates/netscope"
+                          New-Item -Path "$netscopeCertStore" -ItemType Directory -ErrorAction Ignore
+                          Set-Location $netscopeCertStore
+                          ######################################################################################################################################
+                          $uri = 'google.com'
+                          $tcpClient = [Net.Sockets.TcpClient]::new($uri, 443)
+                          $sslStream = [Net.Security.SslStream]::new($tcpClient.GetStream())
+                      
+                          try {
+                              $sslStream.AuthenticateAsClient($uri)
+                              $certificate = $sslStream.RemoteCertificate
+                          }
+                          finally {
+                              $sslStream.Close()
+                          }
+                      
+                          $chain = [Security.Cryptography.X509Certificates.X509Chain]::new()
+                          $chain.Build($certificate)
+                      
+                          $chain.ChainElements.Certificate | ForEach-Object {
+                              [System.Security.Cryptography.X509Certificates.X509Certificate2] $x509Cert = $_
+                              if ( $x509Cert.Subject -ne "CN=google.com") {
+                                  $exportedCert = $x509Cert.Export([System.Security.Cryptography.X509Certificates.X509ContentType]::Cert)
+                                  $exportedCertValue = $($exportedCert)
+                                  $base64CertValue = "-----BEGIN CERTIFICATE----`n"
+                                  $base64CertValue += [System.Convert]::ToBase64String($exportedCertValue, [System.Base64FormattingOptions]::InsertLineBreaks)
+                                  $base64CertValue += "`n-----END CERTIFICATE-----"
+                              
+                                  $certFileName = "$($x509Cert.Thumbprint).crt"
+                                  $locationStoreOfCert = "$pwd\$certFileName"
+                                  set-content -value $base64CertValue  -path $locationStoreOfCert
+                                  New-Item -Target $locationStoreOfCert -ItemType SymbolicLink -Path"~\.minikube\certs\$certFileName" -ErrorAction Ignore
+                              }
+                          }
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          $netscopeCertStore = "~/.fcsamerica/k8s/certificates/netscope"
+                          New-Item -Path "$netscopeCertStore" -ItemType Directory -ErrorAction Ignore
+                          Set-Location $netscopeCertStore
+                          ######################################################################################################################################
+                          $uri = 'google.com'
+                          $tcpClient = [Net.Sockets.TcpClient]::new($uri, 443)
+                          $sslStream = [Net.Security.SslStream]::new($tcpClient.GetStream())
+                      
+                          try {
+                              $sslStream.AuthenticateAsClient($uri)
+                              $certificate = $sslStream.RemoteCertificate
+                          }
+                          finally {
+                              $sslStream.Close()
+                          }
+                      
+                          $chain = [Security.Cryptography.X509Certificates.X509Chain]::new()
+                          $chain.Build($certificate)
+                      
+                          $chain.ChainElements.Certificate | ForEach-Object {
+                              [System.Security.Cryptography.X509Certificates.X509Certificate2] $x509Cert = $_
+                              if ( $x509Cert.Subject -ne "CN=google.com") {
+                                  $exportedCert = $x509Cert.Export([System.Security.Cryptography.X509Certificates.X509ContentType]::Cert)
+                                  $exportedCertValue = $($exportedCert)
+                                  $base64CertValue = "-----BEGIN CERTIFICATE----`n"
+                                  $base64CertValue += [System.Convert]::ToBase64String($exportedCertValue, [System.Base64FormattingOptions]::InsertLineBreaks)
+                                  $base64CertValue += "`n-----END CERTIFICATE-----"
+                              
+                                  $certFileName = "$($x509Cert.Thumbprint).crt"
+                                  $locationStoreOfCert = "$pwd\$certFileName"
+                                  set-content -value $base64CertValue  -path $locationStoreOfCert
+                                  New-Item -Target $locationStoreOfCert -ItemType SymbolicLink -Path"~\.minikube\certs\$certFileName" -ErrorAction Ignore
+                              }
+                          }
+                      
+Options             : None
+Description         : 
+Verb                : New
+Noun                : MinicubeNetScopeCerts
+HelpFile            : 
+OutputType          : {}
+Name                : New-MinicubeNetScopeCerts
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          npm install && npm run build
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          npm install && npm run build
+                      
+Options             : None
+Description         : 
+Verb                : npm
+Noun                : InstallAndBuild
+HelpFile            : 
+OutputType          : {}
+Name                : npm-InstallAndBuild
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          rundll32.exe sysdm.cpl, EditEnvironmentVariables
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          rundll32.exe sysdm.cpl, EditEnvironmentVariables
+                      
+Options             : None
+Description         : 
+Verb                : Open
+Noun                : EnvironmentVaribleEditor
+HelpFile            : 
+OutputType          : {}
+Name                : Open-EnvironmentVaribleEditor
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          [CmdletBinding()]
+                          param (
+                              [string]$ProjectPath
+                          )
+                          
+                          begin {
+                              
+                          }
+                          
+                          process {
+                              if ($ProjectPath) { 
+                                  if ((Test-Path $ProjectPath)) {
+                                      $curpath = $ProjectPath
+                                  }
+                              }
+                              if (!$curPath) {
+                                  $curpath = (get-location).ProviderPath
+                              }
+                              $lapd = $env:localappdata
+                              $logf = "$env:temp\krakstart.log"
+                              $newestExe = Get-Item "$lapd\gitkraken\app-*\gitkraken.exe" | select -Last 1
+                              start-process -filepath   $newestExe -ArgumentList "--path $curpath" -redirectstandardoutput $logf
+                          }
+                          
+                          end {
+                              
+                          }
+                      
+CmdletBinding       : True
+DefaultParameterSet : 
+Definition          : 
+                          [CmdletBinding()]
+                          param (
+                              [string]$ProjectPath
+                          )
+                          
+                          begin {
+                              
+                          }
+                          
+                          process {
+                              if ($ProjectPath) { 
+                                  if ((Test-Path $ProjectPath)) {
+                                      $curpath = $ProjectPath
+                                  }
+                              }
+                              if (!$curPath) {
+                                  $curpath = (get-location).ProviderPath
+                              }
+                              $lapd = $env:localappdata
+                              $logf = "$env:temp\krakstart.log"
+                              $newestExe = Get-Item "$lapd\gitkraken\app-*\gitkraken.exe" | select -Last 1
+                              start-process -filepath   $newestExe -ArgumentList "--path $curpath" -redirectstandardoutput $logf
+                          }
+                          
+                          end {
+                              
+                          }
+                      
+Options             : None
+Description         : 
+Verb                : Open
+Noun                : GitKraken
+HelpFile            : 
+OutputType          : {}
+Name                : Open-GitKraken
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {[ProjectPath, System.Management.Automation.ParameterMetadata], [Verbose, System.Management.Automation.ParameterMetadata], [Debug, System.Management.Automation.ParameterMetadata], [ErrorAction, System.Management.Automation.ParameterMetadata]…}
+ParameterSets       : {[[-ProjectPath] <string>] [<CommonParameters>]}
+
+HelpUri             : 
+ScriptBlock         : 
+                          param ()
+                      
+                          # Find all files referenced in this script    
+                          $scriptPath = (Get-PSCallStack | Select-Object -ExpandProperty ScriptName | Where-Object { Test-Path $_ })[1];
+                          $scriptPath = "C:\Users\kernm\OneDrive - Farm Credit Services of America\PowerShell\profile.ps1";
+                          Write-Host "Analyzing script file: $scriptPath" -ForegroundColor Cyan
+                          $ast = [Parser]::ParseFile($scriptPath, [ref]$null, [ref]$null)
+                      
+                          # Find dot-sourced files (. .\file.ps1)
+                          $dotSourced = $ast.FindAll({
+                                  param($node)
+                                  if ($node -is [CommandAst]) {
+                                      if (($node.InvocationOperator -eq 'Dot' -or $node.InvocationOperator -eq 'Ampersand') -and $node.InvocationOperator -ne 'Unknown') {
+                                          return $true
+                                      }
+                                      # $node.CommandElements | Where-Object {
+                                      #     $_.Extent.Text -match '\.ps1$'
+                                      # }
+                                  } }, $true);
+                          # # Find invoked scripts (& .\file.ps1 or Invoke-Expression)
+                          # $invoked = $ast.FindAll({ 
+                          #         $args[0] -is [InvokeMemberExpressionAst] #-and $args[0].Expression.TokenKind -eq 'Dot'
+                          #     }, $true)
+                      
+                          # # Find Import-Module commands
+                          # $imports = $ast.FindAll({ 
+                          #         $args[0] -is [System.Management.Automation.Language.CommandAst] -and 
+                          #         $args[0].GetCommandName() -in @('Import-Module', 'ipmo')
+                          #     }, $true)
+                      
+                          Write-Host "Files referenced in this script:" -ForegroundColor Cyan
+                          if ($dotSourced) {
+                              Write-Host "  Dot-sourced files:" -ForegroundColor Yellow
+                              $dotSourced | ForEach-Object { 
+                                  $script = $_.CommandElements[0].Value;
+                                  if ($null -eq $script) {
+                                      $script = $_.CommandElements[0].Extent.Text;
+                                      #Write-Host "    - $script" -ForegroundColor Yellow
+                                  }
+                                  if (-not $ListedScripts.ContainsKey($script)) {
+                                      $ListedScripts[$script] = $true
+                                  }
+                                  #Write-Host "    - $($script)" -ForegroundColor Gray 
+                              }
+                          }    
+                          # if ($invoked) {
+                          #     Write-Host "  Invoked scripts:" -ForegroundColor Yellow
+                          #     $invoked | ForEach-Object { Write-Host "    - $($_.Extent.Text)" -ForegroundColor Gray }
+                          # }
+                          # if ($imports) {
+                          #     Write-Host "  Imported modules:" -ForegroundColor Yellow
+                          #     $imports | ForEach-Object { Write-Host "    - $($_.CommandElements[1])" -ForegroundColor Gray }
+                          # }
+                          $ListedScripts | Sort-Object Name | Format-Table -Autosize
+                      
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          param ()
+                      
+                          # Find all files referenced in this script    
+                          $scriptPath = (Get-PSCallStack | Select-Object -ExpandProperty ScriptName | Where-Object { Test-Path $_ })[1];
+                          $scriptPath = "C:\Users\kernm\OneDrive - Farm Credit Services of America\PowerShell\profile.ps1";
+                          Write-Host "Analyzing script file: $scriptPath" -ForegroundColor Cyan
+                          $ast = [Parser]::ParseFile($scriptPath, [ref]$null, [ref]$null)
+                      
+                          # Find dot-sourced files (. .\file.ps1)
+                          $dotSourced = $ast.FindAll({
+                                  param($node)
+                                  if ($node -is [CommandAst]) {
+                                      if (($node.InvocationOperator -eq 'Dot' -or $node.InvocationOperator -eq 'Ampersand') -and $node.InvocationOperator -ne 'Unknown') {
+                                          return $true
+                                      }
+                                      # $node.CommandElements | Where-Object {
+                                      #     $_.Extent.Text -match '\.ps1$'
+                                      # }
+                                  } }, $true);
+                          # # Find invoked scripts (& .\file.ps1 or Invoke-Expression)
+                          # $invoked = $ast.FindAll({ 
+                          #         $args[0] -is [InvokeMemberExpressionAst] #-and $args[0].Expression.TokenKind -eq 'Dot'
+                          #     }, $true)
+                      
+                          # # Find Import-Module commands
+                          # $imports = $ast.FindAll({ 
+                          #         $args[0] -is [System.Management.Automation.Language.CommandAst] -and 
+                          #         $args[0].GetCommandName() -in @('Import-Module', 'ipmo')
+                          #     }, $true)
+                      
+                          Write-Host "Files referenced in this script:" -ForegroundColor Cyan
+                          if ($dotSourced) {
+                              Write-Host "  Dot-sourced files:" -ForegroundColor Yellow
+                              $dotSourced | ForEach-Object { 
+                                  $script = $_.CommandElements[0].Value;
+                                  if ($null -eq $script) {
+                                      $script = $_.CommandElements[0].Extent.Text;
+                                      #Write-Host "    - $script" -ForegroundColor Yellow
+                                  }
+                                  if (-not $ListedScripts.ContainsKey($script)) {
+                                      $ListedScripts[$script] = $true
+                                  }
+                                  #Write-Host "    - $($script)" -ForegroundColor Gray 
+                              }
+                          }    
+                          # if ($invoked) {
+                          #     Write-Host "  Invoked scripts:" -ForegroundColor Yellow
+                          #     $invoked | ForEach-Object { Write-Host "    - $($_.Extent.Text)" -ForegroundColor Gray }
+                          # }
+                          # if ($imports) {
+                          #     Write-Host "  Imported modules:" -ForegroundColor Yellow
+                          #     $imports | ForEach-Object { Write-Host "    - $($_.CommandElements[1])" -ForegroundColor Gray }
+                          # }
+                          $ListedScripts | Sort-Object Name | Format-Table -Autosize
+                      
+                      
+Options             : None
+Description         : 
+Verb                : Output
+Noun                : FullListOfCustomMethods
+HelpFile            : 
+OutputType          : {}
+Name                : Output-FullListOfCustomMethods
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+PSPath              : Microsoft.PowerShell.Core\Function::prompt
+PSDrive             : Function
+PSProvider          : Microsoft.PowerShell.Core\Function
+PSIsContainer       : False
+HelpUri             : 
+ScriptBlock         : 
+                      	$FakeCode = [int]!$global:?
+                      	# NOTE: We disable strict mode for the scope of this function because it unhelpfully throws an
+                      	# error when $LastHistoryEntry is null, and is not otherwise useful.
+                      	Set-StrictMode -Off
+                      	$LastHistoryEntry = Get-History -Count 1
+                      	$Result = ""
+                      	# Skip finishing the command if the first command has not yet started or an execution has not
+                      	# yet begun
+                      	if ($Global:__VSCodeState.LastHistoryId -ne -1 -and ($Global:__VSCodeState.HasPSReadLine -eq $false -or $Global:__VSCodeState.IsInExecution -eq $true)) {
+                      		$Global:__VSCodeState.IsInExecution = $false
+                      		if ($LastHistoryEntry.Id -eq $Global:__VSCodeState.LastHistoryId) {
+                      			# Don't provide a command line or exit code if there was no history entry (eg. ctrl+c, enter on no command)
+                      			$Result += "$([char]0x1b)]633;D`a"
+                      		}
+                      		else {
+                      			# Command finished exit code
+                      			# OSC 633 ; D [; <ExitCode>] ST
+                      			$Result += "$([char]0x1b)]633;D;$FakeCode`a"
+                      		}
+                      	}
+                      	# Prompt started
+                      	# OSC 633 ; A ST
+                      	$Result += "$([char]0x1b)]633;A`a"
+                      	# Current working directory
+                      	# OSC 633 ; <Property>=<Value> ST
+                      	$Result += if ($pwd.Provider.Name -eq 'FileSystem') { "$([char]0x1b)]633;P;Cwd=$(__VSCode-Escape-Value $pwd.ProviderPath)`a" }
+                      
+                      	# Send current environment variables as JSON
+                      	# OSC 633 ; EnvJson ; <Environment> ; <Nonce>
+                      	if ($Global:__VSCodeState.EnvVarsToReport.Count -gt 0) {
+                      		$envMap = @{}
+                              foreach ($varName in $Global:__VSCodeState.EnvVarsToReport) {
+                                  if (Test-Path "env:$varName") {
+                                      $envMap[$varName] = (Get-Item "env:$varName").Value
+                                  }
+                              }
+                              $envJson = $envMap | ConvertTo-Json -Compress
+                              $Result += "$([char]0x1b)]633;EnvJson;$(__VSCode-Escape-Value $envJson);$($Global:__VSCodeState.Nonce)`a"
+                      	}
+                      
+                      	# Before running the original prompt, put $? back to what it was:
+                      	if ($FakeCode -ne 0) {
+                      		Write-Error "failure" -ea ignore
+                      	}
+                      	# Run the original prompt
+                      	$OriginalPrompt += $Global:__VSCodeState.OriginalPrompt.Invoke()
+                      	$Result += $OriginalPrompt
+                      
+                      	# Prompt
+                      	# OSC 633 ; <Property>=<Value> ST
+                      	if ($Global:__VSCodeState.IsStable -eq "0") {
+                      		$Result += "$([char]0x1b)]633;P;Prompt=$(__VSCode-Escape-Value $OriginalPrompt)`a"
+                      	}
+                      
+                      	# Write command started
+                      	$Result += "$([char]0x1b)]633;B`a"
+                      	$Global:__VSCodeState.LastHistoryId = $LastHistoryEntry.Id
+                      	return $Result
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                      	$FakeCode = [int]!$global:?
+                      	# NOTE: We disable strict mode for the scope of this function because it unhelpfully throws an
+                      	# error when $LastHistoryEntry is null, and is not otherwise useful.
+                      	Set-StrictMode -Off
+                      	$LastHistoryEntry = Get-History -Count 1
+                      	$Result = ""
+                      	# Skip finishing the command if the first command has not yet started or an execution has not
+                      	# yet begun
+                      	if ($Global:__VSCodeState.LastHistoryId -ne -1 -and ($Global:__VSCodeState.HasPSReadLine -eq $false -or $Global:__VSCodeState.IsInExecution -eq $true)) {
+                      		$Global:__VSCodeState.IsInExecution = $false
+                      		if ($LastHistoryEntry.Id -eq $Global:__VSCodeState.LastHistoryId) {
+                      			# Don't provide a command line or exit code if there was no history entry (eg. ctrl+c, enter on no command)
+                      			$Result += "$([char]0x1b)]633;D`a"
+                      		}
+                      		else {
+                      			# Command finished exit code
+                      			# OSC 633 ; D [; <ExitCode>] ST
+                      			$Result += "$([char]0x1b)]633;D;$FakeCode`a"
+                      		}
+                      	}
+                      	# Prompt started
+                      	# OSC 633 ; A ST
+                      	$Result += "$([char]0x1b)]633;A`a"
+                      	# Current working directory
+                      	# OSC 633 ; <Property>=<Value> ST
+                      	$Result += if ($pwd.Provider.Name -eq 'FileSystem') { "$([char]0x1b)]633;P;Cwd=$(__VSCode-Escape-Value $pwd.ProviderPath)`a" }
+                      
+                      	# Send current environment variables as JSON
+                      	# OSC 633 ; EnvJson ; <Environment> ; <Nonce>
+                      	if ($Global:__VSCodeState.EnvVarsToReport.Count -gt 0) {
+                      		$envMap = @{}
+                              foreach ($varName in $Global:__VSCodeState.EnvVarsToReport) {
+                                  if (Test-Path "env:$varName") {
+                                      $envMap[$varName] = (Get-Item "env:$varName").Value
+                                  }
+                              }
+                              $envJson = $envMap | ConvertTo-Json -Compress
+                              $Result += "$([char]0x1b)]633;EnvJson;$(__VSCode-Escape-Value $envJson);$($Global:__VSCodeState.Nonce)`a"
+                      	}
+                      
+                      	# Before running the original prompt, put $? back to what it was:
+                      	if ($FakeCode -ne 0) {
+                      		Write-Error "failure" -ea ignore
+                      	}
+                      	# Run the original prompt
+                      	$OriginalPrompt += $Global:__VSCodeState.OriginalPrompt.Invoke()
+                      	$Result += $OriginalPrompt
+                      
+                      	# Prompt
+                      	# OSC 633 ; <Property>=<Value> ST
+                      	if ($Global:__VSCodeState.IsStable -eq "0") {
+                      		$Result += "$([char]0x1b)]633;P;Prompt=$(__VSCode-Escape-Value $OriginalPrompt)`a"
+                      	}
+                      
+                      	# Write command started
+                      	$Result += "$([char]0x1b)]633;B`a"
+                      	$Global:__VSCodeState.LastHistoryId = $LastHistoryEntry.Id
+                      	return $Result
+                      
+Options             : None
+Description         : 
+Verb                : 
+Noun                : 
+HelpFile            : 
+OutputType          : {}
+Name                : prompt
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                      		$CommandLine = $Global:__VSCodeState.OriginalPSConsoleHostReadLine.Invoke()
+                      		$Global:__VSCodeState.IsInExecution = $true
+                      
+                      		# Command line
+                      		# OSC 633 ; E [; <CommandLine> [; <Nonce>]] ST
+                      		$Result = "$([char]0x1b)]633;E;"
+                      		$Result += $(__VSCode-Escape-Value $CommandLine)
+                      		# Only send the nonce if the OS is not Windows 10 as it seems to echo to the terminal
+                      		# sometimes
+                      		if ($Global:__VSCodeState.IsWindows10 -eq $false) {
+                      			$Result += ";$($Global:__VSCodeState.Nonce)"
+                      		}
+                      		$Result += "`a"
+                      
+                      		# Command executed
+                      		# OSC 633 ; C ST
+                      		$Result += "$([char]0x1b)]633;C`a"
+                      
+                      		# Write command executed sequence directly to Console to avoid the new line from Write-Host
+                      		[Console]::Write($Result)
+                      
+                      		$CommandLine
+                      	
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                      		$CommandLine = $Global:__VSCodeState.OriginalPSConsoleHostReadLine.Invoke()
+                      		$Global:__VSCodeState.IsInExecution = $true
+                      
+                      		# Command line
+                      		# OSC 633 ; E [; <CommandLine> [; <Nonce>]] ST
+                      		$Result = "$([char]0x1b)]633;E;"
+                      		$Result += $(__VSCode-Escape-Value $CommandLine)
+                      		# Only send the nonce if the OS is not Windows 10 as it seems to echo to the terminal
+                      		# sometimes
+                      		if ($Global:__VSCodeState.IsWindows10 -eq $false) {
+                      			$Result += ";$($Global:__VSCodeState.Nonce)"
+                      		}
+                      		$Result += "`a"
+                      
+                      		# Command executed
+                      		# OSC 633 ; C ST
+                      		$Result += "$([char]0x1b)]633;C`a"
+                      
+                      		# Write command executed sequence directly to Console to avoid the new line from Write-Host
+                      		[Console]::Write($Result)
+                      
+                      		$CommandLine
+                      	
+Options             : None
+Description         : 
+Verb                : 
+Noun                : 
+HelpFile            : 
+OutputType          : {}
+Name                : PSConsoleHostReadLine
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          <#
+                          Volumes
+                          C:\Source\FCSAmerica\CustomerBenchmark\Source\CustomerBenchmark\NightlySynchConsole.UI\appsettings.development.json:/app/appsettings.json
+                          C:\Source\FCSAmerica\CustomerBenchmark\Source\CustomerBenchmark\NightlySynchConsole.UI\appsettings.development.json:/app/appsettings.Development.json
+                          DOTNET_ENVIRONMENT
+                          Development
+                          #>
+                          
+                          
+                              # docker run --hostname=7bca1484064c --env=DOTNET_ENVIRONMENT=Development --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --env=ASPNETCORE_URLS=http://+:80 --env=DOTNET_RUNNING_IN_CONTAINER=true --env=DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false --env=DOTNET_VERSION=6.0.16 --env=ASPNET_VERSION=6.0.16 --volume=C:\Source\FCSAmerica\CustomerBenchmark\Source\CustomerBenchmark\NightlySynchConsole.UI\appsettings.development.json:/app/appsettings.json --workdir=/app --label='com.azure.dev.image.build.buildnumber=20230502.1' --label='com.azure.dev.image.build.builduri=vstfs:///Build/Build/910836' --label='com.azure.dev.image.build.definitionname=CustomerBenchmark' --label='com.azure.dev.image.build.repository.name=CustomerBenchmark' --label='com.azure.dev.image.build.repository.uri=https://fcsamerica@dev.azure.com/fcsamerica/CustomerBenchmark/_git/CustomerBenchmark' --label='com.azure.dev.image.build.sourcebranchname=119226-console-net6-upgrade' --label='com.azure.dev.image.build.sourceversion=875e3659f2ab5f10b70e1de2a06bed141070deb1' --label='com.azure.dev.image.system.teamfoundationcollectionuri=https://dev.azure.com/fcsamerica/' --label='com.azure.dev.image.system.teamproject=CustomerBenchmark' --label='com.fcsamerica.baseimagebuildtimestamp=1681311104' --label='com.fcsamerica.baseimagefullversion=6.0.16-alpine' --label='com.fcsamerica.owner=solutionsdelivery4@fcsamerica.com' --label='image.base.digest=sha256:4a424e7711fddeae612b72baa54fcf8c8d558e63693dc580ef8151bbf29764d4' --label='image.base.ref.name=hubpcontainersacr.azurecr.io/library/dotnet/aspnet:6.0-alpine' --runtime=runc -d hubpcontainersacr.azurecr.io/reportingandanalytics/csb/nightlysync/worker:1.6.23122.1
+                              # docker pull hubpcontainersacr.azurecr.io/enablement-utilities/tsm/webapi/api:latest
+                              # docker pull hubpcontainersacr.azurecr.io/enablement-utilities/tsm/web/ui:latest
+                          
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          <#
+                          Volumes
+                          C:\Source\FCSAmerica\CustomerBenchmark\Source\CustomerBenchmark\NightlySynchConsole.UI\appsettings.development.json:/app/appsettings.json
+                          C:\Source\FCSAmerica\CustomerBenchmark\Source\CustomerBenchmark\NightlySynchConsole.UI\appsettings.development.json:/app/appsettings.Development.json
+                          DOTNET_ENVIRONMENT
+                          Development
+                          #>
+                          
+                          
+                              # docker run --hostname=7bca1484064c --env=DOTNET_ENVIRONMENT=Development --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --env=ASPNETCORE_URLS=http://+:80 --env=DOTNET_RUNNING_IN_CONTAINER=true --env=DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false --env=DOTNET_VERSION=6.0.16 --env=ASPNET_VERSION=6.0.16 --volume=C:\Source\FCSAmerica\CustomerBenchmark\Source\CustomerBenchmark\NightlySynchConsole.UI\appsettings.development.json:/app/appsettings.json --workdir=/app --label='com.azure.dev.image.build.buildnumber=20230502.1' --label='com.azure.dev.image.build.builduri=vstfs:///Build/Build/910836' --label='com.azure.dev.image.build.definitionname=CustomerBenchmark' --label='com.azure.dev.image.build.repository.name=CustomerBenchmark' --label='com.azure.dev.image.build.repository.uri=https://fcsamerica@dev.azure.com/fcsamerica/CustomerBenchmark/_git/CustomerBenchmark' --label='com.azure.dev.image.build.sourcebranchname=119226-console-net6-upgrade' --label='com.azure.dev.image.build.sourceversion=875e3659f2ab5f10b70e1de2a06bed141070deb1' --label='com.azure.dev.image.system.teamfoundationcollectionuri=https://dev.azure.com/fcsamerica/' --label='com.azure.dev.image.system.teamproject=CustomerBenchmark' --label='com.fcsamerica.baseimagebuildtimestamp=1681311104' --label='com.fcsamerica.baseimagefullversion=6.0.16-alpine' --label='com.fcsamerica.owner=solutionsdelivery4@fcsamerica.com' --label='image.base.digest=sha256:4a424e7711fddeae612b72baa54fcf8c8d558e63693dc580ef8151bbf29764d4' --label='image.base.ref.name=hubpcontainersacr.azurecr.io/library/dotnet/aspnet:6.0-alpine' --runtime=runc -d hubpcontainersacr.azurecr.io/reportingandanalytics/csb/nightlysync/worker:1.6.23122.1
+                              # docker pull hubpcontainersacr.azurecr.io/enablement-utilities/tsm/webapi/api:latest
+                              # docker pull hubpcontainersacr.azurecr.io/enablement-utilities/tsm/web/ui:latest
+                          
+Options             : None
+Description         : 
+Verb                : Pull
+Noun                : Docker
+HelpFile            : 
+OutputType          : {}
+Name                : Pull-Docker
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          . $Profile.CurrentUserAllHosts 
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          . $Profile.CurrentUserAllHosts 
+                      
+Options             : None
+Description         : 
+Verb                : Reload
+Noun                : Profile
+HelpFile            : 
+OutputType          : {}
+Name                : Reload-Profile
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          . "K:\kernm.devcontainer.envsetup\profile-extras\DockerComposeTester.ps1"
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          . "K:\kernm.devcontainer.envsetup\profile-extras\DockerComposeTester.ps1"
+                      
+Options             : None
+Description         : 
+Verb                : Reload
+Noun                : sdc
+HelpFile            : 
+OutputType          : {}
+Name                : Reload-sdc
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          Remove-Item "C:\Users\kernm\AppData\Local\LINQPad\" -Recurse -Force
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          Remove-Item "C:\Users\kernm\AppData\Local\LINQPad\" -Recurse -Force
+                      
+Options             : None
+Description         : 
+Verb                : Remove
+Noun                : LinqPad7TempDir
+HelpFile            : 
+OutputType          : {}
+Name                : Remove-LinqPad7TempDir
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                      	param ([string[]] $Chord, [string[]]$Sequence)
+                      	try {
+                      		$Handler = Get-PSReadLineKeyHandler -Chord $Chord | Select-Object -First 1
+                      	}
+                       catch [System.Management.Automation.ParameterBindingException] {
+                      		# PowerShell 5.1 ships with PSReadLine 2.0.0 which does not have -Chord,
+                      		# so we check what's bound and filter it.
+                      		$Handler = Get-PSReadLineKeyHandler -Bound | Where-Object -FilterScript { $_.Key -eq $Chord } | Select-Object -First 1
+                      	}
+                      	if ($Handler) {
+                      		Set-PSReadLineKeyHandler -Chord $Sequence -Function $Handler.Function
+                      	}
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                      	param ([string[]] $Chord, [string[]]$Sequence)
+                      	try {
+                      		$Handler = Get-PSReadLineKeyHandler -Chord $Chord | Select-Object -First 1
+                      	}
+                       catch [System.Management.Automation.ParameterBindingException] {
+                      		# PowerShell 5.1 ships with PSReadLine 2.0.0 which does not have -Chord,
+                      		# so we check what's bound and filter it.
+                      		$Handler = Get-PSReadLineKeyHandler -Bound | Where-Object -FilterScript { $_.Key -eq $Chord } | Select-Object -First 1
+                      	}
+                      	if ($Handler) {
+                      		Set-PSReadLineKeyHandler -Chord $Sequence -Function $Handler.Function
+                      	}
+                      
+Options             : None
+Description         : 
+Verb                : Set
+Noun                : MappedKeyHandler
+HelpFile            : 
+OutputType          : {}
+Name                : Set-MappedKeyHandler
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {[Chord, System.Management.Automation.ParameterMetadata], [Sequence, System.Management.Automation.ParameterMetadata]}
+ParameterSets       : {[[-Chord] <string[]>] [[-Sequence] <string[]>]}
+
+HelpUri             : 
+ScriptBlock         : 
+                      	Set-MappedKeyHandler -Chord Ctrl+Spacebar -Sequence 'F12,a'
+                      	Set-MappedKeyHandler -Chord Alt+Spacebar -Sequence 'F12,b'
+                      	Set-MappedKeyHandler -Chord Shift+Enter -Sequence 'F12,c'
+                      	Set-MappedKeyHandler -Chord Shift+End -Sequence 'F12,d'
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                      	Set-MappedKeyHandler -Chord Ctrl+Spacebar -Sequence 'F12,a'
+                      	Set-MappedKeyHandler -Chord Alt+Spacebar -Sequence 'F12,b'
+                      	Set-MappedKeyHandler -Chord Shift+Enter -Sequence 'F12,c'
+                      	Set-MappedKeyHandler -Chord Shift+End -Sequence 'F12,d'
+                      
+Options             : None
+Description         : 
+Verb                : Set
+Noun                : MappedKeyHandlers
+HelpFile            : 
+OutputType          : {}
+Name                : Set-MappedKeyHandlers
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          get-psreadlineoption
+                          code C:\Users\kernm\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          get-psreadlineoption
+                          code C:\Users\kernm\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\
+                      
+Options             : None
+Description         : 
+Verb                : 
+Noun                : 
+HelpFile            : 
+OutputType          : {}
+Name                : ShowHostInformation
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          param (
+                              [string]$dockerComposeFile,
+                              [string]$buildArgs
+                          )
+                      
+                          if (-Not (Test-Path $dockerComposeFile)) {
+                              Write-Host "The specified docker-compose file does not exist: $dockerComposeFile"
+                              #exit 1
+                          }
+                      
+                          Write-Host "Starting docker-compose build with file: $dockerComposeFile"
+                          Write-Host "Build arguments: $buildArgs"
+                      
+                      
+                          # if ($dockerComposeFile -like "\") {
+                          #     $directoryArray = $dockerComposeFile -split "\"
+                          #     $numberofSlashes = $directoryArray.Count
+                          #     if ($numberofSlashes -gt 1) {
+                          #         $directoryArray = $directoryArray[0..($numberofSlashes - 2)]
+                          #         $directory = $directoryArray -join "/"
+                          #         Write-Host "Navigating to directory: $directory" -ForegroundColor Green
+                          #         Set-Location $directory
+                          #     }
+                          # }
+                          # else{
+                          #     Write-Host "Did not contain \" -ForegroundColor Green
+                          # }
+                          if ($dockerComposeFile -match "[\\/]+") {
+                              $HasSubDirectories = $true
+                              $directoryArray = $dockerComposeFile -split "[\\/]"
+                              $numberofSlashes = $directoryArray.Count
+                              if ($numberofSlashes -gt 1) {
+                                  $directoryArray = $directoryArray[0..($numberofSlashes - 3)]
+                                  $directory = $directoryArray -join "/"
+                                  Write-Host "Navigating to directory: $directory" -ForegroundColor Green
+                                  Set-Location $directory
+                              }
+                              $dockerComposeFileToUse = $dockerComposeFile -replace "[\\/]+", "\"
+                              $dockerComposeFileToUse = "./$(($dockerComposeFile -split "[\\/]" | Select-Object -Last 2) -join "\")"
+                              Write-Host "Using Docker File $dockerComposeFileToUse" -ForegroundColor Green
+                          }
+                          else {
+                              Write-Host "Did not contain any directory separators" -ForegroundColor Green
+                              $dockerComposeFileToUse = $dockerComposeFile
+                          }
+                      
+                      
+                          try {
+                              <#         $processInfo = New-Object System.Diagnostics.ProcessStartInfo
+                              $processInfo.FileName = "docker-compose"
+                              #  up 
+                              $processInfo.Arguments = " --progress plain -f `"$dockerComposeFile`" build $buildArgs loanmonitoringinternalwebui"
+                              $processInfo.RedirectStandardOutput = $true
+                              $processInfo.RedirectStandardError = $true
+                              $processInfo.UseShellExecute = $false
+                              $processInfo.CreateNoWindow = $true
+                      
+                              $process = New-Object System.Diagnostics.Process
+                              $process.StartInfo = $processInfo
+                              $process.Start() | Out-Null
+                      
+                              $output = $process.StandardOutput.ReadToEnd()
+                              $errorOutput = $process.StandardError.ReadToEnd()
+                      
+                              $process.WaitForExit()
+                      
+                              Write-Host $output #>
+                      
+                      
+                              docker-compose --progress plain -f $dockerComposeFileToUse build $buildArgs loanmonitoringinternalwebui
+                              if ($errorOutput) {
+                                  Write-Host "Errors encountered during build:"
+                                  Write-Host $errorOutput
+                              }
+                      
+                              if ($process.ExitCode -ne 0) {
+                                  Write-Host "docker-compose build failed with exit code $($process.ExitCode)"
+                                  #exit $process.ExitCode
+                              }
+                      
+                              Write-Host "docker-compose build completed successfully."
+                          }
+                          catch {
+                              Write-Host "An error occurred: $_"
+                          }
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          param (
+                              [string]$dockerComposeFile,
+                              [string]$buildArgs
+                          )
+                      
+                          if (-Not (Test-Path $dockerComposeFile)) {
+                              Write-Host "The specified docker-compose file does not exist: $dockerComposeFile"
+                              #exit 1
+                          }
+                      
+                          Write-Host "Starting docker-compose build with file: $dockerComposeFile"
+                          Write-Host "Build arguments: $buildArgs"
+                      
+                      
+                          # if ($dockerComposeFile -like "\") {
+                          #     $directoryArray = $dockerComposeFile -split "\"
+                          #     $numberofSlashes = $directoryArray.Count
+                          #     if ($numberofSlashes -gt 1) {
+                          #         $directoryArray = $directoryArray[0..($numberofSlashes - 2)]
+                          #         $directory = $directoryArray -join "/"
+                          #         Write-Host "Navigating to directory: $directory" -ForegroundColor Green
+                          #         Set-Location $directory
+                          #     }
+                          # }
+                          # else{
+                          #     Write-Host "Did not contain \" -ForegroundColor Green
+                          # }
+                          if ($dockerComposeFile -match "[\\/]+") {
+                              $HasSubDirectories = $true
+                              $directoryArray = $dockerComposeFile -split "[\\/]"
+                              $numberofSlashes = $directoryArray.Count
+                              if ($numberofSlashes -gt 1) {
+                                  $directoryArray = $directoryArray[0..($numberofSlashes - 3)]
+                                  $directory = $directoryArray -join "/"
+                                  Write-Host "Navigating to directory: $directory" -ForegroundColor Green
+                                  Set-Location $directory
+                              }
+                              $dockerComposeFileToUse = $dockerComposeFile -replace "[\\/]+", "\"
+                              $dockerComposeFileToUse = "./$(($dockerComposeFile -split "[\\/]" | Select-Object -Last 2) -join "\")"
+                              Write-Host "Using Docker File $dockerComposeFileToUse" -ForegroundColor Green
+                          }
+                          else {
+                              Write-Host "Did not contain any directory separators" -ForegroundColor Green
+                              $dockerComposeFileToUse = $dockerComposeFile
+                          }
+                      
+                      
+                          try {
+                              <#         $processInfo = New-Object System.Diagnostics.ProcessStartInfo
+                              $processInfo.FileName = "docker-compose"
+                              #  up 
+                              $processInfo.Arguments = " --progress plain -f `"$dockerComposeFile`" build $buildArgs loanmonitoringinternalwebui"
+                              $processInfo.RedirectStandardOutput = $true
+                              $processInfo.RedirectStandardError = $true
+                              $processInfo.UseShellExecute = $false
+                              $processInfo.CreateNoWindow = $true
+                      
+                              $process = New-Object System.Diagnostics.Process
+                              $process.StartInfo = $processInfo
+                              $process.Start() | Out-Null
+                      
+                              $output = $process.StandardOutput.ReadToEnd()
+                              $errorOutput = $process.StandardError.ReadToEnd()
+                      
+                              $process.WaitForExit()
+                      
+                              Write-Host $output #>
+                      
+                      
+                              docker-compose --progress plain -f $dockerComposeFileToUse build $buildArgs loanmonitoringinternalwebui
+                              if ($errorOutput) {
+                                  Write-Host "Errors encountered during build:"
+                                  Write-Host $errorOutput
+                              }
+                      
+                              if ($process.ExitCode -ne 0) {
+                                  Write-Host "docker-compose build failed with exit code $($process.ExitCode)"
+                                  #exit $process.ExitCode
+                              }
+                      
+                              Write-Host "docker-compose build completed successfully."
+                          }
+                          catch {
+                              Write-Host "An error occurred: $_"
+                          }
+                      
+Options             : None
+Description         : 
+Verb                : Start
+Noun                : DockerComposeWithArgs
+HelpFile            : 
+OutputType          : {}
+Name                : Start-DockerComposeWithArgs
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {[dockerComposeFile, System.Management.Automation.ParameterMetadata], [buildArgs, System.Management.Automation.ParameterMetadata]}
+ParameterSets       : {[[-dockerComposeFile] <string>] [[-buildArgs] <string>]}
+
+HelpUri             : 
+ScriptBlock         : 
+                          Current-Project;
+                          # $ExecutableWithParameters = "C:\Source\FCSAmerica\Organization\Source\Organization.ActiveDirectorySync\bin\Debug\net6.0\FCSAmerica.Organization.ActiveDirectorySync.exe --postdeploytest";
+                          $ExecutableWithParameters = "C:\Source\FCSAmerica\Organization\Source\Organization.Alerts\bin\Debug\net6.0\FCSAmerica.Organization.Alerts.exe";
+                          runas /user:fcsamerica\Organization_o  "$($ExecutableWithParameters)";
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          Current-Project;
+                          # $ExecutableWithParameters = "C:\Source\FCSAmerica\Organization\Source\Organization.ActiveDirectorySync\bin\Debug\net6.0\FCSAmerica.Organization.ActiveDirectorySync.exe --postdeploytest";
+                          $ExecutableWithParameters = "C:\Source\FCSAmerica\Organization\Source\Organization.Alerts\bin\Debug\net6.0\FCSAmerica.Organization.Alerts.exe";
+                          runas /user:fcsamerica\Organization_o  "$($ExecutableWithParameters)";
+                      
+Options             : None
+Description         : 
+Verb                : Start
+Noun                : TestProject
+HelpFile            : 
+OutputType          : {}
+Name                : Start-TestProject
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {}
+ParameterSets       : {}
+
+HelpUri             : 
+ScriptBlock         : 
+                          param (
+                              [string]$DriveLetterToTest
+                          )
+                          Write-Host "Running Test-DriveLetter from: $PSCommandPath" -ForegroundColor DarkBlue
+                          $patterns = "O|P|W"
+                          [bool]$IsDriveLetterAvailable = $null;
+                          if ($DriveLetterToTest.Length -gt 1) {
+                              if (($DriveLetterToTest -like "*:\" || $DriveLetterToTest -like "*:*") -and $DriveLetterToTest.Length -lt 4) {
+                                  Write-Debug "Updating Drive Letter to test to: $($DriveLetterToTest.Substring(0,1))"
+                                  $DriveLetterToTest = $DriveLetterToTest.Substring(0, 1)
+                              }
+                              else {
+                                  Write-Error "Invalid Drive Letter: $($DriveLetterToTest.Length)"
+                                  #return
+                              }
+                              # Write-Error "Invalid Drive Letter: $($DriveLetterToTest.Length)"
+                              # return
+                          }
+                          if ($DriveLetterToTest -imatch $patterns) {
+                              Write-Error "Match found!"
+                              $IsDriveLetterAvailable = $false
+                          }
+                          else {
+                              
+                              if (Get-PSDrive -Name $DriveLetterToTest.Substring(0,1) -ErrorAction SilentlyContinue) {
+                                  # Write-Error "Drive letter $driveLetter is in use."
+                                  $IsDriveLetterAvailable = $false
+                              }
+                              else {
+                                  # Write-Output "Drive Letter $($DriveLetterToTest) is good: No match found."
+                                  $IsDriveLetterAvailable = $true
+                              }
+                          }
+                          return $IsDriveLetterAvailable
+                      
+CmdletBinding       : False
+DefaultParameterSet : 
+Definition          : 
+                          param (
+                              [string]$DriveLetterToTest
+                          )
+                          Write-Host "Running Test-DriveLetter from: $PSCommandPath" -ForegroundColor DarkBlue
+                          $patterns = "O|P|W"
+                          [bool]$IsDriveLetterAvailable = $null;
+                          if ($DriveLetterToTest.Length -gt 1) {
+                              if (($DriveLetterToTest -like "*:\" || $DriveLetterToTest -like "*:*") -and $DriveLetterToTest.Length -lt 4) {
+                                  Write-Debug "Updating Drive Letter to test to: $($DriveLetterToTest.Substring(0,1))"
+                                  $DriveLetterToTest = $DriveLetterToTest.Substring(0, 1)
+                              }
+                              else {
+                                  Write-Error "Invalid Drive Letter: $($DriveLetterToTest.Length)"
+                                  #return
+                              }
+                              # Write-Error "Invalid Drive Letter: $($DriveLetterToTest.Length)"
+                              # return
+                          }
+                          if ($DriveLetterToTest -imatch $patterns) {
+                              Write-Error "Match found!"
+                              $IsDriveLetterAvailable = $false
+                          }
+                          else {
+                              
+                              if (Get-PSDrive -Name $DriveLetterToTest.Substring(0,1) -ErrorAction SilentlyContinue) {
+                                  # Write-Error "Drive letter $driveLetter is in use."
+                                  $IsDriveLetterAvailable = $false
+                              }
+                              else {
+                                  # Write-Output "Drive Letter $($DriveLetterToTest) is good: No match found."
+                                  $IsDriveLetterAvailable = $true
+                              }
+                          }
+                          return $IsDriveLetterAvailable
+                      
+Options             : None
+Description         : 
+Verb                : Test
+Noun                : DriveLetter
+HelpFile            : 
+OutputType          : {}
+Name                : Test-DriveLetter
+CommandType         : Function
+Source              : 
+Version             : 
+Visibility          : Public
+ModuleName          : 
+Module              : 
+RemotingCapability  : PowerShell
+Parameters          : {[DriveLetterToTest, System.Management.Automation.ParameterMetadata]}
+ParameterSets       : {[[-DriveLetterToTest] <string>]}
+

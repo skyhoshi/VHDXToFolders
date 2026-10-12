@@ -1,0 +1,2575 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.ascx\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.ascx"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ascx]
+@="ASCX Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ascx\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ascx\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ascx\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.asp\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.asp"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.asp]
+@="ASP Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.asp\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.asp\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.asp\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.aspx\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.aspx"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.aspx]
+@="ASPX Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.aspx\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.aspx\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.aspx\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.bash\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.bash"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash]
+@="Bash Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.bash_login\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.bash_login"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash_login]
+@="Bash Login Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash_login\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash_login\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash_login\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.bash_logout\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.bash_logout"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash_logout]
+@="Bash Logout Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash_logout\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash_logout\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash_logout\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.bash_profile\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.bash_profile"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash_profile]
+@="Bash Profile Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash_profile\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash_profile\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bash_profile\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.bashrc\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.bashrc"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bashrc]
+@="Bash RC Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bashrc\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bashrc\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bashrc\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.bib\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.bib"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bib]
+@="BibTeX Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bib\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bib\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bib\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.bowerrc\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.bowerrc"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bowerrc]
+@="Bower RC Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bowerrc\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\bower.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bowerrc\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.bowerrc\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.c++\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.c++"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.c++]
+@="C++ Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.c++\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.c++\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.c++\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.c\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.c"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.c]
+@="C Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.c\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\c.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.c\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.c\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.cc\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.cc"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cc]
+@="C++ Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cc\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cc\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cc\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.cfg\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.cfg"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cfg]
+@="Configuration Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cfg\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cfg\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cfg\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.cjs\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.cjs"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cjs]
+@="JavaScript Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cjs\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\javascript.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cjs\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cjs\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.clj\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.clj"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.clj]
+@="Clojure Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.clj\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.clj\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.clj\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.cljs\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.cljs"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cljs]
+@="ClojureScript Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cljs\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cljs\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cljs\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.cljx\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.cljx"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cljx]
+@="CLJX Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cljx\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cljx\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cljx\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.clojure\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.clojure"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.clojure]
+@="Clojure Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.clojure\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.clojure\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.clojure\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.cls\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.cls"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cls]
+@="LaTeX Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cls\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cls\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cls\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.code-workspace\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.code-workspace"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.code-workspace]
+@="Code Workspace Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.code-workspace\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.code-workspace\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.code-workspace\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.cmake\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.cmake"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cmake]
+@="CMake Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cmake\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cmake\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cmake\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.coffee\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.coffee"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.coffee]
+@="CoffeeScript Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.coffee\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.coffee\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.coffee\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.config\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.config"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.config]
+@="Configuration Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.config\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.config\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.config\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.containerfile\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.containerfile"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.containerfile]
+@="Containerfile Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.containerfile\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.containerfile\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.containerfile\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.cpp\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.cpp"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cpp]
+@="C++ Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cpp\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cpp\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cpp\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.cs\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.cs"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cs]
+@="C# Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cs\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\csharp.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cs\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cs\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.cshtml\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.cshtml"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cshtml]
+@="CSHTML Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cshtml\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cshtml\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cshtml\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.csproj\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.csproj"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.csproj]
+@="C# Project Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.csproj\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.csproj\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.csproj\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.css\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.css"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.css]
+@="CSS Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.css\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\css.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.css\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.css\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.csv\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.csv"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.csv]
+@="Comma Separated Values Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.csv\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.csv\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.csv\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.csx\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.csx"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.csx]
+@="C# Script Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.csx\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\csharp.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.csx\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.csx\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.ctp\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.ctp"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ctp]
+@="CakePHP Template Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ctp\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ctp\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ctp\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.cxx\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.cxx"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cxx]
+@="C++ Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cxx\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cxx\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.cxx\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.dart\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.dart"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dart]
+@="Dart Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dart\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dart\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dart\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.diff\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.diff"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.diff]
+@="Diff Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.diff\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.diff\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.diff\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.dockerfile\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.dockerfile"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dockerfile]
+@="Dockerfile Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dockerfile\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dockerfile\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dockerfile\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.dot\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.dot"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dot]
+@="Dot Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dot\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dot\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dot\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.dtd\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.dtd"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dtd]
+@="Document Type Definition Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dtd\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dtd\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.dtd\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.editorconfig\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.editorconfig"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.editorconfig]
+@="Editor Config Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.editorconfig\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.editorconfig\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.editorconfig\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.edn\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.edn"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.edn]
+@="Extensible Data Notation Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.edn\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.edn\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.edn\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.erb\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.erb"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.erb]
+@="Ruby Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.erb\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\ruby.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.erb\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.erb\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.eyaml\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.eyaml"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.eyaml]
+@="Hiera Eyaml Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.eyaml\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\yaml.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.eyaml\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.eyaml\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.eyml\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.eyml"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.eyml]
+@="Hiera Eyaml Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.eyml\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\yaml.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.eyml\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.eyml\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.fs\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.fs"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fs]
+@="F# Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fs\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fs\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fs\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.fsi\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.fsi"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fsi]
+@="F# Signature Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fsi\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fsi\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fsi\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.fsscript\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.fsscript"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fsscript]
+@="F# Script Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fsscript\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fsscript\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fsscript\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.fsx\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.fsx"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fsx]
+@="F# Script Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fsx\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fsx\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.fsx\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.gemspec\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.gemspec"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gemspec]
+@="Gemspec Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gemspec\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\ruby.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gemspec\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gemspec\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.gitattributes\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.gitattributes"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gitattributes]
+@="Git Attributes Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gitattributes\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gitattributes\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gitattributes\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.gitconfig\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.gitconfig"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gitconfig]
+@="Git Config Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gitconfig\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gitconfig\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gitconfig\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.gitignore\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.gitignore"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gitignore]
+@="Git Ignore Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gitignore\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gitignore\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gitignore\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.go\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.go"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.go]
+@="Go Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.go\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\go.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.go\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.go\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.gradle\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.gradle"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gradle]
+@="Gradle Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gradle\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gradle\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.gradle\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.groovy\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.groovy"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.groovy]
+@="Groovy Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.groovy\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.groovy\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.groovy\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.h\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.h"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.h]
+@="C Header Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.h\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\c.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.h\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.h\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.handlebars\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.handlebars"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.handlebars]
+@="Handlebars Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.handlebars\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.handlebars\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.handlebars\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.hbs\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.hbs"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hbs]
+@="Handlebars Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hbs\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hbs\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hbs\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.h++\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.h++"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.h++]
+@="C++ Header Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.h++\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.h++\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.h++\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.hh\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.hh"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hh]
+@="C++ Header Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hh\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hh\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hh\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.hpp\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.hpp"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hpp]
+@="C++ Header Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hpp\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hpp\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hpp\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.htm\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.htm"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.htm]
+@="HTML Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.htm\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.htm\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.htm\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.html\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.html"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.html]
+@="HTML Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.html\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.html\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.html\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.hxx\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.hxx"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hxx]
+@="C++ Header Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hxx\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hxx\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.hxx\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.ini\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.ini"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ini]
+@="INI Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ini\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ini\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ini\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.ipynb\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.ipynb"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ipynb]
+@="Jupyter Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ipynb\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ipynb\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ipynb\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.jade\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.jade"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jade]
+@="Jade Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jade\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\jade.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jade\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jade\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.jav\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.jav"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jav]
+@="Java Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jav\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\java.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jav\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jav\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.java\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.java"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.java]
+@="Java Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.java\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\java.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.java\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.java\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.js\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.js"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.js]
+@="JavaScript Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.js\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\javascript.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.js\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.js\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.jsx\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.jsx"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jsx]
+@="JavaScript Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jsx\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\react.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jsx\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jsx\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.jscsrc\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.jscsrc"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jscsrc]
+@="JSCS RC Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jscsrc\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\javascript.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jscsrc\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jscsrc\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.jshintrc\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.jshintrc"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jshintrc]
+@="JSHint RC Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jshintrc\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\javascript.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jshintrc\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jshintrc\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.jshtm\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.jshtm"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jshtm]
+@="JavaScript HTML Template Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jshtm\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jshtm\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jshtm\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.json\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.json"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.json]
+@="JSON Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.json\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\json.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.json\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.json\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.jsp\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.jsp"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jsp]
+@="Java Server Pages Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jsp\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jsp\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.jsp\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.less\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.less"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.less]
+@="LESS Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.less\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\less.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.less\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.less\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.log\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.log"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.log]
+@="Log file Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.log\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.log\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.log\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.lua\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.lua"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.lua]
+@="Lua Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.lua\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.lua\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.lua\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.m\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.m"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.m]
+@="Objective C Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.m\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.m\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.m\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.makefile\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.makefile"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.makefile]
+@="Makefile Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.makefile\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.makefile\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.makefile\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.markdown\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.markdown"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.markdown]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.markdown\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.markdown\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.markdown\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.md\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.md"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.md]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.md\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.md\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.md\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.mdoc\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.mdoc"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdoc]
+@="MDoc Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdoc\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdoc\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdoc\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.mdown\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.mdown"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdown]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdown\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdown\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdown\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.mdtext\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.mdtext"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdtext]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdtext\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdtext\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdtext\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.mdtxt\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.mdtxt"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdtxt]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdtxt\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdtxt\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdtxt\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.mdwn\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.mdwn"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdwn]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdwn\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdwn\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mdwn\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.mk\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.mk"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mk]
+@="Makefile Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mk\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mk\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mk\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.mkd\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.mkd"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mkd]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mkd\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mkd\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mkd\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.mkdn\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.mkdn"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mkdn]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mkdn\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mkdn\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mkdn\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.ml\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.ml"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ml]
+@="OCaml Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ml\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ml\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ml\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.mli\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.mli"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mli]
+@="OCaml Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mli\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mli\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mli\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.mjs\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.mjs"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mjs]
+@="JavaScript Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mjs\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\javascript.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mjs\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.mjs\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.npmignore\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.npmignore"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.npmignore]
+@="NPM Ignore Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.npmignore\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.npmignore\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.npmignore\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.php\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.php"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.php]
+@="PHP Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.php\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\php.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.php\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.php\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.phtml\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.phtml"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.phtml]
+@="PHP HTML Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.phtml\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.phtml\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.phtml\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.pl\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.pl"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pl]
+@="Perl Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pl\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pl\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pl\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.pl6\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.pl6"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pl6]
+@="Perl 6 Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pl6\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pl6\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pl6\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.plist\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.plist"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.plist]
+@="Properties file Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.plist\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\plist.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.plist\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.plist\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.pm\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.pm"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pm]
+@="Perl Module Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pm\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pm\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pm\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.pm6\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.pm6"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pm6]
+@="Perl 6 Module Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pm6\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pm6\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pm6\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.pod\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.pod"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pod]
+@="Perl POD Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pod\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pod\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pod\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.pp\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.pp"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pp]
+@="Perl Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pp\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pp\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pp\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.profile\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.profile"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.profile]
+@="Profile Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.profile\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.profile\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.profile\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.properties\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.properties"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.properties]
+@="Properties Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.properties\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.properties\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.properties\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.ps1\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.ps1"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ps1]
+@="PowerShell Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ps1\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\powershell.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ps1\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ps1\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.psd1\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.psd1"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.psd1]
+@="PowerShell Module Manifest Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.psd1\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\powershell.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.psd1\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.psd1\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.psgi\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.psgi"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.psgi]
+@="Perl CGI Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.psgi\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.psgi\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.psgi\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.psm1\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.psm1"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.psm1]
+@="PowerShell Module Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.psm1\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\powershell.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.psm1\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.psm1\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.py\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.py"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.py]
+@="Python Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.py\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\python.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.py\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.py\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.pyi\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.pyi"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pyi]
+@="Python Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pyi\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\python.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pyi\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.pyi\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.r\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.r"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.r]
+@="R Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.r\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.r\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.r\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.rb\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.rb"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rb]
+@="Ruby Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rb\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\ruby.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rb\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rb\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.rhistory\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.rhistory"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rhistory]
+@="R History Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rhistory\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rhistory\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rhistory\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.rprofile\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.rprofile"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rprofile]
+@="R Profile Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rprofile\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rprofile\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rprofile\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.rs\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.rs"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rs]
+@="Rust Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rs\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rs\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rs\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.rst\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.rst"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rst]
+@="Restructured Text Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rst\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rst\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rst\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.rt\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.rt"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rt]
+@="Rich Text Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rt\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rt\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.rt\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.sass\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.sass"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.sass]
+@="Sass Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.sass\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\sass.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.sass\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.sass\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.scss\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.scss"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.scss]
+@="Sass Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.scss\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\sass.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.scss\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.scss\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.sh\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.sh"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.sh]
+@="SH Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.sh\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.sh\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.sh\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.shtml\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.shtml"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.shtml]
+@="SHTML Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.shtml\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.shtml\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.shtml\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.sql\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.sql"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.sql]
+@="SQL Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.sql\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\sql.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.sql\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.sql\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.svg\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.svg"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.svg]
+@="SVG Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.svg\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.svg\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.svg\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.svgz\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.svgz"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.svgz]
+@="SVGZ Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.svgz\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.svgz\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.svgz\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.t\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.t"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.t]
+@="Perl Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.t\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.t\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.t\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.tex\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.tex"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.tex]
+@="LaTeX Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.tex\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.tex\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.tex\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.ts\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.ts"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ts]
+@="TypeScript Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ts\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\typescript.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ts\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.ts\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.toml\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.toml"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.toml]
+@="Toml Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.toml\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.toml\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.toml\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.tsx\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.tsx"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.tsx]
+@="TypeScript Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.tsx\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\react.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.tsx\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.tsx\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.txt\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.txt"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.txt]
+@="Text Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.txt\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.txt\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.txt\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.vb\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.vb"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.vb]
+@="Visual Basic Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.vb\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.vb\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.vb\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.vue\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.vue"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.vue]
+@="VUE Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.vue\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\vue.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.vue\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.vue\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.wxi\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.wxi"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.wxi]
+@="WiX Include Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.wxi\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.wxi\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.wxi\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.wxl\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.wxl"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.wxl]
+@="WiX Localization Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.wxl\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.wxl\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.wxl\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.wxs\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.wxs"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.wxs]
+@="WiX Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.wxs\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.wxs\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.wxs\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.xaml\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.xaml"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.xaml]
+@="XAML Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.xaml\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.xaml\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.xaml\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.xhtml\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.xhtml"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.xhtml]
+@="HTML Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.xhtml\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.xhtml\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.xhtml\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.xml\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.xml"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.xml]
+@="XML Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.xml\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.xml\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.xml\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.yaml\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.yaml"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.yaml]
+@="Yaml Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.yaml\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\yaml.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.yaml\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.yaml\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.yml\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.yml"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.yml]
+@="Yaml Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.yml\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\yaml.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.yml\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.yml\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.zsh\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.zsh"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.zsh]
+@="ZSH Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.zsh\DefaultIcon]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.zsh\shell\open]
+"Icon"="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\CodeOSS.zsh\shell\open\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+

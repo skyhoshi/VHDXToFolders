@@ -1,0 +1,119 @@
+# Prerequisite: 
+#   - Setup .env - take copy of .env_template and update settings
+#   - Login to Azure. See https://fcsamerica.atlassian.net/wiki/spaces/KUB/pages/496042180/Container+Build+and+Run#Authenticating-with-Registry
+
+# Run 
+#   by being in the root directory 
+
+# To Build:  docker compose build --no-cache lightningproxy.webapi.external
+# To Build (if the build is missing) and start: docker compose up --force-recreate --detach lightningproxy.webapi.external
+#  Note: The --force-recreate is only if you want to rebuild the image. Remove this to use an existing image.
+# To stop:  docker compose down
+
+
+version: '3.4'
+
+services:
+  sqlservice:
+    container_name: sql-service
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - "1433:1433"
+    env_file: .env
+    environment: 
+      SA_PASSWORD: "change_this_password$!D"
+      TZ: America/Chicago
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Developer # This is the default if none is specified.
+    volumes: 
+       - type: bind
+         source: C:\var\opt\mssql\data
+         target: /var/opt/mssql/data
+       - type: bind
+         source: C:\var\opt\mssql\log
+         target: /var/opt/mssql/log
+       - type: bind
+         source: C:\var\opt\mssql\secrets
+         target: /var/opt/mssql/secrets
+       - type: bind
+         source: .\..\..\database.scripts
+         target: /var/opt/mssql/scripts
+
+       # - type: bind
+       #   source: X:\var\opt\mssql\data
+       #   target: /var/opt/mssql/data
+       # - type: bind
+       #   source: X:\var\opt\mssql\log
+       #   target: /var/opt/mssql/log
+       # - type: bind
+       #   source: X:\var\opt\mssql\secrets
+       #   target: /var/opt/mssql/secrets
+       # - type: bind
+       #   source: ..\database-scripts\
+       #   target: /var/opt/mssql/scripts
+
+     #- 'C:\var\opt\mssql\.system:/var/opt/mssql/.system'
+     #- '..\database-scripts\:\var\opt\mssql\scripts\'
+     #- 'C:\var\opt\mssql\data:/var/opt/mssql/data'
+     #- 'C:\var\opt\mssql\log:/var/opt/mssql/log'
+     #- 'C:\var\opt\mssql\secrets:/var/opt/mssql/secrets'
+ ##############################################
+  # sqlservice2:
+  #   container_name: sql-service2
+  #   image: mcr.microsoft.com/mssql/server:2019-latest
+  #   ports:
+  #     - "1433:1433"
+  #   env_file: .env
+  #   environment: 
+  #     SA_PASSWORD: "change_this_password$!D"
+  #     TZ: America/Chicago
+  #     ACCEPT_EULA: "Y"
+  #     MSSQL_PID: Developer # This is the default if none is specified.
+  #   volumes: 
+  #    #- 'C:\var\opt\mssql\.system:/var/opt/mssql/.system'
+  #    - 'X:\:/root/datadrive'
+##############################################
+  # sql-server-db:
+  #   container_name: sql-server-db
+  #   image: mcr.microsoft.com/mssql/server:latest
+  #   ports:
+  #     - "1533:1433"
+  #   environment:
+  #     SA_PASSWORD: "change_this_password$!D"
+  #     TZ: America/Chicago
+  #     ACCEPT_EULA: "Y"
+  #     MSSQL_PID: Developer # This is the default if none is specified.
+##############################################
+  # lightningproxy.webapi.external:
+  #   depends_on: 
+  #    - sqlservice
+  #   image: hubpcontainersacr.azurecr.io/integration-and-business/lnp/lightning-proxy/api:beta
+  #   # # profiles:
+  #   # #   - api
+  #   # #   - all
+  #   # build:
+  #   #   context: .
+  #   #   dockerfile: source/WebAPI.External/Dockerfile
+  #   #   args:
+  #   #     - PAT=${PAT}
+  #   ports: 
+  #       #- "5078:80"
+  #       - "5078:80"
+  #       - "5079:443"
+  #   env_file: .env
+  #   environment: 
+  #       - ASPNETCORE_ENVIRONMENT=Development 
+  #       - ASPNETCORE_TEMP=/tmp
+  #       - ASPNETCORE_URLS=https://+:443;http://+:80 
+  #       - ConnectionStrings__LightningProxy=Data Source=sqlservice;Initial Catalog=LightningProxy;Password=password-for-local-dev-only;TrustServerCertificate=Yes;User Id=LightningProxy_local
+  #   healthcheck:
+  #     test: ["CMD", "curl", "-f", "http://lightningproxy.webapi.external:4101/health"]
+  #     interval: 10s
+  #     timeout: 5s
+  #     retries: 2
+  #     start_period: 10s
+  #     disable: false
+  #   volumes: 
+  #     - 'C:/mnt/shared:/mnt/shared'
+  #     - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+  #     - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro

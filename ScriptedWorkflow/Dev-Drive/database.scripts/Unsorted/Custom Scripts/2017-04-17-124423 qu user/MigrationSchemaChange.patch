@@ -1,0 +1,67 @@
+diff --git a/Security/Schemas/History.sql b/Security/Schemas/History.sql
+new file mode 100644
+index 0000000..6ad2a06
+--- /dev/null
++++ b/Security/Schemas/History.sql
+@@ -0,0 +1,3 @@
++CREATE SCHEMA [History]
++AUTHORIZATION [dbo]
++GO
+diff --git a/Tables/History.ApiMapping.sql b/Tables/History.ApiMapping.sql
+new file mode 100644
+index 0000000..c9090b3
+--- /dev/null
++++ b/Tables/History.ApiMapping.sql
+@@ -0,0 +1,24 @@
++CREATE TABLE [History].[ApiMapping]
++(
++[ApiMapping_ID] [int] NOT NULL,
++[ApiName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[ApiVersion] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[OperationId] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[Path] [varchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[Method] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[PartnerNameMicro] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[TargetUrlTemplate] [varchar] (2000) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[CreatedBy] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[CreatedOn] [datetime] NOT NULL,
++[UpdatedBy] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[UpdatedOn] [datetime] NOT NULL,
++[BeginningOn] [datetime2] NOT NULL,
++[EndingOn] [datetime2] NOT NULL
++) ON [PRIMARY]
++WITH
++(
++DATA_COMPRESSION = PAGE
++)
++GO
++CREATE CLUSTERED INDEX [ix_ApiMapping] ON [History].[ApiMapping] ([EndingOn], [BeginningOn]) WITH (DATA_COMPRESSION = PAGE) ON [PRIMARY]
++GO
+diff --git a/Tables/dbo.ApiMapping.sql b/Tables/dbo.ApiMapping.sql
+new file mode 100644
+index 0000000..9fd29a6
+--- /dev/null
++++ b/Tables/dbo.ApiMapping.sql
+@@ -0,0 +1,22 @@
++CREATE TABLE [dbo].[ApiMapping]
++(
++[ApiMapping_ID] [int] NOT NULL IDENTITY(1, 1),
++[ApiName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[ApiVersion] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[OperationId] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[Path] [varchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[Method] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[PartnerNameMicro] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[TargetUrlTemplate] [varchar] (2000) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
++[CreatedBy] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF_ApiMapping_CreatedBy] DEFAULT (suser_sname()),
++[CreatedOn] [datetime] NOT NULL CONSTRAINT [DF_ApiMapping_CreatedOn] DEFAULT (getdate()),
++[UpdatedBy] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF_ApiMapping_UpdatedBy] DEFAULT (suser_sname()),
++[UpdatedOn] [datetime] NOT NULL CONSTRAINT [DF_ApiMapping_UpdatedOn] DEFAULT (getdate()),
++[BeginningOn] [datetime2] NOT NULL,
++[EndingOn] [datetime2] NOT NULL
++) ON [PRIMARY]
++GO
++ALTER TABLE [dbo].[ApiMapping] ADD CONSTRAINT [PK__ApiMappi__4A98CA94E98CE4F6] PRIMARY KEY CLUSTERED  ([ApiMapping_ID]) ON [PRIMARY]
++GO
++CREATE NONCLUSTERED INDEX [UQ_dbo_ApiMapping_ApiName_ApiVersion_OpreationId_Path_Method_PartnerNameMicro] ON [dbo].[ApiMapping] ([ApiName], [ApiVersion], [OperationId], [Path], [Method], [PartnerNameMicro]) ON [PRIMARY]
++GO

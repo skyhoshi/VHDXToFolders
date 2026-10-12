@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"name": "Current Project Folder",
+			"path": "."
+		},
+		{
+			"name": "OneDrive Scripts Folder",
+			"path":"C:\\Users\\marcus.SORAFAMILY\\OneDrive\\Scripts"
+		},
+		{
+			"name": "Documents Powershell Folder",
+			"path": "C:/Users/marcus.sorafamily/Documents/WindowsPowerShell"
+		},
+		{
+			"name": "Script Data Cache Folder",
+			"path": "../ScriptDataCache"
+		},
+		{
+			"name": "Powershell 7 Default Folder",
+			"path": "C:/Program Files/PowerShell/7"
+		}
+	],
+	"settings": {
+		"terminal.integrated.cwd": "",
+		"powershell.cwd": "kernm.devcontainer.envsetup",
+	}
+}

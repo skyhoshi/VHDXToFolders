@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\Software\Classes\*\shell\Open with &Code]
+@="Open with &Code"
+"Icon"="C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe"
+[HKEY_LOCAL_MACHINE\Software\Classes\*\shell\Open with &Code\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\Directory\shell\Open with &Code]
+@="Open with &Code"
+"Icon"="C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe"
+[HKEY_LOCAL_MACHINE\Software\Classes\Directory\shell\Open with &Code\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%V\""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\Directory\Background\shell\Open with &Code]
+@="Open with &Code"
+"Icon"="C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe"
+[HKEY_LOCAL_MACHINE\Software\Classes\Directory\Background\shell\Open with &Code\command]
+@="\"C:\\Applications\\Global\\apps\\vscode\\current\\Code.exe\" \"%V\""

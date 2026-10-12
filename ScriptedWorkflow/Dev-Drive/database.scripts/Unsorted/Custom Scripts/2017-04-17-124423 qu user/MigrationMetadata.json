@@ -1,0 +1,21 @@
+{
+  "Id": "4f319123-be5b-47ad-8936-6542952d89ad",
+  "Name": "Covers changes to: ApiMapping, ApiMapping, History. Script created at 2017-04-17 12:43.",
+  "ObjectIds": [
+    {
+      "Name": "ApiMapping",
+      "Owner": "History",
+      "ObjectType": "Table"
+    },
+    {
+      "Name": "ApiMapping",
+      "Owner": "dbo",
+      "ObjectType": "Table"
+    },
+    {
+      "Name": "History",
+      "Owner": null,
+      "ObjectType": "Schema"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "About this file": "This is a Redgate SQL Source Control metadata file. It controls the order that changes are deployed in. Learn more: http://www.red-gate.com/SOC4/order-file-more-info",
+  "Deployment order": [
+    {"Description":"Migration script 'Covers changes to: ApiMapping, ApiMapping, History. Script created at 2017-04-17 12:43.'","Type":"Migration","Id":"2017-04-17-124423 qu user"}
+  ],
+  "Conflict in this file?": "If there’s a conflict in this file, you probably want to keep both changes. Learn more: http://www.red-gate.com/SOC4/order-file-more-info"
+}

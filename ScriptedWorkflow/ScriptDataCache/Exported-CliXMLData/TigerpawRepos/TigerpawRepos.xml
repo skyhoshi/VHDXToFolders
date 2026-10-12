@@ -1,0 +1,2459 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Collections.ArrayList</T>
+      <T>System.Object</T>
+    </TN>
+    <LST>
+      <Obj RefId="1">
+        <TN RefId="1">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <Obj N="value" RefId="2">
+            <TN RefId="2">
+              <T>System.Object[]</T>
+              <T>System.Array</T>
+              <T>System.Object</T>
+            </TN>
+            <LST>
+              <Obj RefId="3">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">e2ece08f-d4ed-44cf-9103-9aa00897e8e2</S>
+                  <S N="name">Tigerpaw One Archive</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/c671c7d0-68f1-4208-a835-2abc85c6f432/_apis/git/repositories/e2ece08f-d4ed-44cf-9103-9aa00897e8e2</S>
+                  <Obj N="project" RefId="4">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">c671c7d0-68f1-4208-a835-2abc85c6f432</S>
+                      <S N="name">Tigerpaw One Archive</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/c671c7d0-68f1-4208-a835-2abc85c6f432</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668511</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2019-10-28T16:55:39.21Z</DT>
+                    </MS>
+                  </Obj>
+                  <I64 N="size">0</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw%20One%20Archive/_git/Tigerpaw%20One%20Archive</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw%20One%20Archive/Tigerpaw%20One%20Archive</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw%20One%20Archive/_git/Tigerpaw%20One%20Archive</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+          <I64 N="count">1</I64>
+        </MS>
+      </Obj>
+      <Obj RefId="5">
+        <TNRef RefId="1" />
+        <MS>
+          <Obj N="value" RefId="6">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="7">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">a5f5f5e7-2142-450b-b8e2-cb7d89f4b94e</S>
+                  <S N="name">Tigerpaw Integration Feature Requests</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/8de860f1-0e67-4e75-b0ee-2679382de018/_apis/git/repositories/a5f5f5e7-2142-450b-b8e2-cb7d89f4b94e</S>
+                  <Obj N="project" RefId="8">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">8de860f1-0e67-4e75-b0ee-2679382de018</S>
+                      <S N="name">Tigerpaw Integration Feature Requests</S>
+                      <S N="description">The place to enter, vet, scope, size, and prioritize features for integrations</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/8de860f1-0e67-4e75-b0ee-2679382de018</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668485</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2019-09-11T18:10:00.43Z</DT>
+                    </MS>
+                  </Obj>
+                  <I64 N="size">0</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw%20Integration%20Feature%20Requests/_git/Tigerpaw%20Integration%20Feature%20Requests</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw%20Integration%20Feature%20Requests/Tigerpaw%20Integration%20Feature%20Requests</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw%20Integration%20Feature%20Requests/_git/Tigerpaw%20Integration%20Feature%20Requests</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+          <I64 N="count">1</I64>
+        </MS>
+      </Obj>
+      <Obj RefId="9">
+        <TNRef RefId="1" />
+        <MS>
+          <Obj N="value" RefId="10">
+            <TNRef RefId="2" />
+            <LST />
+          </Obj>
+          <I64 N="count">0</I64>
+        </MS>
+      </Obj>
+      <Obj RefId="11">
+        <TNRef RefId="1" />
+        <MS>
+          <Obj N="value" RefId="12">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="13">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">964b48fa-e90a-43dd-8b51-72aa0c1120e9</S>
+                  <S N="name">Tigerpaw Mobile Feature Requests</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/3af04040-160e-4976-b141-15a9983afc50/_apis/git/repositories/964b48fa-e90a-43dd-8b51-72aa0c1120e9</S>
+                  <Obj N="project" RefId="14">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">3af04040-160e-4976-b141-15a9983afc50</S>
+                      <S N="name">Tigerpaw Mobile Feature Requests</S>
+                      <S N="description">List of feature requests submitted for Stakeholder prioritization</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/3af04040-160e-4976-b141-15a9983afc50</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668484</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2019-09-11T14:20:39.453Z</DT>
+                    </MS>
+                  </Obj>
+                  <I64 N="size">0</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw%20Mobile%20Feature%20Requests/_git/Tigerpaw%20Mobile%20Feature%20Requests</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw%20Mobile%20Feature%20Requests/Tigerpaw%20Mobile%20Feature%20Requests</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw%20Mobile%20Feature%20Requests/_git/Tigerpaw%20Mobile%20Feature%20Requests</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+          <I64 N="count">1</I64>
+        </MS>
+      </Obj>
+      <Obj RefId="15">
+        <TNRef RefId="1" />
+        <MS>
+          <Obj N="value" RefId="16">
+            <TNRef RefId="2" />
+            <LST />
+          </Obj>
+          <I64 N="count">0</I64>
+        </MS>
+      </Obj>
+      <Obj RefId="17">
+        <TNRef RefId="1" />
+        <MS>
+          <Obj N="value" RefId="18">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="19">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">ccd20297-e29f-4f29-8e65-0bdc4e6394df</S>
+                  <S N="name">core19.5</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/ccd20297-e29f-4f29-8e65-0bdc4e6394df</S>
+                  <Obj N="project" RefId="20">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/master</S>
+                  <I64 N="size">2482181</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/core19.5</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/core19.5</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/core19.5</S>
+                </MS>
+              </Obj>
+              <Obj RefId="21">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">cae2cce7-87fe-4cd7-8d58-0ff811a3213e</S>
+                  <S N="name">portals</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/cae2cce7-87fe-4cd7-8d58-0ff811a3213e</S>
+                  <Obj N="project" RefId="22">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">51592664</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/portals</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/portals</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/portals</S>
+                </MS>
+              </Obj>
+              <Obj RefId="23">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">aeafd883-d46d-4494-ac92-1c76a613ab0b</S>
+                  <S N="name">tools-docusign.esign</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/aeafd883-d46d-4494-ac92-1c76a613ab0b</S>
+                  <Obj N="project" RefId="24">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">678588</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/tools-docusign.esign</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/tools-docusign.esign</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/tools-docusign.esign</S>
+                </MS>
+              </Obj>
+              <Obj RefId="25">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">131c1ce9-d41d-4b66-8f0d-3ca078ca225c</S>
+                  <S N="name">Add-Ons</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/131c1ce9-d41d-4b66-8f0d-3ca078ca225c</S>
+                  <Obj N="project" RefId="26">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/master</S>
+                  <I64 N="size">115294924</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/Add-Ons</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/Add-Ons</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/Add-Ons</S>
+                </MS>
+              </Obj>
+              <Obj RefId="27">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">fc204e2c-66eb-4522-82c4-4811c0aa9a5a</S>
+                  <S N="name">tools-docusign.esign19.5</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/fc204e2c-66eb-4522-82c4-4811c0aa9a5a</S>
+                  <Obj N="project" RefId="28">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/master</S>
+                  <I64 N="size">659785</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/tools-docusign.esign19.5</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/tools-docusign.esign19.5</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/tools-docusign.esign19.5</S>
+                </MS>
+              </Obj>
+              <Obj RefId="29">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">4c3bddd4-b80f-4066-acd8-557b17443a7c</S>
+                  <S N="name">references</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/4c3bddd4-b80f-4066-acd8-557b17443a7c</S>
+                  <Obj N="project" RefId="30">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">227309214</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/references</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/references</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/references</S>
+                </MS>
+              </Obj>
+              <Obj RefId="31">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">ccda3b3c-0565-4e87-b400-5da35f9fc5d6</S>
+                  <S N="name">Tigerpaw</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/ccda3b3c-0565-4e87-b400-5da35f9fc5d6</S>
+                  <Obj N="project" RefId="32">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">28275961</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/Tigerpaw</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/Tigerpaw</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/Tigerpaw</S>
+                </MS>
+              </Obj>
+              <Obj RefId="33">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">8d6c8923-c9f2-470e-8ecd-76a458499d8c</S>
+                  <S N="name">framework4.60</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/8d6c8923-c9f2-470e-8ecd-76a458499d8c</S>
+                  <Obj N="project" RefId="34">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/master</S>
+                  <I64 N="size">5485523</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/framework4.60</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/framework4.60</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/framework4.60</S>
+                </MS>
+              </Obj>
+              <Obj RefId="35">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">63a02b5f-e30a-454b-949e-77d576bae299</S>
+                  <S N="name">framework</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/63a02b5f-e30a-454b-949e-77d576bae299</S>
+                  <Obj N="project" RefId="36">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/master</S>
+                  <I64 N="size">5613841</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/framework</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/framework</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/framework</S>
+                </MS>
+              </Obj>
+              <Obj RefId="37">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">79b85885-472d-4469-984d-78f254deb801</S>
+                  <S N="name">framework4.50</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/79b85885-472d-4469-984d-78f254deb801</S>
+                  <Obj N="project" RefId="38">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/master</S>
+                  <I64 N="size">5486104</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/framework4.50</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/framework4.50</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/framework4.50</S>
+                </MS>
+              </Obj>
+              <Obj RefId="39">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">1d02c3df-8348-4fe6-9bf9-8a0efbdf05c6</S>
+                  <S N="name">Training-ToDoApp</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/1d02c3df-8348-4fe6-9bf9-8a0efbdf05c6</S>
+                  <Obj N="project" RefId="40">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/main</S>
+                  <I64 N="size">372600</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/Training-ToDoApp</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/Training-ToDoApp</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/Training-ToDoApp</S>
+                </MS>
+              </Obj>
+              <Obj RefId="41">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">3acb17f2-7d8c-49ba-87a0-95c4af699e63</S>
+                  <S N="name">Training-DatabaseScripts</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/3acb17f2-7d8c-49ba-87a0-95c4af699e63</S>
+                  <Obj N="project" RefId="42">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">6225</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/Training-DatabaseScripts</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/Training-DatabaseScripts</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/Training-DatabaseScripts</S>
+                </MS>
+              </Obj>
+              <Obj RefId="43">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">83ed4783-b1d2-4ee3-bf08-a50b0e5d6631</S>
+                  <S N="name">references19.5</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/83ed4783-b1d2-4ee3-bf08-a50b0e5d6631</S>
+                  <Obj N="project" RefId="44">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/master</S>
+                  <I64 N="size">20435955</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/references19.5</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/references19.5</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/references19.5</S>
+                </MS>
+              </Obj>
+              <Obj RefId="45">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">5a5e1f23-167b-4d81-8aa4-ba89711a046a</S>
+                  <S N="name">tsi-libraries</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/5a5e1f23-167b-4d81-8aa4-ba89711a046a</S>
+                  <Obj N="project" RefId="46">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">68867807</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/tsi-libraries</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/tsi-libraries</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/tsi-libraries</S>
+                </MS>
+              </Obj>
+              <Obj RefId="47">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">49b8bf75-9b98-4cd5-88f0-c8d7cefa6708</S>
+                  <S N="name">portals19.5</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/49b8bf75-9b98-4cd5-88f0-c8d7cefa6708</S>
+                  <Obj N="project" RefId="48">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/master</S>
+                  <I64 N="size">42886425</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/portals19.5</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/portals19.5</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/portals19.5</S>
+                </MS>
+              </Obj>
+              <Obj RefId="49">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">cfc5facd-7ba2-45f4-abe0-cad5bb4da742</S>
+                  <S N="name">ContinuumIntegrator</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/cfc5facd-7ba2-45f4-abe0-cad5bb4da742</S>
+                  <Obj N="project" RefId="50">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">46772163</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/ContinuumIntegrator</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/ContinuumIntegrator</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/ContinuumIntegrator</S>
+                </MS>
+              </Obj>
+              <Obj RefId="51">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">96612aff-4ce4-4d7e-a092-cc26394f375a</S>
+                  <S N="name">codesign</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/96612aff-4ce4-4d7e-a092-cc26394f375a</S>
+                  <Obj N="project" RefId="52">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">1001140</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/codesign</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/codesign</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/codesign</S>
+                </MS>
+              </Obj>
+              <Obj RefId="53">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">1a41bf98-7fc3-4bdd-a0d0-d2674840083a</S>
+                  <S N="name">core</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/1a41bf98-7fc3-4bdd-a0d0-d2674840083a</S>
+                  <Obj N="project" RefId="54">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">3712824</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/core</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/core</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/core</S>
+                </MS>
+              </Obj>
+              <Obj RefId="55">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">b8674c32-0dae-4c22-93ff-ebd4772cbda6</S>
+                  <S N="name">exchange-integrator</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/0eb8b68d-6961-4295-bc24-80f744a98248/_apis/git/repositories/b8674c32-0dae-4c22-93ff-ebd4772cbda6</S>
+                  <Obj N="project" RefId="56">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="name">GIT Test Project</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/0eb8b68d-6961-4295-bc24-80f744a98248</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668549</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-09-23T21:25:42.127Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">7022313</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/exchange-integrator</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/GIT%20Test%20Project/exchange-integrator</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/GIT%20Test%20Project/_git/exchange-integrator</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+          <I64 N="count">19</I64>
+        </MS>
+      </Obj>
+      <Obj RefId="57">
+        <TNRef RefId="1" />
+        <MS>
+          <Obj N="value" RefId="58">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="59">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">cba0333c-2b3f-4d93-94a1-0132a73e6e3d</S>
+                  <S N="name">docusign.esign</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/cba0333c-2b3f-4d93-94a1-0132a73e6e3d</S>
+                  <Obj N="project" RefId="60">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">674740</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/docusign.esign</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/docusign.esign</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/docusign.esign</S>
+                </MS>
+              </Obj>
+              <Obj RefId="61">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">e09d029b-01bc-4388-8f25-021bc992030b</S>
+                  <S N="name">addons-automated-reports</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/e09d029b-01bc-4388-8f25-021bc992030b</S>
+                  <Obj N="project" RefId="62">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">240487</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-automated-reports</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-automated-reports</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-automated-reports</S>
+                </MS>
+              </Obj>
+              <Obj RefId="63">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">cdb3fc7e-d1c3-4dd7-8bb0-073e141ed634</S>
+                  <S N="name">tools-status-animation</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/cdb3fc7e-d1c3-4dd7-8bb0-073e141ed634</S>
+                  <Obj N="project" RefId="64">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">105811</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-status-animation</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-status-animation</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-status-animation</S>
+                </MS>
+              </Obj>
+              <Obj RefId="65">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">a2306269-014c-4800-b8a8-1005d032bb17</S>
+                  <S N="name">email-connector</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/a2306269-014c-4800-b8a8-1005d032bb17</S>
+                  <Obj N="project" RefId="66">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">5357933</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/email-connector</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/email-connector</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/email-connector</S>
+                </MS>
+              </Obj>
+              <Obj RefId="67">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">f6c8a262-f601-41ac-9cd0-10cc60ad89c7</S>
+                  <S N="name">tools-import-wizard</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/f6c8a262-f601-41ac-9cd0-10cc60ad89c7</S>
+                  <Obj N="project" RefId="68">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">681554</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-import-wizard</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-import-wizard</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-import-wizard</S>
+                </MS>
+              </Obj>
+              <Obj RefId="69">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">47a8372c-c0ce-4f64-bdf2-13da73b8143d</S>
+                  <S N="name">resources</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/47a8372c-c0ce-4f64-bdf2-13da73b8143d</S>
+                  <Obj N="project" RefId="70">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">1365341</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/resources</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/resources</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/resources</S>
+                </MS>
+              </Obj>
+              <Obj RefId="71">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">b7d69a41-740f-48c2-8ef2-147d74c0fd41</S>
+                  <S N="name">tools-tigerpaw-service-manager</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/b7d69a41-740f-48c2-8ef2-147d74c0fd41</S>
+                  <Obj N="project" RefId="72">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">6433811</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-tigerpaw-service-manager</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-tigerpaw-service-manager</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-tigerpaw-service-manager</S>
+                </MS>
+              </Obj>
+              <Obj RefId="73">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">85c9ba1e-659c-455a-8581-1d188863c50d</S>
+                  <S N="name">reports</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/85c9ba1e-659c-455a-8581-1d188863c50d</S>
+                  <Obj N="project" RefId="74">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">40148020</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/reports</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/reports</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/reports</S>
+                </MS>
+              </Obj>
+              <Obj RefId="75">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">faf57989-b336-4a26-93c4-1e7b5b8efce7</S>
+                  <S N="name">webservices-asmx-api</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/faf57989-b336-4a26-93c4-1e7b5b8efce7</S>
+                  <Obj N="project" RefId="76">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">2075320</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/webservices-asmx-api</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/webservices-asmx-api</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/webservices-asmx-api</S>
+                </MS>
+              </Obj>
+              <Obj RefId="77">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">13643398-305b-4321-82eb-1fb153690c54</S>
+                  <S N="name">addons-labtech</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/13643398-305b-4321-82eb-1fb153690c54</S>
+                  <Obj N="project" RefId="78">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">1418022</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-labtech</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-labtech</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-labtech</S>
+                </MS>
+              </Obj>
+              <Obj RefId="79">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">2fcff33d-9b74-45f7-928b-298632e06ae5</S>
+                  <S N="name">addons-automated-report-helper</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/2fcff33d-9b74-45f7-928b-298632e06ae5</S>
+                  <Obj N="project" RefId="80">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">21963</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-automated-report-helper</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-automated-report-helper</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-automated-report-helper</S>
+                </MS>
+              </Obj>
+              <Obj RefId="81">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">bf201d74-0c81-43cd-bc80-39a7a2a8a433</S>
+                  <S N="name">tigerpaw</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/bf201d74-0c81-43cd-bc80-39a7a2a8a433</S>
+                  <Obj N="project" RefId="82">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">57322127</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tigerpaw</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tigerpaw</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tigerpaw</S>
+                </MS>
+              </Obj>
+              <Obj RefId="83">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">31e5e3c4-bfcb-4b6a-b0c8-3a586cc495bf</S>
+                  <S N="name">addons-msp-email-processor</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/31e5e3c4-bfcb-4b6a-b0c8-3a586cc495bf</S>
+                  <Obj N="project" RefId="84">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">177346</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-msp-email-processor</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-msp-email-processor</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-msp-email-processor</S>
+                </MS>
+              </Obj>
+              <Obj RefId="85">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">e48edc91-cf3b-4cac-9587-3ab4b3050e7f</S>
+                  <S N="name">codesign</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/e48edc91-cf3b-4cac-9587-3ab4b3050e7f</S>
+                  <Obj N="project" RefId="86">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">988592</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/codesign</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/codesign</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/codesign</S>
+                </MS>
+              </Obj>
+              <Obj RefId="87">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">e8c14ef0-ba4a-44ce-9e95-3d2dc545a9bd</S>
+                  <S N="name">addons-auto-report-processor</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/e8c14ef0-ba4a-44ce-9e95-3d2dc545a9bd</S>
+                  <Obj N="project" RefId="88">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">33873</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-auto-report-processor</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-auto-report-processor</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-auto-report-processor</S>
+                </MS>
+              </Obj>
+              <Obj RefId="89">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">d97c04c4-5dbc-4ec8-a336-3ffa9ffba00d</S>
+                  <S N="name">tools-quote-import</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/d97c04c4-5dbc-4ec8-a336-3ffa9ffba00d</S>
+                  <Obj N="project" RefId="90">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">1034953</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-quote-import</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-quote-import</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-quote-import</S>
+                </MS>
+              </Obj>
+              <Obj RefId="91">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">23a1566e-7b30-4385-82b6-46e92a21c915</S>
+                  <S N="name">tools-api-helper</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/23a1566e-7b30-4385-82b6-46e92a21c915</S>
+                  <Obj N="project" RefId="92">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">44743</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-api-helper</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-api-helper</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-api-helper</S>
+                </MS>
+              </Obj>
+              <Obj RefId="93">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">fb945f86-5341-4f9b-b034-46fdec8763b5</S>
+                  <S N="name">tools-po-export</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/fb945f86-5341-4f9b-b034-46fdec8763b5</S>
+                  <Obj N="project" RefId="94">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">28708</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-po-export</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-po-export</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-po-export</S>
+                </MS>
+              </Obj>
+              <Obj RefId="95">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">dd165952-1ec8-43c2-a0fa-4c471edb9e60</S>
+                  <S N="name">timer</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/dd165952-1ec8-43c2-a0fa-4c471edb9e60</S>
+                  <Obj N="project" RefId="96">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">2235870</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/timer</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/timer</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/timer</S>
+                </MS>
+              </Obj>
+              <Obj RefId="97">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">36f19be4-d339-42cc-bb68-4fade7f8e196</S>
+                  <S N="name">mobile-wrapper-ios</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/36f19be4-d339-42cc-bb68-4fade7f8e196</S>
+                  <Obj N="project" RefId="98">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">4633437</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/mobile-wrapper-ios</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/mobile-wrapper-ios</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/mobile-wrapper-ios</S>
+                </MS>
+              </Obj>
+              <Obj RefId="99">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">f99c8f6f-1ba0-47fc-8658-53eee6cd4ec3</S>
+                  <S N="name">webservices-reverse-proxy</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/f99c8f6f-1ba0-47fc-8658-53eee6cd4ec3</S>
+                  <Obj N="project" RefId="100">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">12076</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/webservices-reverse-proxy</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/webservices-reverse-proxy</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/webservices-reverse-proxy</S>
+                </MS>
+              </Obj>
+              <Obj RefId="101">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">232c6a86-97ea-4138-acb2-5539a6b0cd55</S>
+                  <S N="name">Utility-Scripts</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/232c6a86-97ea-4138-acb2-5539a6b0cd55</S>
+                  <Obj N="project" RefId="102">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/main</S>
+                  <I64 N="size">3656</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/Utility-Scripts</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/Utility-Scripts</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/Utility-Scripts</S>
+                </MS>
+              </Obj>
+              <Obj RefId="103">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">795a0ab4-3ae9-40ba-95a4-57c5855edbdb</S>
+                  <S N="name">core</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/795a0ab4-3ae9-40ba-95a4-57c5855edbdb</S>
+                  <Obj N="project" RefId="104">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">13468637</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/core</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/core</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/core</S>
+                </MS>
+              </Obj>
+              <Obj RefId="105">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">065410b4-f03b-4e2c-a8ee-5a3b959af608</S>
+                  <S N="name">tools-quote-werks-import</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/065410b4-f03b-4e2c-a8ee-5a3b959af608</S>
+                  <Obj N="project" RefId="106">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">92845</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-quote-werks-import</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-quote-werks-import</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-quote-werks-import</S>
+                </MS>
+              </Obj>
+              <Obj RefId="107">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">d95e8378-8c6f-4167-a39a-5a858b907a8f</S>
+                  <S N="name">addons-print-fleet-integrator</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/d95e8378-8c6f-4167-a39a-5a858b907a8f</S>
+                  <Obj N="project" RefId="108">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">20140464</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-print-fleet-integrator</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-print-fleet-integrator</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-print-fleet-integrator</S>
+                </MS>
+              </Obj>
+              <Obj RefId="109">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">c4c05ae3-50a4-4017-b0c3-5ca79129ede2</S>
+                  <S N="name">installshield</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/c4c05ae3-50a4-4017-b0c3-5ca79129ede2</S>
+                  <Obj N="project" RefId="110">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/master</S>
+                  <I64 N="size">5542937</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/installshield</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/installshield</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/installshield</S>
+                </MS>
+              </Obj>
+              <Obj RefId="111">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">3b50b2ac-d54d-4c62-968a-5e713e7c5473</S>
+                  <S N="name">addons-tigerpaw-call-popup</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/3b50b2ac-d54d-4c62-968a-5e713e7c5473</S>
+                  <Obj N="project" RefId="112">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">11675</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-tigerpaw-call-popup</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-tigerpaw-call-popup</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-tigerpaw-call-popup</S>
+                </MS>
+              </Obj>
+              <Obj RefId="113">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">a7200845-9af1-45c1-af75-5f246f93686a</S>
+                  <S N="name">mytigerpaw-mytigerpaw</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/a7200845-9af1-45c1-af75-5f246f93686a</S>
+                  <Obj N="project" RefId="114">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">1870496840</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/mytigerpaw-mytigerpaw</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/mytigerpaw-mytigerpaw</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/mytigerpaw-mytigerpaw</S>
+                </MS>
+              </Obj>
+              <Obj RefId="115">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">d3f11f34-f1af-42df-834d-5f4cb7681bcc</S>
+                  <S N="name">webservices-alexa</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/d3f11f34-f1af-42df-834d-5f4cb7681bcc</S>
+                  <Obj N="project" RefId="116">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">5552617</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/webservices-alexa</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/webservices-alexa</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/webservices-alexa</S>
+                </MS>
+              </Obj>
+              <Obj RefId="117">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">fa81acb3-5315-4c4a-aaef-6470c01c04e6</S>
+                  <S N="name">tools-rest-examples</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/fa81acb3-5315-4c4a-aaef-6470c01c04e6</S>
+                  <Obj N="project" RefId="118">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">5118</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-rest-examples</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-rest-examples</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-rest-examples</S>
+                </MS>
+              </Obj>
+              <Obj RefId="119">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">0b50ded5-2265-4b2e-8afd-66555837625d</S>
+                  <S N="name">mobile-wrapper-android</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/0b50ded5-2265-4b2e-8afd-66555837625d</S>
+                  <Obj N="project" RefId="120">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">53357121</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/mobile-wrapper-android</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/mobile-wrapper-android</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/mobile-wrapper-android</S>
+                </MS>
+              </Obj>
+              <Obj RefId="121">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">ce975e6b-93c5-417d-b982-6b6bf3340829</S>
+                  <S N="name">outlook-journal-connector</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/ce975e6b-93c5-417d-b982-6b6bf3340829</S>
+                  <Obj N="project" RefId="122">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">85390920</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/outlook-journal-connector</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/outlook-journal-connector</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/outlook-journal-connector</S>
+                </MS>
+              </Obj>
+              <Obj RefId="123">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">1fbbff06-6b02-4515-9dbb-6bda09af988d</S>
+                  <S N="name">addons-live-chat</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/1fbbff06-6b02-4515-9dbb-6bda09af988d</S>
+                  <Obj N="project" RefId="124">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">29542394</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-live-chat</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-live-chat</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-live-chat</S>
+                </MS>
+              </Obj>
+              <Obj RefId="125">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">fdd50022-98ec-4f73-ae24-6db4b58d553c</S>
+                  <S N="name">mytigerpaw-mytigerpaw-webservice</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/fdd50022-98ec-4f73-ae24-6db4b58d553c</S>
+                  <Obj N="project" RefId="126">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">9462477</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/mytigerpaw-mytigerpaw-webservice</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/mytigerpaw-mytigerpaw-webservice</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/mytigerpaw-mytigerpaw-webservice</S>
+                </MS>
+              </Obj>
+              <Obj RefId="127">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">69f7cd9c-4446-4d00-b869-7b13ee0b335e</S>
+                  <S N="name">addons-continuum-integrator</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/69f7cd9c-4446-4d00-b869-7b13ee0b335e</S>
+                  <Obj N="project" RefId="128">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">46881300</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-continuum-integrator</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-continuum-integrator</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-continuum-integrator</S>
+                </MS>
+              </Obj>
+              <Obj RefId="129">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">a4787aea-0423-4112-8f54-7d0849a1b4da</S>
+                  <S N="name">addons-tigerpaw-license-utility</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/a4787aea-0423-4112-8f54-7d0849a1b4da</S>
+                  <Obj N="project" RefId="130">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">48125</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-tigerpaw-license-utility</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-tigerpaw-license-utility</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-tigerpaw-license-utility</S>
+                </MS>
+              </Obj>
+              <Obj RefId="131">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">5d02d5b0-4121-401b-8267-7daf4f00a7ec</S>
+                  <S N="name">registration-license-manager-webservice</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/5d02d5b0-4121-401b-8267-7daf4f00a7ec</S>
+                  <Obj N="project" RefId="132">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">89781</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/registration-license-manager-webservice</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/registration-license-manager-webservice</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/registration-license-manager-webservice</S>
+                </MS>
+              </Obj>
+              <Obj RefId="133">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">4aaa39ff-8724-4030-9a36-7f26da867ea5</S>
+                  <S N="name">tools-tigerpaw-internal</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/4aaa39ff-8724-4030-9a36-7f26da867ea5</S>
+                  <Obj N="project" RefId="134">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">1638315</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-tigerpaw-internal</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-tigerpaw-internal</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-tigerpaw-internal</S>
+                </MS>
+              </Obj>
+              <Obj RefId="135">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">9775bee9-cb19-4c4c-ad92-87566a7a50b3</S>
+                  <S N="name">tsi-libraries</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/9775bee9-cb19-4c4c-ad92-87566a7a50b3</S>
+                  <Obj N="project" RefId="136">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">17069020</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tsi-libraries</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tsi-libraries</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tsi-libraries</S>
+                </MS>
+              </Obj>
+              <Obj RefId="137">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">0978dc15-49e1-448b-bed9-919ee32130f4</S>
+                  <S N="name">database-script</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/0978dc15-49e1-448b-bed9-919ee32130f4</S>
+                  <Obj N="project" RefId="138">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">369823</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/database-script</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/database-script</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/database-script</S>
+                </MS>
+              </Obj>
+              <Obj RefId="139">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">e89ea2e7-c2f1-4b0c-b21e-93729aff5e53</S>
+                  <S N="name">registration-hosted</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/e89ea2e7-c2f1-4b0c-b21e-93729aff5e53</S>
+                  <Obj N="project" RefId="140">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">2312320</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/registration-hosted</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/registration-hosted</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/registration-hosted</S>
+                </MS>
+              </Obj>
+              <Obj RefId="141">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">9ed98a16-b4ea-44f0-9546-9875ada68dec</S>
+                  <S N="name">mobile-ui</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/9ed98a16-b4ea-44f0-9546-9875ada68dec</S>
+                  <Obj N="project" RefId="142">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">1573082</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/mobile-ui</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/mobile-ui</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/mobile-ui</S>
+                </MS>
+              </Obj>
+              <Obj RefId="143">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">9455ba20-8af0-479d-ac56-99606e9e2ded</S>
+                  <S N="name">framework</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/9455ba20-8af0-479d-ac56-99606e9e2ded</S>
+                  <Obj N="project" RefId="144">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">5539932</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/framework</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/framework</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/framework</S>
+                </MS>
+              </Obj>
+              <Obj RefId="145">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">eee47857-286a-4965-a0aa-9e30ac4bc9ff</S>
+                  <S N="name">exchange-integrator</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/eee47857-286a-4965-a0aa-9e30ac4bc9ff</S>
+                  <Obj N="project" RefId="146">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">7103578</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/exchange-integrator</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/exchange-integrator</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/exchange-integrator</S>
+                </MS>
+              </Obj>
+              <Obj RefId="147">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">863f1642-0c4d-4364-b0da-9e8bbc74c3bf</S>
+                  <S N="name">tools-vb6-controls</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/863f1642-0c4d-4364-b0da-9e8bbc74c3bf</S>
+                  <Obj N="project" RefId="148">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">672307</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-vb6-controls</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-vb6-controls</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-vb6-controls</S>
+                </MS>
+              </Obj>
+              <Obj RefId="149">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">271ac726-426f-4299-a44d-9ed44ead95d8</S>
+                  <S N="name">registration-registration-services</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/271ac726-426f-4299-a44d-9ed44ead95d8</S>
+                  <Obj N="project" RefId="150">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">34116675</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/registration-registration-services</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/registration-registration-services</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/registration-registration-services</S>
+                </MS>
+              </Obj>
+              <Obj RefId="151">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">444e9bc6-cbff-4c4e-b3b4-a1fb3d3072b1</S>
+                  <S N="name">addons-tigerpaw-po-export</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/444e9bc6-cbff-4c4e-b3b4-a1fb3d3072b1</S>
+                  <Obj N="project" RefId="152">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">28008</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-tigerpaw-po-export</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-tigerpaw-po-export</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-tigerpaw-po-export</S>
+                </MS>
+              </Obj>
+              <Obj RefId="153">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">0ffde033-b6c8-4fbe-a5e0-a6bc75af6f36</S>
+                  <S N="name">addons-nable-service</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/0ffde033-b6c8-4fbe-a5e0-a6bc75af6f36</S>
+                  <Obj N="project" RefId="154">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">9993583</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-nable-service</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-nable-service</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-nable-service</S>
+                </MS>
+              </Obj>
+              <Obj RefId="155">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">55f62626-4032-4b5b-9570-ac3d11ee17a3</S>
+                  <S N="name">mytigerpaw-academy-download-pages</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/55f62626-4032-4b5b-9570-ac3d11ee17a3</S>
+                  <Obj N="project" RefId="156">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">6456322</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/mytigerpaw-academy-download-pages</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/mytigerpaw-academy-download-pages</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/mytigerpaw-academy-download-pages</S>
+                </MS>
+              </Obj>
+              <Obj RefId="157">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">bf37536d-3556-41f3-90da-af16080ddeba</S>
+                  <S N="name">addons-great-america-leasing</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/bf37536d-3556-41f3-90da-af16080ddeba</S>
+                  <Obj N="project" RefId="158">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">56952</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-great-america-leasing</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-great-america-leasing</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-great-america-leasing</S>
+                </MS>
+              </Obj>
+              <Obj RefId="159">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">fb5dc9b6-0817-4c15-a020-af2c63f4cd55</S>
+                  <S N="name">addons-lpi-2</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/fb5dc9b6-0817-4c15-a020-af2c63f4cd55</S>
+                  <Obj N="project" RefId="160">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">4333732</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-lpi-2</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-lpi-2</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-lpi-2</S>
+                </MS>
+              </Obj>
+              <Obj RefId="161">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">a4d53349-fcfb-42f1-b202-b39bf757c782</S>
+                  <S N="name">addons-etrigue-sync</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/a4d53349-fcfb-42f1-b202-b39bf757c782</S>
+                  <Obj N="project" RefId="162">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">12708139</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-etrigue-sync</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-etrigue-sync</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-etrigue-sync</S>
+                </MS>
+              </Obj>
+              <Obj RefId="163">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">e759466d-264f-4bd6-b90a-b9bc302d3350</S>
+                  <S N="name">registration-registration-utility</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/e759466d-264f-4bd6-b90a-b9bc302d3350</S>
+                  <Obj N="project" RefId="164">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">35758</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/registration-registration-utility</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/registration-registration-utility</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/registration-registration-utility</S>
+                </MS>
+              </Obj>
+              <Obj RefId="165">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">60c308c9-5bf3-418f-be1f-ba4db08bec73</S>
+                  <S N="name">addons-automated-reports-demo</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/60c308c9-5bf3-418f-be1f-ba4db08bec73</S>
+                  <Obj N="project" RefId="166">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">22210</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-automated-reports-demo</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-automated-reports-demo</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-automated-reports-demo</S>
+                </MS>
+              </Obj>
+              <Obj RefId="167">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">ab1e24b3-2f4e-4832-b0a0-c5694800420c</S>
+                  <S N="name">portals</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/ab1e24b3-2f4e-4832-b0a0-c5694800420c</S>
+                  <Obj N="project" RefId="168">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">52388831</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/portals</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/portals</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/portals</S>
+                </MS>
+              </Obj>
+              <Obj RefId="169">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">f6ebebcb-533b-4b28-be4e-c744f8ab29ea</S>
+                  <S N="name">tools-dtools-import</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/f6ebebcb-533b-4b28-be4e-c744f8ab29ea</S>
+                  <Obj N="project" RefId="170">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">41588</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-dtools-import</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-dtools-import</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-dtools-import</S>
+                </MS>
+              </Obj>
+              <Obj RefId="171">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">4fb51cff-2c33-408a-8399-cc5c47db7a93</S>
+                  <S N="name">tools-conference-demo-portal</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/4fb51cff-2c33-408a-8399-cc5c47db7a93</S>
+                  <Obj N="project" RefId="172">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">2198189</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-conference-demo-portal</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-conference-demo-portal</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-conference-demo-portal</S>
+                </MS>
+              </Obj>
+              <Obj RefId="173">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">24acf703-389f-4f34-aba8-d25ea7d26241</S>
+                  <S N="name">registration-registration-server</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/24acf703-389f-4f34-aba8-d25ea7d26241</S>
+                  <Obj N="project" RefId="174">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">102807</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/registration-registration-server</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/registration-registration-server</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/registration-registration-server</S>
+                </MS>
+              </Obj>
+              <Obj RefId="175">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">c171f792-92f8-46a5-a387-d59f5c694054</S>
+                  <S N="name">Internal</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/c171f792-92f8-46a5-a387-d59f5c694054</S>
+                  <Obj N="project" RefId="176">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/master</S>
+                  <I64 N="size">66044</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/Internal</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/Internal</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/Internal</S>
+                </MS>
+              </Obj>
+              <Obj RefId="177">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">b50b636a-a3e4-4a2b-a774-d660e2e69df3</S>
+                  <S N="name">webservices-rest-api</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/b50b636a-a3e4-4a2b-a774-d660e2e69df3</S>
+                  <Obj N="project" RefId="178">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">24852781</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/webservices-rest-api</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/webservices-rest-api</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/webservices-rest-api</S>
+                </MS>
+              </Obj>
+              <Obj RefId="179">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">1d2048c4-75ba-4f54-bf9f-d7cbac9817ab</S>
+                  <S N="name">tools-migration-wizard</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/1d2048c4-75ba-4f54-bf9f-d7cbac9817ab</S>
+                  <Obj N="project" RefId="180">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">117376</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-migration-wizard</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-migration-wizard</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-migration-wizard</S>
+                </MS>
+              </Obj>
+              <Obj RefId="181">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">b9357ab4-d748-40e3-82c5-d9b64158f239</S>
+                  <S N="name">addons-canadian-quickbooks-utility</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/b9357ab4-d748-40e3-82c5-d9b64158f239</S>
+                  <Obj N="project" RefId="182">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">200116</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-canadian-quickbooks-utility</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-canadian-quickbooks-utility</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-canadian-quickbooks-utility</S>
+                </MS>
+              </Obj>
+              <Obj RefId="183">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">26091492-2994-4753-82b1-e287bf3ad943</S>
+                  <S N="name">references</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/26091492-2994-4753-82b1-e287bf3ad943</S>
+                  <Obj N="project" RefId="184">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">240893796</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/references</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/references</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/references</S>
+                </MS>
+              </Obj>
+              <Obj RefId="185">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">f1aaecce-f0ac-48fd-a74e-eb06166b6a20</S>
+                  <S N="name">tools-license-key-helper</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/f1aaecce-f0ac-48fd-a74e-eb06166b6a20</S>
+                  <Obj N="project" RefId="186">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">3355468</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-license-key-helper</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-license-key-helper</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-license-key-helper</S>
+                </MS>
+              </Obj>
+              <Obj RefId="187">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">96ef0909-c73b-4e4c-9a80-eb7d4a2c2e3b</S>
+                  <S N="name">addons-kaseya</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/96ef0909-c73b-4e4c-9a80-eb7d4a2c2e3b</S>
+                  <Obj N="project" RefId="188">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">1472360</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/addons-kaseya</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/addons-kaseya</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/addons-kaseya</S>
+                </MS>
+              </Obj>
+              <Obj RefId="189">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">b5844ce5-50bb-48e9-a5c2-ed6672fb6d3c</S>
+                  <S N="name">registration-license-generator</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/b5844ce5-50bb-48e9-a5c2-ed6672fb6d3c</S>
+                  <Obj N="project" RefId="190">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">57171</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/registration-license-generator</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/registration-license-generator</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/registration-license-generator</S>
+                </MS>
+              </Obj>
+              <Obj RefId="191">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">96c8e2cb-c29d-4eaa-9118-f02f73c58405</S>
+                  <S N="name">tools-tigerpaw-database-utility</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/96c8e2cb-c29d-4eaa-9118-f02f73c58405</S>
+                  <Obj N="project" RefId="192">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">180506</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/tools-tigerpaw-database-utility</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/tools-tigerpaw-database-utility</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/tools-tigerpaw-database-utility</S>
+                </MS>
+              </Obj>
+              <Obj RefId="193">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">d9a9a110-5f9e-4f49-bde5-f2e6b39ec601</S>
+                  <S N="name">controls-winhtmledit</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/73869fa9-860b-490a-87e8-454aa87c50b7/_apis/git/repositories/d9a9a110-5f9e-4f49-bde5-f2e6b39ec601</S>
+                  <Obj N="project" RefId="194">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="name">Tigerpaw</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/73869fa9-860b-490a-87e8-454aa87c50b7</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668563</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2020-10-21T15:45:59.91Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/develop</S>
+                  <I64 N="size">7083074</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw/_git/controls-winhtmledit</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw/controls-winhtmledit</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw/_git/controls-winhtmledit</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+          <I64 N="count">68</I64>
+        </MS>
+      </Obj>
+      <Obj RefId="195">
+        <TNRef RefId="1" />
+        <MS>
+          <Obj N="value" RefId="196">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="197">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">5e8ce3b8-d716-4b20-a43a-ed5e3ab0718f</S>
+                  <S N="name">Tigerpaw One Feature Requests</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/fbc8629a-aefb-41b8-9692-285b10be7bbb/_apis/git/repositories/5e8ce3b8-d716-4b20-a43a-ed5e3ab0718f</S>
+                  <Obj N="project" RefId="198">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">fbc8629a-aefb-41b8-9692-285b10be7bbb</S>
+                      <S N="name">Tigerpaw One Feature Requests</S>
+                      <S N="description">List of feature requests submitted for Stakeholder prioritization.</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/fbc8629a-aefb-41b8-9692-285b10be7bbb</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668496</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2019-10-08T15:35:57.173Z</DT>
+                    </MS>
+                  </Obj>
+                  <I64 N="size">0</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw%20One%20Feature%20Requests/_git/Tigerpaw%20One%20Feature%20Requests</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw%20One%20Feature%20Requests/Tigerpaw%20One%20Feature%20Requests</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw%20One%20Feature%20Requests/_git/Tigerpaw%20One%20Feature%20Requests</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+          <I64 N="count">1</I64>
+        </MS>
+      </Obj>
+      <Obj RefId="199">
+        <TNRef RefId="1" />
+        <MS>
+          <Obj N="value" RefId="200">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="201">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">3c63890a-8daf-4dc8-8b34-97e1d3415dcc</S>
+                  <S N="name">Scripts</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/c734a70f-0c36-4255-8b49-59358c7cc632/_apis/git/repositories/3c63890a-8daf-4dc8-8b34-97e1d3415dcc</S>
+                  <Obj N="project" RefId="202">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">c734a70f-0c36-4255-8b49-59358c7cc632</S>
+                      <S N="name">Scripts</S>
+                      <S N="description">A repository for scripts.</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/c734a70f-0c36-4255-8b49-59358c7cc632</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668438</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2019-06-26T16:03:55.32Z</DT>
+                    </MS>
+                  </Obj>
+                  <S N="defaultBranch">refs/heads/master</S>
+                  <I64 N="size">362195</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Scripts/_git/Scripts</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Scripts/Scripts</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Scripts/_git/Scripts</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+          <I64 N="count">1</I64>
+        </MS>
+      </Obj>
+      <Obj RefId="203">
+        <TNRef RefId="1" />
+        <MS>
+          <Obj N="value" RefId="204">
+            <TNRef RefId="2" />
+            <LST />
+          </Obj>
+          <I64 N="count">0</I64>
+        </MS>
+      </Obj>
+      <Obj RefId="205">
+        <TNRef RefId="1" />
+        <MS>
+          <Obj N="value" RefId="206">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="207">
+                <TNRef RefId="1" />
+                <MS>
+                  <S N="id">f4bd839c-725b-489d-9dba-f30f3fbc1552</S>
+                  <S N="name">Tigerpaw Internal Feature Requests</S>
+                  <S N="url">https://dev.azure.com/tigerpaw/8580305f-b40c-41cf-9175-e25b1f7974ab/_apis/git/repositories/f4bd839c-725b-489d-9dba-f30f3fbc1552</S>
+                  <Obj N="project" RefId="208">
+                    <TNRef RefId="1" />
+                    <MS>
+                      <S N="id">8580305f-b40c-41cf-9175-e25b1f7974ab</S>
+                      <S N="name">Tigerpaw Internal Feature Requests</S>
+                      <S N="url">https://dev.azure.com/tigerpaw/_apis/projects/8580305f-b40c-41cf-9175-e25b1f7974ab</S>
+                      <S N="state">wellFormed</S>
+                      <I64 N="revision">42668528</I64>
+                      <S N="visibility">private</S>
+                      <DT N="lastUpdateTime">2019-12-09T20:11:27.66Z</DT>
+                    </MS>
+                  </Obj>
+                  <I64 N="size">0</I64>
+                  <S N="remoteUrl">https://tigerpaw@dev.azure.com/tigerpaw/Tigerpaw%20Internal%20Feature%20Requests/_git/Tigerpaw%20Internal%20Feature%20Requests</S>
+                  <S N="sshUrl">git@ssh.dev.azure.com:v3/tigerpaw/Tigerpaw%20Internal%20Feature%20Requests/Tigerpaw%20Internal%20Feature%20Requests</S>
+                  <S N="webUrl">https://dev.azure.com/tigerpaw/Tigerpaw%20Internal%20Feature%20Requests/_git/Tigerpaw%20Internal%20Feature%20Requests</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+          <I64 N="count">1</I64>
+        </MS>
+      </Obj>
+    </LST>
+  </Obj>
+</Objs>

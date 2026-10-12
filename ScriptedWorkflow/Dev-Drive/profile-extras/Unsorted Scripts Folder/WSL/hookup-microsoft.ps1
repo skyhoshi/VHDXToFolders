@@ -1,0 +1,1 @@
+#/mnt/c/program files/microsoft visual studio/2022/enterprise/common7/ide/extensions/0c4twv0k.1d3/Scripts/InstallDotNet.sh" dotnet 6.0

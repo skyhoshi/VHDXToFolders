@@ -1,0 +1,1 @@
+get-command | WHERE {($null -eq $_.Module -or $_.Module -eq "")-and ($null -eq $_.ModuleName -or $_.ModuleName -eq "") -and ($_.HelpFile -eq "" -or $null -eq $_.HelpFile) -and ($_.Verb -ne "__VSCode")} | SELECT * |  Out-File .\currentavailablecommands.PowerShell.xml
