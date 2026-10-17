@@ -6,11 +6,11 @@
 		},
 		{
 			"name": "OneDrive Scripts Folder",
-			"path":"C:\\Users\\marcus.SORAFAMILY\\OneDrive\\Scripts"
+			"path": "C:\\Users\\marcus.SORAFAMILY\\OneDrive\\Scripts"
 		},
 		{
 			"name": "Documents Powershell Folder",
-			"path": "C:/Users/marcus.sorafamily/Documents/WindowsPowerShell"
+			"path": "C:/Users/marcus.sorafamily/Documents/PowerShell"
 		},
 		{
 			"name": "Script Data Cache Folder",
@@ -19,10 +19,13 @@
 		{
 			"name": "Powershell 7 Default Folder",
 			"path": "C:/Program Files/PowerShell/7"
+		},
+		{
+			"path": "E:/Shared Virtual Hard Drive Storage"
 		}
 	],
 	"settings": {
 		"terminal.integrated.cwd": "",
-		"powershell.cwd": "kernm.devcontainer.envsetup",
+		"powershell.cwd": "Current Project Folder",
 	}
 }

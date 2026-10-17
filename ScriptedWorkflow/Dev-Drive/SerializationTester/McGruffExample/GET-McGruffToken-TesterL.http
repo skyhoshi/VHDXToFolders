@@ -1,7 +1,0 @@
-GET /mcgruff/reference/rest/api/token/TesterL HTTP/1.1
-User-Agent: PostmanRuntime/7.56.1
-Accept: */*
-Postman-Token: f4412704-c737-40b3-a425-54fc87173581
-Host: devfcsa.fcsamerica.net
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive

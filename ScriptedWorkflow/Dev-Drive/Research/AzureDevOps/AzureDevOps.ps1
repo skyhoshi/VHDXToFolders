@@ -1,4 +1,6 @@
-<#
+
+function Get-AzureDevOpsInfo {
+    <#
 .SYNOPSIS
     Retrieves Azure DevOps organization and project information for a given workspace.
 
@@ -37,7 +39,7 @@
     Requires PowerShell 7.3+ for the clean block.
     See: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_methods
 #>
-function Get-AzureDevOpsInfo {
+
 
     [CmdletBinding(DefaultParameterSetName = 'ParameterSet1',
         SupportsShouldProcess,
@@ -106,17 +108,17 @@ function Get-AzureDevOpsInfo {
         if ($pscmdlet.ShouldProcess("Target", "Operation")) {
             
             <# [CmdletBinding()]
-param(
+            param(
 
-    [Parameter(Mandatory = $true)]
-    [string]$WorkspaceRoot,
+                [Parameter(Mandatory = $true)]
+                [string]$WorkspaceRoot,
 
-    [Parameter(Mandatory = $false)]
-    [string]$AzureDevOpsOrg,
+                [Parameter(Mandatory = $false)]
+                [string]$AzureDevOpsOrg,
 
-    [Parameter(Mandatory = $false)]
-    [string]$AzureDevOpsProject
-) #>
+                [Parameter(Mandatory = $false)]
+                [string]$AzureDevOpsProject
+            ) #>
 
             # ---------------------------------------------------------------------------
             # Auto-detect AzureDevOpsOrg / AzureDevOpsProject from the first repo's git remote
@@ -155,7 +157,7 @@ param(
         }
     }
 
-    clean {
+    <#     clean {
         #CleanCodeHere - Added in 7.3 for more information see https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_methods?view=powershell-7.5#clean
-    }
+    } #>
 }

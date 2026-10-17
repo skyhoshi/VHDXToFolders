@@ -210,9 +210,9 @@ if ($cacheEnabled) {
     if (-not (Test-Path $CacheDir)) {
         $null = New-Item -ItemType Directory -Path $CacheDir -Force
     }
-    $termsKey      = (($SearchTerms | Sort-Object | ForEach-Object { $_.ToLower() }) -join '|') + $WorkspaceRoot
-    $termsHashBytes = [System.Security.Cryptography.MD5]::Create().ComputeHash(
-                        [System.Text.Encoding]::UTF8.GetBytes($termsKey))
+    $termsKey      = (($SearchTerms | Sort-Object | ForEach-Object { $_.ToLower() }) -join '|') + $WorkspaceRoot;
+    $termsKeyBytes = [System.Text.Encoding]::UTF8.GetBytes($termsKey);
+    $termsHashBytes = [System.Security.Cryptography.MD5]::Create().ComputeHash($termsKeyBytes)
     $termsHashStr  = [System.BitConverter]::ToString($termsHashBytes).Replace('-','').Substring(0,8).ToLower()
     $cachePath     = Join-Path $CacheDir "findref_$termsHashStr.json"
 
