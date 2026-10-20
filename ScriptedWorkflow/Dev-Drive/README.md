@@ -54,6 +54,82 @@ C:\Users\<USERNAME>\OneDrive - Farm Credit Services of America\WindowsPowerShell
 
 Other than syntax this is the largest difference between the two powershell profiles.  
 
+# Custom VHDX drive settings
+
+[Mount-CustomVHDX.ps1](./Dev-Drive/Mount%20Vhdx/Mount-CustomVHDX.ps1)
+uses `Export-Clixml` / `Import-Clixml` for this small PowerShell-only configuration.
+CLIXML preserves `IsEnabled` as a Boolean without a database or extra dependency.
+JSON is a better choice when other languages need to consume the same settings;
+CSV is less suitable here because imported values are strings.
+
+Run these commands from the script's directory:
+
+```powershell
+# Open the Windows checkbox editor (also the default action).
+.\Mount-CustomVHDX.ps1 -Action Edit
+
+# Read the saved list without changing mounted drives.
+.\Mount-CustomVHDX.ps1 -Action List
+
+# Preview changes; then apply them from an elevated PowerShell session.
+.\Mount-CustomVHDX.ps1 -Action Sync -WhatIf
+.\Mount-CustomVHDX.ps1 -Action Sync
+```
+
+Settings default to `%LOCALAPPDATA%\VHDXToFolders\Drives.clixml`. The first load
+creates the seven original entries with `IsEnabled = $true`. Specify `-ConfigPath`
+to use another file. Invalid or corrupt settings raise an error rather than
+silently resetting your choices. Saving replaces a complete export, not a partial
+write. This is a single-user configuration, not a concurrent database.
+
+The editor saves checkbox changes only; Cancel discards them. Saving never mounts
+or dismounts drives. Sync requires Windows, the Hyper-V PowerShell module, and
+Administrator rights. It mounts enabled detached drives, dismounts disabled
+attached drives, and leaves matching states alone. It prompts before each change;
+use `-Confirm:$false` only for trusted automation. Dismounting can interrupt apps
+using the drive: close those apps and files first. Sync checks that every configured
+image exists before changing anything, and stops on errors; it does not roll back
+earlier successful changes. It never formats disks or changes Windows services.
+
+The functions are packaged in the
+[CustomVhdx module](./Dev-Drive/Mount%20Vhdx/CustomVhdx/CustomVhdx.psd1).
+Each function has its own file under `Public` or `Private`; validation is private,
+and the manifest exports only the five user-facing commands. Importing the module
+does not create settings, open the editor, or mount/dismount anything. Hyper-V and
+Windows Forms are needed only when you invoke their respective commands.
+
+For programmatic edits, import the module and explicitly load `$Drives`:
+
+```powershell
+Import-Module .\CustomVhdx\CustomVhdx.psd1
+$ConfigPath = Join-Path $env:LOCALAPPDATA 'VHDXToFolders\Drives.clixml'
+$Drives = @(Import-CustomVhdxDrive -ConfigPath $ConfigPath)
+$Drives | Format-Table Path, IsEnabled
+$Drives[0].IsEnabled = $false
+Save-CustomVhdxDrive -Drives $Drives -ConfigPath $ConfigPath
+
+# Add/remove entries by updating the array and saving it the same way.
+# Every entry requires an absolute .vhd/.vhdx path and a real Boolean.
+$Drives = @($Drives) + [pscustomobject]@{
+    Path = 'E:\Shared Virtual Hard Drive Storage\Another drive.vhdx'
+    IsEnabled = $false
+}
+Save-CustomVhdxDrive -Drives $Drives -ConfigPath $ConfigPath
+Sync-CustomVhdxDrive -Drives $Drives -WhatIf
+```
+
+`Get-DefaultCustomVhdxDrive` returns the seven original entries without saving them.
+`Show-CustomVhdxDriveEditor -Drives $Drives -ConfigPath $ConfigPath` opens the editor;
+capture its output in `$Drives` to retain the saved changes in memory.
+The original script remains a wrapper for `Edit`, `List`, and `Sync`, forwarding
+`-WhatIf` and `-Confirm` to the module's sync command. Existing dot-sourced usage
+(`. .\Mount-CustomVHDX.ps1`) still imports the module and loads `$Drives` without
+opening the editor or applying changes.
+
+The separate `Import-MountCustomVhdx.ps1` helper still targets the external
+`E:\Shared Virtual Hard Drive Storage\Mount-CommonVHDx.ps1`; use the script above
+directly for this configuration workflow.
+
 # Database
 
 ## Database Creation
