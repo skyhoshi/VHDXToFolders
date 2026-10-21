@@ -130,10 +130,6 @@ function Get-AdoProjectsAndRepos {
         $ErrorActionPreference = 'Stop'
 
         $error.Clear();
-
-        if (!(Test-Path '\ScriptDataCache\AzureDevOps\ado-projects-repos.cache.json')){
-            New-Item -ItemType File -Path '\ScriptDataCache\AzureDevOps\ado-projects-repos.cache.json' -Force | Out-Null
-        }
         # =====================================================================
         # Configuration
         # =====================================================================
@@ -222,9 +218,11 @@ function Get-AdoProjectsAndRepos {
         $BaseUrl = $Config.BaseUrlTemplate -f $Organization
 
         # ADO PAT auth uses Basic with an empty username
+
         $Headers = @{
             Authorization = 'Basic ' + [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(":$Pat"))
         }
+        if ($headers) { Write-Debug "Headers have been set. Used by other Powershell functions." }
 
         # =====================================================================
         # Check for errors after loading dependencies; exit if any were encountered;

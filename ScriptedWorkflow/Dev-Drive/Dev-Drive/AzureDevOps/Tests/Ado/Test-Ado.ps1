@@ -38,6 +38,10 @@ else{
     Write-Error "Resolve-UserSecrets.ps1 not found at '$ResolveSecretPath'."
     exit;
 }
+Write-Debug "$($BaseUrl)"
+Write-Debug "$($Organization)"
+Write-Debug "$($Pat.Length)"
+Write-Debug "$($Headers)"
 # =====================================================================
 # Configuration
 # =====================================================================
