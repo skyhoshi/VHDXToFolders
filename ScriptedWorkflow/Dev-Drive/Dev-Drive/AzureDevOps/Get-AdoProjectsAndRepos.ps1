@@ -130,6 +130,10 @@ function Get-AdoProjectsAndRepos {
         $ErrorActionPreference = 'Stop'
 
         $error.Clear();
+
+        if (!(Test-Path '\ScriptDataCache\AzureDevOps\ado-projects-repos.cache.json')){
+            New-Item -ItemType File -Path '\ScriptDataCache\AzureDevOps\ado-projects-repos.cache.json' -Force | Out-Null
+        }
         # =====================================================================
         # Configuration
         # =====================================================================
@@ -159,12 +163,12 @@ function Get-AdoProjectsAndRepos {
         # =====================================================================
         # Secret resolution: $env first, then secrets.json
         # =====================================================================
-        $ResolveSecretPath = Join-Path $PSScriptRoot 'Secrets\Resolve-Secret.ps1'
+        $ResolveSecretPath = Join-Path $PSScriptRoot 'Secrets\Resolve-UserSecrets.ps1'
         if (Test-Path -LiteralPath $ResolveSecretPath -PathType Leaf) {
             . $ResolveSecretPath
         }
         else {
-            Write-Error "Resolve-Secret.ps1 not found at '$ResolveSecretPath'."
+            Write-Error "Resolve-UserSecrets.ps1 not found at '$ResolveSecretPath'."
             exit;
         }
 
@@ -213,8 +217,8 @@ function Get-AdoProjectsAndRepos {
         # =====================================================================
         # Resolve secrets, Setup BaseUrl and set up ADO authentication headers
         # =====================================================================
-        $Organization = Resolve-Secret -EnvName $Config.EnvOrgName -JsonKey 'Organization'
-        $Pat = Resolve-Secret -EnvName $Config.EnvPatName -JsonKey 'PersonalAccessToken'
+        $Organization = Resolve-UserSecrets -EnvName $Config.EnvOrgName -JsonKey 'Organization'
+        $Pat = Resolve-UserSecrets -EnvName $Config.EnvPatName -JsonKey 'PersonalAccessToken'
         $BaseUrl = $Config.BaseUrlTemplate -f $Organization
 
         # ADO PAT auth uses Basic with an empty username

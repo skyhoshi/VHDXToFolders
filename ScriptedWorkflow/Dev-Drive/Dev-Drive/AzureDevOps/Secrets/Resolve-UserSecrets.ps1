@@ -1,7 +1,7 @@
 # =====================================================================
 # Secret resolution: $env first, then secrets.json
 # =====================================================================
-function Resolve-Secret {
+function Resolve-UserSecrets {
     param(
         [Parameter(Mandatory)][string]$EnvName,     # environment variable name
         [Parameter(Mandatory)][string]$JsonKey      # property name in secrets.json

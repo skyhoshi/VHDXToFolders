@@ -1,10 +1,10 @@
 # Exclusion filters are fuzzy (case/separator-insensitive contains, wildcards allowed); a repo matching ANY value in ANY filter is excluded.
-# e.g. -ExcludeProjectName 'archive','intern' -ExcludeRepoName 'qa'
+# e.g. -ExcludeTeamProjectName 'archive','intern' -ExcludeRepoName 'qa'
 [CmdletBinding()]
 param(
     [string[]] $ExcludeProjectId = @(),
     [string[]] $ExcludeRepoId = @(),
-    [string[]] $ExcludeProjectName = @("Archive", "2021 Intern Team 3","Android Robolectric Test","Block-a-thon","DevOps_PoC"),
+    [string[]] $ExcludeTeamProjectName = @("Archive", "2021 Intern Team 3","Android Robolectric Test","Block-a-thon","DevOps_PoC", "AI Engineering", "AI Team", "QA"),
     [string[]] $ExcludeRepoName = @("SSIS","QA", "Test", "Demo")
 )
 
@@ -38,7 +38,7 @@ $AdoProjectsAndRepos = Get-AdoProjectsAndRepos;
 # $d = Get-Content 'D:\ScriptDataCache\AzureDevOps\ado-projects-repos.cache.json' -Raw | ConvertFrom-Json; $ids = @($d.Projects.Id); "Projects: $($d.Projects.Count)  Repos: $($d.Repositories.Count)"; $un = @($d.Repositories | Where-Object { $_.ProjectId -notin $ids }); "Unmatched repos: $($un.Count)"; $un | Select-Object -First 5 Name, ProjectId, ProjectName | Format-Table
 #$AdoProjectsAndRepos | Format-Table -AutoSize;
 
-$CsvPath = '\ScriptDataCache\AzureDevOps\ado-project-repo-list.csv'
+$CsvPath = 'D:\ScriptDataCache\AzureDevOps\ado-project-repo-list.csv'
 
 $projectsById = @{}
 foreach ($project in $AdoProjectsAndRepos.Projects) { $projectsById[$project.Id] = $project }
@@ -49,7 +49,7 @@ $filteredRepos = @($AdoProjectsAndRepos.Repositories | Where-Object {
             (Test-FuzzyMatch $_.ProjectId $ExcludeProjectId) -or
             (Test-FuzzyMatch $_.Id $ExcludeRepoId) -or
             (Test-FuzzyMatch $_.Name $ExcludeRepoName) -or
-            (Test-FuzzyMatch $resolvedProjectName $ExcludeProjectName)
+            (Test-FuzzyMatch $resolvedProjectName $ExcludeTeamProjectName)
         )
     })
 
@@ -72,10 +72,11 @@ $rows = foreach ($repo in $filteredRepos) {
     if (-not $project -and $skipUnmatched) { continue }
 
     [pscustomobject]@{
-        ProjectName   = if ($project) { $project.Name } else { $repo.ProjectName }
-        SshUrl        = $repo.SshUrl
-        ProjectId     = $repo.ProjectId
-        DefaultBranch = $repo.DefaultBranch
+        TeamProjectName   = if ($project) { $project.Name } else { $repo.ProjectName }
+        RepoName          = $repo.Name
+        SshUrl            = $repo.SshUrl
+        ProjectId         = $repo.ProjectId
+        DefaultBranch     = $repo.DefaultBranch
     }
 }
 
@@ -84,6 +85,6 @@ if (@($rows).Count -eq 0) {
     return
 }
 
-$rows | Sort-Object ProjectName, SshUrl | Export-Csv -LiteralPath $CsvPath -NoTypeInformation -Encoding utf8
+$rows | Sort-Object TeamProjectName | Export-Csv -LiteralPath $CsvPath -NoTypeInformation -Encoding utf8
 Write-Host "Wrote $(@($rows).Count) row(s) to $CsvPath" -ForegroundColor Green
 

@@ -30,12 +30,12 @@ $Headers = $null;
 # =====================================================================
 # Secret resolution: $env first, then secrets.json
 # =====================================================================
-$ResolveSecretPath = Join-Path $PSScriptRoot '..\..\Secrets\Resolve-Secret.ps1'
+$ResolveSecretPath = Join-Path $PSScriptRoot '..\..\Secrets\Resolve-UserSecrets.ps1'
 if (Test-Path -LiteralPath $ResolveSecretPath -PathType Leaf) {
     . $ResolveSecretPath
 }
 else{
-    Write-Error "Resolve-Secret.ps1 not found at '$ResolveSecretPath'."
+    Write-Error "Resolve-UserSecrets.ps1 not found at '$ResolveSecretPath'."
     exit;
 }
 # =====================================================================
@@ -62,8 +62,8 @@ $Config = @{
     # Page size for the projects API (max 500 per call)
     ProjectsPageSize  = 500
 }
-$Organization = Resolve-Secret -EnvName $Config.EnvOrgName -JsonKey 'Organization'
-$Pat          = Resolve-Secret -EnvName $Config.EnvPatName -JsonKey 'PersonalAccessToken'
+$Organization = Resolve-UserSecrets -EnvName $Config.EnvOrgName -JsonKey 'Organization'
+$Pat          = Resolve-UserSecrets -EnvName $Config.EnvPatName -JsonKey 'PersonalAccessToken'
 $BaseUrl      = $Config.BaseUrlTemplate -f $Organization
 
 # ADO PAT auth uses Basic with an empty username

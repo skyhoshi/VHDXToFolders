@@ -16,7 +16,7 @@
 Remove-Item Function:\Get-AdoProjectsAndRepos -ErrorAction SilentlyContinue;
 Remove-Item Function:\Read-Cache -ErrorAction SilentlyContinue;
 Remove-Item Function:\Write-Cache -ErrorAction SilentlyContinue;
-Remove-Item Function:\Resolve-Secret -ErrorAction SilentlyContinue;
+Remove-Item Function:\Resolve-UserSecrets -ErrorAction SilentlyContinue;
 Remove-Item Function:\Get-AdoProjects -ErrorAction SilentlyContinue;
 Remove-Item Function:\Get-AdoRepositories -ErrorAction SilentlyContinue;
 $error.Clear();
