@@ -4,7 +4,7 @@
 param(
     [string[]] $ExcludeProjectId = @(),
     [string[]] $ExcludeRepoId = @(),
-    [string[]] $ExcludeTeamProjectName = @("Archive", "2021 Intern Team 3","Android Robolectric Test","Block-a-thon","DevOps_PoC", "AI Engineering", "AI Team", "QA"),
+    [string[]] $ExcludeTeamProjectName = @("Archive", "deprecated", "2021 Intern Team 3","Android Robolectric Test","Block-a-thon","DevOps_PoC", "AI Engineering", "AI Team", "QA"),
     [string[]] $ExcludeRepoName = @("SSIS","QA", "Test", "Demo")
 )
 
