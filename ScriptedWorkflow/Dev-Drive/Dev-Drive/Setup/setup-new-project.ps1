@@ -83,11 +83,6 @@ function New-DevelopmentStorageEnvironment {
     }
     #Move current to the new folder created.
     Set-Location $ProjectStorageLocation
-    
-    Test-DriveLetter $ProjectRootDriveLetter
-    if ($Error.Count -ne 0) {
-        return
-    }
 
     $vhdpath = "$($ProjectStorageLocation)$($VirtualHardDiskFileName)"
     #Get-Disk | Where {$_.Model -eq "Virtual Disk"}
@@ -96,6 +91,11 @@ function New-DevelopmentStorageEnvironment {
     Write-Host "Searching for $vhdPath in: "
     $CurrentlyAttachedVirtualDisks | ForEach-Object { Write-Host $_ }
     if (!(Test-Path $vhdpath) -and $CurrentlyAttachedVirtualDisks -notcontains $vhdpath) {
+        # Validated only on create so additional projects can reuse an already-mounted shared drive.
+        Test-DriveLetter $ProjectRootDriveLetter
+        if ($Error.Count -ne 0) {
+            return
+        }
         #We shutdown the Shell Detection Service for a bit due to a popup that is display'd to format the hard disk.
         #We are already formating this so the popup is not needed and should be avoided. this avoids it. 
         Stop-Service -Name ShellHWDetection
